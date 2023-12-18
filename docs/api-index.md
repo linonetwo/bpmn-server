@@ -21,10 +21,10 @@
 
 - [InstanceObject](api/classes/instanceobject.md)
 - [ItemObject](api/classes/itemobject.md)
-- [InstanceQuery](api/classes/instancequery.md)
+- [InstanceQuery](dataQuery.md#instance-query)
 - [DataQuery](api/classes/dataquery.md)
 - [DataStore](api/classes/datastore.md)
-- [ModelsDatastore](api/classes/modelsdatastoreDB.md)
+- [ModelsDatastore](api/classes/ModelsDatastoreDB.md)
 - [MongoDB](api/classes/mongodb.md)
 - [ItemQuery](api/classes/itemquery.md)
 - [Query](api/classes/query.md)

@@ -46,7 +46,7 @@ response = await bpmn.engine.get(instanceQuery);
 
 ## definitions
 
-Manages BPMN defintions - [Definitions](api/classes/modelsdatastoredb.md)
+Manages BPMN defintions - [Definitions](api/classes/ModelsDatastoreDB.md)
 
 | Method | parameters | return     | description |
 | ------ | :--------: | ---------- | ----------- |
