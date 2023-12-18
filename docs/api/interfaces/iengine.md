@@ -23,7 +23,7 @@
 
 ### assign
 
-▸ **assign**(`itemQuery`, `data`, `assignment`, `userName`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **assign**(`itemQuery`, `data`, `assignment`, `userName`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Parameters
 
@@ -37,7 +37,7 @@
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -47,7 +47,7 @@ ___
 
 ### get
 
-▸ **get**(`instanceQuery`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **get**(`instanceQuery`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 restores an instance into memeory or provides you access to a running instance
 
@@ -61,7 +61,7 @@ this will also resume execution
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -71,7 +71,7 @@ ___
 
 ### invoke
 
-▸ **invoke**(`itemQuery`, `data`, `userName?`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **invoke**(`itemQuery`, `data`, `userName?`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 Continue an existing item that is in a wait state
 
@@ -92,7 +92,7 @@ scenario:
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -102,7 +102,7 @@ ___
 
 ### start
 
-▸ **start**(`name`, `data?`, `startNodeId?`, `userName?`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **start**(`name`, `data?`, `startNodeId?`, `userName?`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 loads a definitions  and start execution
 
@@ -118,7 +118,7 @@ loads a definitions  and start execution
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -128,7 +128,7 @@ ___
 
 ### startEvent
 
-▸ **startEvent**(`instanceId`, `elementId`, `data?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **startEvent**(`instanceId`, `elementId`, `data?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 Invoking an event (usually start event of a secondary process) against an existing instance
 or
@@ -149,7 +149,7 @@ Invoking a start event (of a secondary process) against an existing instance
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -159,7 +159,7 @@ ___
 
 ### startRepeatTimerEvent
 
-▸ **startRepeatTimerEvent**(`instanceId`, `prevItem`, `data`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **startRepeatTimerEvent**(`instanceId`, `prevItem`, `data`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Parameters
 
@@ -172,7 +172,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -182,7 +182,7 @@ ___
 
 ### throwMessage
 
-▸ **throwMessage**(`messageId`, `data`, `matchingQuery`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **throwMessage**(`messageId`, `data`, `matchingQuery`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 signal/message raise a signal or throw a message
 
@@ -201,7 +201,7 @@ that can be againt a running instance or it may start a new instance
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 

@@ -6,7 +6,7 @@ super class for various objects that are part of the server
 
 ## Hierarchy
 
-- [`ServerComponent`](ServerComponent.md)
+- [`ServerComponent`](servercomponent.md)
 
   ↳ **`NoCacheManager`**
 
@@ -63,7 +63,7 @@ super class for various objects that are part of the server
 
 #### Overrides
 
-[ServerComponent](ServerComponent.md).[constructor](ServerComponent.md#constructor)
+[ServerComponent](servercomponent.md).[constructor](servercomponent.md#constructor)
 
 #### Defined in
 
@@ -77,7 +77,7 @@ super class for various objects that are part of the server
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[server](ServerComponent.md#server)
+[ServerComponent](servercomponent.md).[server](servercomponent.md#server)
 
 #### Defined in
 
@@ -255,7 +255,7 @@ ServerComponent.logger
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`IExecution`](../interfaces/IExecution.md) |
+| `execution` | [`IExecution`](../interfaces/iexecution.md) |
 
 #### Returns
 

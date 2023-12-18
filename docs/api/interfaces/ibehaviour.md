@@ -13,26 +13,26 @@ Behaviour
 
 ## Implemented by
 
-- [`Behaviour`](../classes/Behaviour.md)
+- [`Behaviour`](../classes/behaviour.md)
 
 ## Table of contents
 
 ### Properties
 
-- [definition](IBehaviour.md#definition)
-- [node](IBehaviour.md#node)
+- [definition](Ibehaviour.md#definition)
+- [node](Ibehaviour.md#node)
 
 ### Methods
 
-- [describe](IBehaviour.md#describe)
-- [end](IBehaviour.md#end)
-- [getItemAttributes](IBehaviour.md#getitemattributes)
-- [getNodeAttributes](IBehaviour.md#getnodeattributes)
-- [init](IBehaviour.md#init)
-- [restored](IBehaviour.md#restored)
-- [resume](IBehaviour.md#resume)
-- [run](IBehaviour.md#run)
-- [start](IBehaviour.md#start)
+- [describe](Ibehaviour.md#describe)
+- [end](Ibehaviour.md#end)
+- [getItemAttributes](Ibehaviour.md#getitemattributes)
+- [getNodeAttributes](Ibehaviour.md#getnodeattributes)
+- [init](Ibehaviour.md#init)
+- [restored](Ibehaviour.md#restored)
+- [resume](Ibehaviour.md#resume)
+- [run](Ibehaviour.md#run)
+- [start](Ibehaviour.md#start)
 
 ## Properties
 

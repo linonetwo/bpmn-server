@@ -6,7 +6,7 @@ super class for various objects that are part of the server
 
 ## Hierarchy
 
-- [`ServerComponent`](ServerComponent.md)
+- [`ServerComponent`](servercomponent.md)
 
   ↳ **`ModelsDatastoreDB`**
 
@@ -68,7 +68,7 @@ super class for various objects that are part of the server
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`BPMNServer`](BPMNServer.md) |
+| `server` | [`BPMNServer`](bpmnserver.md) |
 
 #### Returns
 
@@ -76,7 +76,7 @@ super class for various objects that are part of the server
 
 #### Overrides
 
-[ServerComponent](ServerComponent.md).[constructor](ServerComponent.md#constructor)
+[ServerComponent](servercomponent.md).[constructor](servercomponent.md#constructor)
 
 #### Defined in
 
@@ -110,7 +110,7 @@ ___
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[server](ServerComponent.md#server)
+[ServerComponent](servercomponent.md).[server](servercomponent.md#server)
 
 #### Defined in
 

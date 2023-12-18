@@ -17,54 +17,54 @@ Behaviour
 
   ↳ [`CamundaFormData`](CamundaFormData.md)
 
-  ↳ [`IOBehaviour`](IOBehaviour.md)
+  ↳ [`IOBehaviour`](IObehaviour.md)
 
-  ↳ [`MessageEventBehaviour`](MessageEventBehaviour.md)
+  ↳ [`MessageEventBehaviour`](MessageEventbehaviour.md)
 
-  ↳ [`SignalEventBehaviour`](SignalEventBehaviour.md)
+  ↳ [`SignalEventBehaviour`](SignalEventbehaviour.md)
 
-  ↳ [`TerminateBehaviour`](TerminateBehaviour.md)
+  ↳ [`TerminateBehaviour`](Terminatebehaviour.md)
 
-  ↳ [`TimerBehaviour`](TimerBehaviour.md)
+  ↳ [`TimerBehaviour`](Timerbehaviour.md)
 
-  ↳ [`LoopBehaviour`](LoopBehaviour.md)
+  ↳ [`LoopBehaviour`](Loopbehaviour.md)
 
-  ↳ [`ScriptBehaviour`](ScriptBehaviour.md)
+  ↳ [`ScriptBehaviour`](Scriptbehaviour.md)
 
 ## Implements
 
-- [`IBehaviour`](../interfaces/IBehaviour.md)
+- [`IBehaviour`](../interfaces/Ibehaviour.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Behaviour.md#constructor)
+- [constructor](behaviour.md#constructor)
 
 ### Properties
 
-- [definition](Behaviour.md#definition)
-- [node](Behaviour.md#node)
+- [definition](behaviour.md#definition)
+- [node](behaviour.md#node)
 
 ### Methods
 
-- [describe](Behaviour.md#describe)
-- [end](Behaviour.md#end)
-- [enter](Behaviour.md#enter)
-- [exit](Behaviour.md#exit)
-- [getItemAttributes](Behaviour.md#getitemattributes)
-- [getNodeAttributes](Behaviour.md#getnodeattributes)
-- [init](Behaviour.md#init)
-- [restored](Behaviour.md#restored)
-- [resume](Behaviour.md#resume)
-- [run](Behaviour.md#run)
-- [start](Behaviour.md#start)
+- [describe](behaviour.md#describe)
+- [end](behaviour.md#end)
+- [enter](behaviour.md#enter)
+- [exit](behaviour.md#exit)
+- [getItemAttributes](behaviour.md#getitemattributes)
+- [getNodeAttributes](behaviour.md#getnodeattributes)
+- [init](behaviour.md#init)
+- [restored](behaviour.md#restored)
+- [resume](behaviour.md#resume)
+- [run](behaviour.md#run)
+- [start](behaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new Behaviour**(`node`, `definition`): [`Behaviour`](Behaviour.md)
+• **new Behaviour**(`node`, `definition`): [`Behaviour`](behaviour.md)
 
 #### Parameters
 
@@ -75,7 +75,7 @@ Behaviour
 
 #### Returns
 
-[`Behaviour`](Behaviour.md)
+[`Behaviour`](behaviour.md)
 
 #### Defined in
 
@@ -89,7 +89,7 @@ Behaviour
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[definition](../interfaces/IBehaviour.md#definition)
+[IBehaviour](../interfaces/Ibehaviour.md).[definition](../interfaces/Ibehaviour.md#definition)
 
 #### Defined in
 
@@ -103,7 +103,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[node](../interfaces/IBehaviour.md#node)
+[IBehaviour](../interfaces/Ibehaviour.md).[node](../interfaces/Ibehaviour.md#node)
 
 #### Defined in
 
@@ -121,7 +121,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[describe](../interfaces/IBehaviour.md#describe)
+[IBehaviour](../interfaces/Ibehaviour.md).[describe](../interfaces/Ibehaviour.md#describe)
 
 #### Defined in
 
@@ -145,7 +145,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[end](../interfaces/IBehaviour.md#end)
+[IBehaviour](../interfaces/Ibehaviour.md).[end](../interfaces/Ibehaviour.md#end)
 
 #### Defined in
 
@@ -210,7 +210,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[getItemAttributes](../interfaces/IBehaviour.md#getitemattributes)
+[IBehaviour](../interfaces/Ibehaviour.md).[getItemAttributes](../interfaces/Ibehaviour.md#getitemattributes)
 
 #### Defined in
 
@@ -234,7 +234,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[getNodeAttributes](../interfaces/IBehaviour.md#getnodeattributes)
+[IBehaviour](../interfaces/Ibehaviour.md).[getNodeAttributes](../interfaces/Ibehaviour.md#getnodeattributes)
 
 #### Defined in
 
@@ -252,7 +252,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[init](../interfaces/IBehaviour.md#init)
+[IBehaviour](../interfaces/Ibehaviour.md).[init](../interfaces/Ibehaviour.md#init)
 
 #### Defined in
 
@@ -276,7 +276,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[restored](../interfaces/IBehaviour.md#restored)
+[IBehaviour](../interfaces/Ibehaviour.md).[restored](../interfaces/Ibehaviour.md#restored)
 
 #### Defined in
 
@@ -300,7 +300,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[resume](../interfaces/IBehaviour.md#resume)
+[IBehaviour](../interfaces/Ibehaviour.md).[resume](../interfaces/Ibehaviour.md#resume)
 
 #### Defined in
 
@@ -324,7 +324,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[run](../interfaces/IBehaviour.md#run)
+[IBehaviour](../interfaces/Ibehaviour.md).[run](../interfaces/Ibehaviour.md#run)
 
 #### Defined in
 
@@ -348,7 +348,7 @@ ___
 
 #### Implementation of
 
-[IBehaviour](../interfaces/IBehaviour.md).[start](../interfaces/IBehaviour.md#start)
+[IBehaviour](../interfaces/Ibehaviour.md).[start](../interfaces/Ibehaviour.md#start)
 
 #### Defined in
 

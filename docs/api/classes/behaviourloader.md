@@ -6,32 +6,32 @@
 
 ### Constructors
 
-- [constructor](BehaviourLoader.md#constructor)
+- [constructor](behaviourloader.md#constructor)
 
 ### Properties
 
-- [behaviours](BehaviourLoader.md#behaviours)
+- [behaviours](behaviourloader.md#behaviours)
 
 ### Methods
 
-- [load](BehaviourLoader.md#load)
-- [register](BehaviourLoader.md#register)
+- [load](behaviourloader.md#load)
+- [register](behaviourloader.md#register)
 
 ## Constructors
 
 ### constructor
 
-• **new BehaviourLoader**(): [`BehaviourLoader`](BehaviourLoader.md)
+• **new BehaviourLoader**(): [`BehaviourLoader`](behaviourloader.md)
 
 #### Returns
 
-[`BehaviourLoader`](BehaviourLoader.md)
+[`BehaviourLoader`](behaviourloader.md)
 
 ## Properties
 
 ### behaviours
 
-▪ `Static` **behaviours**: (\{ `funct`: (`node`: `any`, `def`: `any`) => [`IOBehaviour`](IOBehaviour.md) ; `name`: `string` = Behaviour\_names.CamundaIO } \| \{ `funct`: (`node`: `any`, `def`: `any`) => [`ScriptBehaviour`](ScriptBehaviour.md) ; `name`: `string` = Behaviour\_names.CamundaScript2 } \| \{ `funct`: (`node`: `any`, `def`: `any`) => [`TerminateBehaviour`](TerminateBehaviour.md) ; `name`: `string` = Behaviour\_names.TerminateEventDefinition })[]
+▪ `Static` **behaviours**: (\{ `funct`: (`node`: `any`, `def`: `any`) => [`IOBehaviour`](IObehaviour.md) ; `name`: `string` = Behaviour\_names.CamundaIO } \| \{ `funct`: (`node`: `any`, `def`: `any`) => [`ScriptBehaviour`](Scriptbehaviour.md) ; `name`: `string` = Behaviour\_names.CamundaScript2 } \| \{ `funct`: (`node`: `any`, `def`: `any`) => [`TerminateBehaviour`](Terminatebehaviour.md) ; `name`: `string` = Behaviour\_names.TerminateEventDefinition })[]
 
 #### Defined in
 

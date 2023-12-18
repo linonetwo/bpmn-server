@@ -25,7 +25,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`IBPMNServer`](../interfaces/IBPMNServer.md) |
+| `server` | [`IBPMNServer`](../interfaces/ibpmnserver.md) |
 
 #### Returns
 
@@ -69,7 +69,7 @@ ___
 
 ### server
 
-• **server**: [`IBPMNServer`](../interfaces/IBPMNServer.md)
+• **server**: [`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Defined in
 

@@ -8,13 +8,13 @@ is accessed two ways:
 
 ## Hierarchy
 
-- [`ServerComponent`](ServerComponent.md)
+- [`ServerComponent`](servercomponent.md)
 
   ↳ **`Execution`**
 
 ## Implements
 
-- [`IExecution`](../interfaces/IExecution.md)
+- [`IExecution`](../interfaces/iexecution.md)
 
 ## Table of contents
 
@@ -111,7 +111,7 @@ is accessed two ways:
 
 #### Overrides
 
-[ServerComponent](ServerComponent.md).[constructor](ServerComponent.md#constructor)
+[ServerComponent](servercomponent.md).[constructor](servercomponent.md#constructor)
 
 #### Defined in
 
@@ -121,11 +121,11 @@ is accessed two ways:
 
 ### definition
 
-• **definition**: [`IDefinition`](../interfaces/IDefinition.md)
+• **definition**: [`IDefinition`](../interfaces/idefinition.md)
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[definition](../interfaces/IExecution.md#definition)
+[IExecution](../interfaces/iexecution.md).[definition](../interfaces/iexecution.md#definition)
 
 #### Defined in
 
@@ -139,7 +139,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[errors](../interfaces/IExecution.md#errors)
+[IExecution](../interfaces/iexecution.md).[errors](../interfaces/iexecution.md#errors)
 
 #### Defined in
 
@@ -153,7 +153,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[instance](../interfaces/IExecution.md#instance)
+[IExecution](../interfaces/iexecution.md).[instance](../interfaces/iexecution.md#instance)
 
 #### Defined in
 
@@ -167,7 +167,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[isLocked](../interfaces/IExecution.md#islocked)
+[IExecution](../interfaces/iexecution.md).[isLocked](../interfaces/iexecution.md#islocked)
 
 #### Defined in
 
@@ -181,7 +181,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[item](../interfaces/IExecution.md#item)
+[IExecution](../interfaces/iexecution.md).[item](../interfaces/iexecution.md#item)
 
 #### Defined in
 
@@ -195,7 +195,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[messageMatchingKey](../interfaces/IExecution.md#messagematchingkey)
+[IExecution](../interfaces/iexecution.md).[messageMatchingKey](../interfaces/iexecution.md#messagematchingkey)
 
 #### Defined in
 
@@ -219,7 +219,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[options](../interfaces/IExecution.md#options)
+[IExecution](../interfaces/iexecution.md).[options](../interfaces/iexecution.md#options)
 
 #### Defined in
 
@@ -233,7 +233,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[process](../interfaces/IExecution.md#process)
+[IExecution](../interfaces/iexecution.md).[process](../interfaces/iexecution.md#process)
 
 #### Defined in
 
@@ -247,7 +247,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[promises](../interfaces/IExecution.md#promises)
+[IExecution](../interfaces/iexecution.md).[promises](../interfaces/iexecution.md#promises)
 
 #### Defined in
 
@@ -261,11 +261,11 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[server](../interfaces/IExecution.md#server)
+[IExecution](../interfaces/iexecution.md).[server](../interfaces/iexecution.md#server)
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[server](ServerComponent.md#server)
+[ServerComponent](servercomponent.md).[server](servercomponent.md#server)
 
 #### Defined in
 
@@ -289,7 +289,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[tokens](../interfaces/IExecution.md#tokens)
+[IExecution](../interfaces/iexecution.md).[tokens](../interfaces/iexecution.md#tokens)
 
 #### Defined in
 
@@ -303,7 +303,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[uids](../interfaces/IExecution.md#uids)
+[IExecution](../interfaces/iexecution.md).[uids](../interfaces/iexecution.md#uids)
 
 #### Defined in
 
@@ -317,7 +317,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[userName](../interfaces/IExecution.md#username)
+[IExecution](../interfaces/iexecution.md).[userName](../interfaces/iexecution.md#username)
 
 #### Defined in
 
@@ -331,7 +331,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[worker](../interfaces/IExecution.md#worker)
+[IExecution](../interfaces/iexecution.md).[worker](../interfaces/iexecution.md#worker)
 
 #### Defined in
 
@@ -349,7 +349,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[appDelegate](../interfaces/IExecution.md#appdelegate)
+[IExecution](../interfaces/iexecution.md).[appDelegate](../interfaces/iexecution.md#appdelegate)
 
 #### Inherited from
 
@@ -371,7 +371,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[cache](../interfaces/IExecution.md#cache)
+[IExecution](../interfaces/iexecution.md).[cache](../interfaces/iexecution.md#cache)
 
 #### Inherited from
 
@@ -393,7 +393,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[configuration](../interfaces/IExecution.md#configuration)
+[IExecution](../interfaces/iexecution.md).[configuration](../interfaces/iexecution.md#configuration)
 
 #### Inherited from
 
@@ -415,7 +415,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[cron](../interfaces/IExecution.md#cron)
+[IExecution](../interfaces/iexecution.md).[cron](../interfaces/iexecution.md#cron)
 
 #### Inherited from
 
@@ -437,7 +437,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[dataStore](../interfaces/IExecution.md#datastore)
+[IExecution](../interfaces/iexecution.md).[dataStore](../interfaces/iexecution.md#datastore)
 
 #### Inherited from
 
@@ -459,7 +459,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[definitions](../interfaces/IExecution.md#definitions)
+[IExecution](../interfaces/iexecution.md).[definitions](../interfaces/iexecution.md#definitions)
 
 #### Inherited from
 
@@ -481,7 +481,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[engine](../interfaces/IExecution.md#engine)
+[IExecution](../interfaces/iexecution.md).[engine](../interfaces/iexecution.md#engine)
 
 #### Inherited from
 
@@ -517,7 +517,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[id](../interfaces/IExecution.md#id)
+[IExecution](../interfaces/iexecution.md).[id](../interfaces/iexecution.md#id)
 
 #### Defined in
 
@@ -535,7 +535,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[listener](../interfaces/IExecution.md#listener)
+[IExecution](../interfaces/iexecution.md).[listener](../interfaces/iexecution.md#listener)
 
 #### Overrides
 
@@ -557,7 +557,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[logger](../interfaces/IExecution.md#logger)
+[IExecution](../interfaces/iexecution.md).[logger](../interfaces/iexecution.md#logger)
 
 #### Inherited from
 
@@ -579,7 +579,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[name](../interfaces/IExecution.md#name)
+[IExecution](../interfaces/iexecution.md).[name](../interfaces/iexecution.md#name)
 
 #### Defined in
 
@@ -597,7 +597,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[status](../interfaces/IExecution.md#status)
+[IExecution](../interfaces/iexecution.md).[status](../interfaces/iexecution.md#status)
 
 #### Defined in
 
@@ -646,7 +646,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[appendData](../interfaces/IExecution.md#appenddata)
+[IExecution](../interfaces/iexecution.md).[appendData](../interfaces/iexecution.md#appenddata)
 
 #### Defined in
 
@@ -695,7 +695,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[doExecutionEvent](../interfaces/IExecution.md#doexecutionevent)
+[IExecution](../interfaces/iexecution.md).[doExecutionEvent](../interfaces/iexecution.md#doexecutionevent)
 
 #### Defined in
 
@@ -720,7 +720,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[doItemEvent](../interfaces/IExecution.md#doitemevent)
+[IExecution](../interfaces/iexecution.md).[doItemEvent](../interfaces/iexecution.md#doitemevent)
 
 #### Defined in
 
@@ -738,7 +738,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[end](../interfaces/IExecution.md#end)
+[IExecution](../interfaces/iexecution.md).[end](../interfaces/iexecution.md#end)
 
 #### Defined in
 
@@ -762,7 +762,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[error](../interfaces/IExecution.md#error)
+[IExecution](../interfaces/iexecution.md).[error](../interfaces/iexecution.md#error)
 
 #### Defined in
 
@@ -788,7 +788,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[execute](../interfaces/IExecution.md#execute)
+[IExecution](../interfaces/iexecution.md).[execute](../interfaces/iexecution.md#execute)
 
 #### Defined in
 
@@ -813,7 +813,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getAndCreateData](../interfaces/IExecution.md#getandcreatedata)
+[IExecution](../interfaces/iexecution.md).[getAndCreateData](../interfaces/iexecution.md#getandcreatedata)
 
 #### Defined in
 
@@ -837,7 +837,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getData](../interfaces/IExecution.md#getdata)
+[IExecution](../interfaces/iexecution.md).[getData](../interfaces/iexecution.md#getdata)
 
 #### Defined in
 
@@ -855,7 +855,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getItems](../interfaces/IExecution.md#getitems)
+[IExecution](../interfaces/iexecution.md).[getItems](../interfaces/iexecution.md#getitems)
 
 #### Defined in
 
@@ -873,7 +873,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getItemsData](../interfaces/IExecution.md#getitemsdata)
+[IExecution](../interfaces/iexecution.md).[getItemsData](../interfaces/iexecution.md#getitemsdata)
 
 #### Defined in
 
@@ -897,7 +897,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getNewId](../interfaces/IExecution.md#getnewid)
+[IExecution](../interfaces/iexecution.md).[getNewId](../interfaces/iexecution.md#getnewid)
 
 #### Defined in
 
@@ -921,7 +921,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getNodeById](../interfaces/IExecution.md#getnodebyid)
+[IExecution](../interfaces/iexecution.md).[getNodeById](../interfaces/iexecution.md#getnodebyid)
 
 #### Defined in
 
@@ -931,15 +931,15 @@ ___
 
 ### getState
 
-▸ **getState**(): [`IInstanceData`](../interfaces/IInstanceData.md)
+▸ **getState**(): [`IInstanceData`](../interfaces/iinstancedata.md)
 
 #### Returns
 
-[`IInstanceData`](../interfaces/IInstanceData.md)
+[`IInstanceData`](../interfaces/iinstancedata.md)
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getState](../interfaces/IExecution.md#getstate)
+[IExecution](../interfaces/iexecution.md).[getState](../interfaces/iexecution.md#getstate)
 
 #### Defined in
 
@@ -963,7 +963,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getToken](../interfaces/IExecution.md#gettoken)
+[IExecution](../interfaces/iexecution.md).[getToken](../interfaces/iexecution.md#gettoken)
 
 #### Defined in
 
@@ -981,7 +981,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[getUUID](../interfaces/IExecution.md#getuuid)
+[IExecution](../interfaces/iexecution.md).[getUUID](../interfaces/iexecution.md#getuuid)
 
 #### Defined in
 
@@ -1005,7 +1005,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[log](../interfaces/IExecution.md#log)
+[IExecution](../interfaces/iexecution.md).[log](../interfaces/iexecution.md#log)
 
 #### Defined in
 
@@ -1023,7 +1023,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[report](../interfaces/IExecution.md#report)
+[IExecution](../interfaces/iexecution.md).[report](../interfaces/iexecution.md#report)
 
 #### Defined in
 
@@ -1041,7 +1041,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[restored](../interfaces/IExecution.md#restored)
+[IExecution](../interfaces/iexecution.md).[restored](../interfaces/iexecution.md#restored)
 
 #### Defined in
 
@@ -1059,7 +1059,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[resume](../interfaces/IExecution.md#resume)
+[IExecution](../interfaces/iexecution.md).[resume](../interfaces/iexecution.md#resume)
 
 #### Defined in
 
@@ -1077,7 +1077,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[save](../interfaces/IExecution.md#save)
+[IExecution](../interfaces/iexecution.md).[save](../interfaces/iexecution.md#save)
 
 #### Defined in
 
@@ -1087,7 +1087,7 @@ ___
 
 ### signalEvent
 
-▸ **signalEvent**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **signalEvent**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -1099,11 +1099,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[signalEvent](../interfaces/IExecution.md#signalevent)
+[IExecution](../interfaces/iexecution.md).[signalEvent](../interfaces/iexecution.md#signalevent)
 
 #### Defined in
 
@@ -1113,7 +1113,7 @@ ___
 
 ### signalItem
 
-▸ **signalItem**(`itemId`, `inputData`, `userName`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **signalItem**(`itemId`, `inputData`, `userName`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 invoke scenarios:
      itemId
@@ -1131,11 +1131,11 @@ invoke scenarios:
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[signalItem](../interfaces/IExecution.md#signalitem)
+[IExecution](../interfaces/iexecution.md).[signalItem](../interfaces/iexecution.md#signalitem)
 
 #### Defined in
 
@@ -1145,7 +1145,7 @@ ___
 
 ### signalRepeatTimerEvent
 
-▸ **signalRepeatTimerEvent**(`executionId`, `prevItem`, `inputData`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **signalRepeatTimerEvent**(`executionId`, `prevItem`, `inputData`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -1158,11 +1158,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[signalRepeatTimerEvent](../interfaces/IExecution.md#signalrepeattimerevent)
+[IExecution](../interfaces/iexecution.md).[signalRepeatTimerEvent](../interfaces/iexecution.md#signalrepeattimerevent)
 
 #### Defined in
 
@@ -1182,7 +1182,7 @@ causes the execution to stop from running any further
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[stop](../interfaces/IExecution.md#stop)
+[IExecution](../interfaces/iexecution.md).[stop](../interfaces/iexecution.md#stop)
 
 #### Defined in
 
@@ -1202,7 +1202,7 @@ causes the execution to stop from running any further
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[terminate](../interfaces/IExecution.md#terminate)
+[IExecution](../interfaces/iexecution.md).[terminate](../interfaces/iexecution.md#terminate)
 
 #### Defined in
 
@@ -1240,7 +1240,7 @@ ___
 
 #### Implementation of
 
-[IExecution](../interfaces/IExecution.md).[tokenEnded](../interfaces/IExecution.md#tokenended)
+[IExecution](../interfaces/iexecution.md).[tokenEnded](../interfaces/iexecution.md#tokenended)
 
 #### Defined in
 
@@ -1259,7 +1259,7 @@ re-enstate the execution from db
 | Name | Type |
 | :------ | :------ |
 | `server` | `any` |
-| `state` | [`IInstanceData`](../interfaces/IInstanceData.md) |
+| `state` | [`IInstanceData`](../interfaces/iinstancedata.md) |
 
 #### Returns
 

@@ -72,11 +72,11 @@ APIComponent.api
 
 ### server
 
-• `get` **server**(): [`IBPMNServer`](../interfaces/IBPMNServer.md)
+• `get` **server**(): [`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Returns
 
-[`IBPMNServer`](../interfaces/IBPMNServer.md)
+[`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Inherited from
 
@@ -111,7 +111,7 @@ ___
 
 ### findInstances
 
-▸ **findInstances**(`query`, `user`, `options`): `Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)[]\>
+▸ **findInstances**(`query`, `user`, `options`): `Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)[]\>
 
 #### Parameters
 
@@ -123,7 +123,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)[]\>
+`Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)[]\>
 
 #### Defined in
 
@@ -133,7 +133,7 @@ ___
 
 ### findItem
 
-▸ **findItem**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/IItemData.md)\>
+▸ **findItem**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/iitemdata.md)\>
 
 #### Parameters
 
@@ -144,7 +144,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](../interfaces/IItemData.md)\>
+`Promise`\<[`IItemData`](../interfaces/iitemdata.md)\>
 
 #### Defined in
 
@@ -154,7 +154,7 @@ ___
 
 ### findItems
 
-▸ **findItems**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+▸ **findItems**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 #### Parameters
 
@@ -165,7 +165,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+`Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 ### getPendingUserTasks
 
-▸ **getPendingUserTasks**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+▸ **getPendingUserTasks**(`query`, `user`): `Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 #### Parameters
 
@@ -186,7 +186,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+`Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 #### Defined in
 

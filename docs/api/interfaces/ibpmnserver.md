@@ -4,22 +4,22 @@
 
 ## Implemented by
 
-- [`BPMNServer`](../classes/BPMNServer.md)
+- [`BPMNServer`](../classes/bpmnserver.md)
 
 ## Table of contents
 
 ### Properties
 
-- [appDelegate](IBPMNServer.md#appdelegate)
-- [cache](IBPMNServer.md#cache)
-- [configuration](IBPMNServer.md#configuration)
-- [cron](IBPMNServer.md#cron)
-- [dataStore](IBPMNServer.md#datastore)
-- [definitions](IBPMNServer.md#definitions)
-- [engine](IBPMNServer.md#engine)
-- [listener](IBPMNServer.md#listener)
-- [logger](IBPMNServer.md#logger)
-- [userService](IBPMNServer.md#userservice)
+- [appDelegate](ibpmnserver.md#appdelegate)
+- [cache](ibpmnserver.md#cache)
+- [configuration](ibpmnserver.md#configuration)
+- [cron](ibpmnserver.md#cron)
+- [dataStore](ibpmnserver.md#datastore)
+- [definitions](ibpmnserver.md#definitions)
+- [engine](ibpmnserver.md#engine)
+- [listener](ibpmnserver.md#listener)
+- [logger](ibpmnserver.md#logger)
+- [userService](ibpmnserver.md#userservice)
 
 ## Properties
 

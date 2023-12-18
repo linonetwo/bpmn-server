@@ -90,7 +90,7 @@ ___
 
 ### findInstance
 
-▸ **findInstance**(`query`, `options`): `Promise`\<[`IInstanceData`](IInstanceData.md)\>
+▸ **findInstance**(`query`, `options`): `Promise`\<[`IInstanceData`](iinstancedata.md)\>
 
 #### Parameters
 
@@ -101,7 +101,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IInstanceData`](IInstanceData.md)\>
+`Promise`\<[`IInstanceData`](iinstancedata.md)\>
 
 #### Defined in
 
@@ -111,7 +111,7 @@ ___
 
 ### findInstances
 
-▸ **findInstances**(`query`, `option`): `Promise`\<[`IInstanceData`](IInstanceData.md)[]\>
+▸ **findInstances**(`query`, `option`): `Promise`\<[`IInstanceData`](iinstancedata.md)[]\>
 
 #### Parameters
 
@@ -122,7 +122,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IInstanceData`](IInstanceData.md)[]\>
+`Promise`\<[`IInstanceData`](iinstancedata.md)[]\>
 
 #### Defined in
 
@@ -132,7 +132,7 @@ ___
 
 ### findItem
 
-▸ **findItem**(`query`): `Promise`\<[`IItemData`](IItemData.md)\>
+▸ **findItem**(`query`): `Promise`\<[`IItemData`](iitemdata.md)\>
 
 #### Parameters
 
@@ -142,7 +142,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](IItemData.md)\>
+`Promise`\<[`IItemData`](iitemdata.md)\>
 
 #### Defined in
 
@@ -152,7 +152,7 @@ ___
 
 ### findItems
 
-▸ **findItems**(`query`): `Promise`\<[`IItemData`](IItemData.md)[]\>
+▸ **findItems**(`query`): `Promise`\<[`IItemData`](iitemdata.md)[]\>
 
 #### Parameters
 
@@ -162,7 +162,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](IItemData.md)[]\>
+`Promise`\<[`IItemData`](iitemdata.md)[]\>
 
 #### Defined in
 

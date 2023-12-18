@@ -10,21 +10,21 @@
 
 ### Properties
 
-- [data](IInstanceData.md#data)
-- [endedAt](IInstanceData.md#endedat)
-- [id](IInstanceData.md#id)
-- [items](IInstanceData.md#items)
-- [logs](IInstanceData.md#logs)
-- [loops](IInstanceData.md#loops)
-- [name](IInstanceData.md#name)
-- [parentItemId](IInstanceData.md#parentitemid)
-- [saved](IInstanceData.md#saved)
-- [source](IInstanceData.md#source)
-- [startedAt](IInstanceData.md#startedat)
-- [status](IInstanceData.md#status)
-- [tokens](IInstanceData.md#tokens)
-- [vars](IInstanceData.md#vars)
-- [version](IInstanceData.md#version)
+- [data](iinstancedata.md#data)
+- [endedAt](iinstancedata.md#endedat)
+- [id](iinstancedata.md#id)
+- [items](iinstancedata.md#items)
+- [logs](iinstancedata.md#logs)
+- [loops](iinstancedata.md#loops)
+- [name](iinstancedata.md#name)
+- [parentItemId](iinstancedata.md#parentitemid)
+- [saved](iinstancedata.md#saved)
+- [source](iinstancedata.md#source)
+- [startedAt](iinstancedata.md#startedat)
+- [status](iinstancedata.md#status)
+- [tokens](iinstancedata.md#tokens)
+- [vars](iinstancedata.md#vars)
+- [version](iinstancedata.md#version)
 
 ## Properties
 

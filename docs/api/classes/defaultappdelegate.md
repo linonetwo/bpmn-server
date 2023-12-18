@@ -128,7 +128,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`IExecution`](../interfaces/IExecution.md) |
+| `execution` | [`IExecution`](../interfaces/iexecution.md) |
 
 #### Returns
 

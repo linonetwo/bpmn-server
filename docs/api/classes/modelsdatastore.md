@@ -67,7 +67,7 @@ super class for various objects that are part of the server
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`BPMNServer`](BPMNServer.md) |
+| `server` | [`BPMNServer`](bpmnserver.md) |
 
 #### Returns
 

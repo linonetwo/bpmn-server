@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`IItemData`](IItemData.md)
+- [`IItemData`](iitemdata.md)
 
   ↳ **`IItem`**
 
@@ -52,7 +52,7 @@
 
 #### Inherited from
 
-[IItemData](IItemData.md).[assignee](IItemData.md#assignee)
+[IItemData](iitemdata.md).[assignee](iitemdata.md#assignee)
 
 #### Defined in
 
@@ -66,7 +66,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[candidateGroups](IItemData.md#candidategroups)
+[IItemData](iitemdata.md).[candidateGroups](iitemdata.md#candidategroups)
 
 #### Defined in
 
@@ -80,7 +80,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[candidateUsers](IItemData.md#candidateusers)
+[IItemData](iitemdata.md).[candidateUsers](iitemdata.md#candidateusers)
 
 #### Defined in
 
@@ -90,7 +90,7 @@ ___
 
 ### context
 
-• **context**: [`IExecution`](IExecution.md)
+• **context**: [`IExecution`](iexecution.md)
 
 #### Defined in
 
@@ -104,7 +104,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[dueDate](IItemData.md#duedate)
+[IItemData](iitemdata.md).[dueDate](iitemdata.md#duedate)
 
 #### Defined in
 
@@ -128,7 +128,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[elementId](IItemData.md#elementid)
+[IItemData](iitemdata.md).[elementId](iitemdata.md#elementid)
 
 #### Defined in
 
@@ -142,7 +142,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[endedAt](IItemData.md#endedat)
+[IItemData](iitemdata.md).[endedAt](iitemdata.md#endedat)
 
 #### Defined in
 
@@ -156,7 +156,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[followUpDate](IItemData.md#followupdate)
+[IItemData](iitemdata.md).[followUpDate](iitemdata.md#followupdate)
 
 #### Defined in
 
@@ -170,7 +170,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[id](IItemData.md#id)
+[IItemData](iitemdata.md).[id](iitemdata.md#id)
 
 #### Defined in
 
@@ -184,7 +184,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[instanceId](IItemData.md#instanceid)
+[IItemData](iitemdata.md).[instanceId](iitemdata.md#instanceid)
 
 #### Defined in
 
@@ -198,7 +198,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[itemKey](IItemData.md#itemkey)
+[IItemData](iitemdata.md).[itemKey](iitemdata.md#itemkey)
 
 #### Defined in
 
@@ -212,7 +212,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[messageId](IItemData.md#messageid)
+[IItemData](iitemdata.md).[messageId](iitemdata.md#messageid)
 
 #### Defined in
 
@@ -226,7 +226,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[name](IItemData.md#name)
+[IItemData](iitemdata.md).[name](iitemdata.md#name)
 
 #### Defined in
 
@@ -250,7 +250,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[priority](IItemData.md#priority)
+[IItemData](iitemdata.md).[priority](iitemdata.md#priority)
 
 #### Defined in
 
@@ -264,7 +264,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[processName](IItemData.md#processname)
+[IItemData](iitemdata.md).[processName](iitemdata.md#processname)
 
 #### Defined in
 
@@ -278,7 +278,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[seq](IItemData.md#seq)
+[IItemData](iitemdata.md).[seq](iitemdata.md#seq)
 
 #### Defined in
 
@@ -292,7 +292,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[signalId](IItemData.md#signalid)
+[IItemData](iitemdata.md).[signalId](iitemdata.md#signalid)
 
 #### Defined in
 
@@ -306,7 +306,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[startedAt](IItemData.md#startedat)
+[IItemData](iitemdata.md).[startedAt](iitemdata.md#startedat)
 
 #### Defined in
 
@@ -320,7 +320,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[status](IItemData.md#status)
+[IItemData](iitemdata.md).[status](iitemdata.md#status)
 
 #### Defined in
 
@@ -334,7 +334,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[timeDue](IItemData.md#timedue)
+[IItemData](iitemdata.md).[timeDue](iitemdata.md#timedue)
 
 #### Defined in
 
@@ -358,7 +358,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[tokenId](IItemData.md#tokenid)
+[IItemData](iitemdata.md).[tokenId](iitemdata.md#tokenid)
 
 #### Defined in
 
@@ -372,7 +372,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[type](IItemData.md#type)
+[IItemData](iitemdata.md).[type](iitemdata.md#type)
 
 #### Defined in
 
@@ -386,7 +386,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[userName](IItemData.md#username)
+[IItemData](iitemdata.md).[userName](iitemdata.md#username)
 
 #### Defined in
 
@@ -400,7 +400,7 @@ ___
 
 #### Inherited from
 
-[IItemData](IItemData.md).[vars](IItemData.md#vars)
+[IItemData](iitemdata.md).[vars](iitemdata.md#vars)
 
 #### Defined in
 

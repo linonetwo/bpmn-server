@@ -6,12 +6,12 @@
 
 ### Enumeration Members
 
-- [BoundaryEvent](TOKEN_TYPE.md#boundaryevent)
-- [Diverge](TOKEN_TYPE.md#diverge)
-- [EventSubProcess](TOKEN_TYPE.md#eventsubprocess)
-- [Instance](TOKEN_TYPE.md#instance)
-- [Primary](TOKEN_TYPE.md#primary)
-- [SubProcess](TOKEN_TYPE.md#subprocess)
+- [BoundaryEvent](token_type.md#boundaryevent)
+- [Diverge](token_type.md#diverge)
+- [EventSubProcess](token_type.md#eventsubprocess)
+- [Instance](token_type.md#instance)
+- [Primary](token_type.md#primary)
+- [SubProcess](token_type.md#subprocess)
 
 ## Enumeration Members
 

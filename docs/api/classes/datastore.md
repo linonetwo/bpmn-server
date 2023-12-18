@@ -6,7 +6,7 @@ super class for various objects that are part of the server
 
 ## Hierarchy
 
-- [`ServerComponent`](ServerComponent.md)
+- [`ServerComponent`](servercomponent.md)
 
   ↳ **`DataStore`**
 
@@ -68,7 +68,7 @@ super class for various objects that are part of the server
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`IBPMNServer`](../interfaces/IBPMNServer.md) |
+| `server` | [`IBPMNServer`](../interfaces/ibpmnserver.md) |
 
 #### Returns
 
@@ -76,7 +76,7 @@ super class for various objects that are part of the server
 
 #### Overrides
 
-[ServerComponent](ServerComponent.md).[constructor](ServerComponent.md#constructor)
+[ServerComponent](servercomponent.md).[constructor](servercomponent.md#constructor)
 
 #### Defined in
 
@@ -182,7 +182,7 @@ ___
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[server](ServerComponent.md#server)
+[ServerComponent](servercomponent.md).[server](servercomponent.md#server)
 
 #### Defined in
 
@@ -434,7 +434,7 @@ ___
 
 ### findInstance
 
-▸ **findInstance**(`query`, `options`): `Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)\>
+▸ **findInstance**(`query`, `options`): `Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)\>
 
 #### Parameters
 
@@ -445,7 +445,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)\>
+`Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)\>
 
 #### Implementation of
 
@@ -459,7 +459,7 @@ ___
 
 ### findInstances
 
-▸ **findInstances**(`query`, `option?`): `Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)[]\>
+▸ **findInstances**(`query`, `option?`): `Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)[]\>
 
 #### Parameters
 
@@ -470,7 +470,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IInstanceData`](../interfaces/IInstanceData.md)[]\>
+`Promise`\<[`IInstanceData`](../interfaces/iinstancedata.md)[]\>
 
 #### Implementation of
 
@@ -484,7 +484,7 @@ ___
 
 ### findItem
 
-▸ **findItem**(`query`): `Promise`\<[`IItemData`](../interfaces/IItemData.md)\>
+▸ **findItem**(`query`): `Promise`\<[`IItemData`](../interfaces/iitemdata.md)\>
 
 #### Parameters
 
@@ -494,7 +494,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IItemData`](../interfaces/IItemData.md)\>
+`Promise`\<[`IItemData`](../interfaces/iitemdata.md)\>
 
 #### Implementation of
 
@@ -508,7 +508,7 @@ ___
 
 ### findItems
 
-▸ **findItems**(`query`): `Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+▸ **findItems**(`query`): `Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 scenario:
 itemId			{ items { id : value } }
@@ -537,7 +537,7 @@ Problem with Mongodb:	projection $elematch returns only the first record
 
 #### Returns
 
-`Promise`\<[`IItemData`](../interfaces/IItemData.md)[]\>
+`Promise`\<[`IItemData`](../interfaces/iitemdata.md)[]\>
 
 #### Implementation of
 
@@ -573,7 +573,7 @@ ___
 
 ### loadInstance
 
-▸ **loadInstance**(`instanceId`, `options?`): `Promise`\<\{ `instance`: [`IInstanceData`](../interfaces/IInstanceData.md) = instanceData; `items`: `any`[]  }\>
+▸ **loadInstance**(`instanceId`, `options?`): `Promise`\<\{ `instance`: [`IInstanceData`](../interfaces/iinstancedata.md) = instanceData; `items`: `any`[]  }\>
 
 #### Parameters
 
@@ -584,7 +584,7 @@ ___
 
 #### Returns
 
-`Promise`\<\{ `instance`: [`IInstanceData`](../interfaces/IInstanceData.md) = instanceData; `items`: `any`[]  }\>
+`Promise`\<\{ `instance`: [`IInstanceData`](../interfaces/iinstancedata.md) = instanceData; `items`: `any`[]  }\>
 
 #### Implementation of
 

@@ -6,10 +6,10 @@
 
 ### Enumeration Members
 
-- [end](TOKEN_STATUS.md#end)
-- [running](TOKEN_STATUS.md#running)
-- [terminated](TOKEN_STATUS.md#terminated)
-- [wait](TOKEN_STATUS.md#wait)
+- [end](token_status.md#end)
+- [running](token_status.md#running)
+- [terminated](token_status.md#terminated)
+- [wait](token_status.md#wait)
 
 ## Enumeration Members
 

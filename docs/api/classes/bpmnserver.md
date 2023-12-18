@@ -17,42 +17,42 @@ The main class of Server Layer
 
 ## Implements
 
-- [`IBPMNServer`](../interfaces/IBPMNServer.md)
+- [`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](BPMNServer.md#constructor)
+- [constructor](bpmnserver.md#constructor)
 
 ### Properties
 
-- [appDelegate](BPMNServer.md#appdelegate)
-- [cache](BPMNServer.md#cache)
-- [configuration](BPMNServer.md#configuration)
-- [cron](BPMNServer.md#cron)
-- [dataStore](BPMNServer.md#datastore)
-- [definitions](BPMNServer.md#definitions)
-- [engine](BPMNServer.md#engine)
-- [error](BPMNServer.md#error)
-- [listener](BPMNServer.md#listener)
-- [logger](BPMNServer.md#logger)
-- [userService](BPMNServer.md#userservice)
+- [appDelegate](bpmnserver.md#appdelegate)
+- [cache](bpmnserver.md#cache)
+- [configuration](bpmnserver.md#configuration)
+- [cron](bpmnserver.md#cron)
+- [dataStore](bpmnserver.md#datastore)
+- [definitions](bpmnserver.md#definitions)
+- [engine](bpmnserver.md#engine)
+- [error](bpmnserver.md#error)
+- [listener](bpmnserver.md#listener)
+- [logger](bpmnserver.md#logger)
+- [userService](bpmnserver.md#userservice)
 
 ### Accessors
 
-- [engine](BPMNServer.md#engine-1)
+- [engine](bpmnserver.md#engine-1)
 
 ### Methods
 
-- [getInstance](BPMNServer.md#getinstance)
-- [getVersion](BPMNServer.md#getversion)
+- [getInstance](bpmnserver.md#getinstance)
+- [getVersion](bpmnserver.md#getversion)
 
 ## Constructors
 
 ### constructor
 
-• **new BPMNServer**(`configuration`, `logger?`, `options?`): [`BPMNServer`](BPMNServer.md)
+• **new BPMNServer**(`configuration`, `logger?`, `options?`): [`BPMNServer`](bpmnserver.md)
 
 Server Constructor
 
@@ -66,7 +66,7 @@ Server Constructor
 
 #### Returns
 
-[`BPMNServer`](BPMNServer.md)
+[`BPMNServer`](bpmnserver.md)
 
 #### Defined in
 
@@ -80,7 +80,7 @@ Server Constructor
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[appDelegate](../interfaces/IBPMNServer.md#appdelegate)
+[IBPMNServer](../interfaces/ibpmnserver.md).[appDelegate](../interfaces/ibpmnserver.md#appdelegate)
 
 #### Defined in
 
@@ -94,7 +94,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[cache](../interfaces/IBPMNServer.md#cache)
+[IBPMNServer](../interfaces/ibpmnserver.md).[cache](../interfaces/ibpmnserver.md#cache)
 
 #### Defined in
 
@@ -108,7 +108,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[configuration](../interfaces/IBPMNServer.md#configuration)
+[IBPMNServer](../interfaces/ibpmnserver.md).[configuration](../interfaces/ibpmnserver.md#configuration)
 
 #### Defined in
 
@@ -122,7 +122,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[cron](../interfaces/IBPMNServer.md#cron)
+[IBPMNServer](../interfaces/ibpmnserver.md).[cron](../interfaces/ibpmnserver.md#cron)
 
 #### Defined in
 
@@ -136,7 +136,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[dataStore](../interfaces/IBPMNServer.md#datastore)
+[IBPMNServer](../interfaces/ibpmnserver.md).[dataStore](../interfaces/ibpmnserver.md#datastore)
 
 #### Defined in
 
@@ -150,7 +150,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[definitions](../interfaces/IBPMNServer.md#definitions)
+[IBPMNServer](../interfaces/ibpmnserver.md).[definitions](../interfaces/ibpmnserver.md#definitions)
 
 #### Defined in
 
@@ -164,7 +164,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[engine](../interfaces/IBPMNServer.md#engine)
+[IBPMNServer](../interfaces/ibpmnserver.md).[engine](../interfaces/ibpmnserver.md#engine)
 
 #### Defined in
 
@@ -188,7 +188,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[listener](../interfaces/IBPMNServer.md#listener)
+[IBPMNServer](../interfaces/ibpmnserver.md).[listener](../interfaces/ibpmnserver.md#listener)
 
 #### Defined in
 
@@ -202,7 +202,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[logger](../interfaces/IBPMNServer.md#logger)
+[IBPMNServer](../interfaces/ibpmnserver.md).[logger](../interfaces/ibpmnserver.md#logger)
 
 #### Defined in
 
@@ -216,7 +216,7 @@ ___
 
 #### Implementation of
 
-[IBPMNServer](../interfaces/IBPMNServer.md).[userService](../interfaces/IBPMNServer.md#userservice)
+[IBPMNServer](../interfaces/ibpmnserver.md).[userService](../interfaces/ibpmnserver.md#userservice)
 
 #### Defined in
 
@@ -240,11 +240,11 @@ ___
 
 ### getInstance
 
-▸ **getInstance**(): [`BPMNServer`](BPMNServer.md)
+▸ **getInstance**(): [`BPMNServer`](bpmnserver.md)
 
 #### Returns
 
-[`BPMNServer`](BPMNServer.md)
+[`BPMNServer`](bpmnserver.md)
 
 #### Defined in
 

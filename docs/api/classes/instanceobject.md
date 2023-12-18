@@ -6,7 +6,7 @@ as stored in MongoDB
 
 ## Implements
 
-- [`IInstanceData`](../interfaces/IInstanceData.md)
+- [`IInstanceData`](../interfaces/iinstancedata.md)
 
 ## Table of contents
 
@@ -62,7 +62,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[data](../interfaces/IInstanceData.md#data)
+[IInstanceData](../interfaces/iinstancedata.md).[data](../interfaces/iinstancedata.md#data)
 
 #### Defined in
 
@@ -76,7 +76,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[endedAt](../interfaces/IInstanceData.md#endedat)
+[IInstanceData](../interfaces/iinstancedata.md).[endedAt](../interfaces/iinstancedata.md#endedat)
 
 #### Defined in
 
@@ -90,7 +90,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[id](../interfaces/IInstanceData.md#id)
+[IInstanceData](../interfaces/iinstancedata.md).[id](../interfaces/iinstancedata.md#id)
 
 #### Defined in
 
@@ -114,7 +114,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[items](../interfaces/IInstanceData.md#items)
+[IInstanceData](../interfaces/iinstancedata.md).[items](../interfaces/iinstancedata.md#items)
 
 #### Defined in
 
@@ -128,7 +128,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[logs](../interfaces/IInstanceData.md#logs)
+[IInstanceData](../interfaces/iinstancedata.md).[logs](../interfaces/iinstancedata.md#logs)
 
 #### Defined in
 
@@ -142,7 +142,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[loops](../interfaces/IInstanceData.md#loops)
+[IInstanceData](../interfaces/iinstancedata.md).[loops](../interfaces/iinstancedata.md#loops)
 
 #### Defined in
 
@@ -156,7 +156,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[name](../interfaces/IInstanceData.md#name)
+[IInstanceData](../interfaces/iinstancedata.md).[name](../interfaces/iinstancedata.md#name)
 
 #### Defined in
 
@@ -170,7 +170,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[parentItemId](../interfaces/IInstanceData.md#parentitemid)
+[IInstanceData](../interfaces/iinstancedata.md).[parentItemId](../interfaces/iinstancedata.md#parentitemid)
 
 #### Defined in
 
@@ -184,7 +184,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[saved](../interfaces/IInstanceData.md#saved)
+[IInstanceData](../interfaces/iinstancedata.md).[saved](../interfaces/iinstancedata.md#saved)
 
 #### Defined in
 
@@ -198,7 +198,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[source](../interfaces/IInstanceData.md#source)
+[IInstanceData](../interfaces/iinstancedata.md).[source](../interfaces/iinstancedata.md#source)
 
 #### Defined in
 
@@ -212,7 +212,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[startedAt](../interfaces/IInstanceData.md#startedat)
+[IInstanceData](../interfaces/iinstancedata.md).[startedAt](../interfaces/iinstancedata.md#startedat)
 
 #### Defined in
 
@@ -226,7 +226,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[status](../interfaces/IInstanceData.md#status)
+[IInstanceData](../interfaces/iinstancedata.md).[status](../interfaces/iinstancedata.md#status)
 
 #### Defined in
 
@@ -240,7 +240,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[tokens](../interfaces/IInstanceData.md#tokens)
+[IInstanceData](../interfaces/iinstancedata.md).[tokens](../interfaces/iinstancedata.md#tokens)
 
 #### Defined in
 
@@ -254,7 +254,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[vars](../interfaces/IInstanceData.md#vars)
+[IInstanceData](../interfaces/iinstancedata.md).[vars](../interfaces/iinstancedata.md#vars)
 
 #### Defined in
 
@@ -268,7 +268,7 @@ ___
 
 #### Implementation of
 
-[IInstanceData](../interfaces/IInstanceData.md).[version](../interfaces/IInstanceData.md#version)
+[IInstanceData](../interfaces/iinstancedata.md).[version](../interfaces/iinstancedata.md#version)
 
 #### Defined in
 

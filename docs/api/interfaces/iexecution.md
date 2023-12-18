@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`IServerComponent`](IServerComponent.md)
+- [`IServerComponent`](Iservercomponent.md)
 
   ↳ **`IExecution`**
 
@@ -16,61 +16,61 @@
 
 ### Properties
 
-- [appDelegate](IExecution.md#appdelegate)
-- [cache](IExecution.md#cache)
-- [configuration](IExecution.md#configuration)
-- [cron](IExecution.md#cron)
-- [dataStore](IExecution.md#datastore)
-- [definition](IExecution.md#definition)
-- [definitions](IExecution.md#definitions)
-- [engine](IExecution.md#engine)
-- [errors](IExecution.md#errors)
-- [id](IExecution.md#id)
-- [instance](IExecution.md#instance)
-- [isLocked](IExecution.md#islocked)
-- [item](IExecution.md#item)
-- [listener](IExecution.md#listener)
-- [logger](IExecution.md#logger)
-- [messageMatchingKey](IExecution.md#messagematchingkey)
-- [name](IExecution.md#name)
-- [options](IExecution.md#options)
-- [process](IExecution.md#process)
-- [promises](IExecution.md#promises)
-- [server](IExecution.md#server)
-- [status](IExecution.md#status)
-- [tokens](IExecution.md#tokens)
-- [uids](IExecution.md#uids)
-- [userName](IExecution.md#username)
-- [worker](IExecution.md#worker)
+- [appDelegate](iexecution.md#appdelegate)
+- [cache](iexecution.md#cache)
+- [configuration](iexecution.md#configuration)
+- [cron](iexecution.md#cron)
+- [dataStore](iexecution.md#datastore)
+- [definition](iexecution.md#definition)
+- [definitions](iexecution.md#definitions)
+- [engine](iexecution.md#engine)
+- [errors](iexecution.md#errors)
+- [id](iexecution.md#id)
+- [instance](iexecution.md#instance)
+- [isLocked](iexecution.md#islocked)
+- [item](iexecution.md#item)
+- [listener](iexecution.md#listener)
+- [logger](iexecution.md#logger)
+- [messageMatchingKey](iexecution.md#messagematchingkey)
+- [name](iexecution.md#name)
+- [options](iexecution.md#options)
+- [process](iexecution.md#process)
+- [promises](iexecution.md#promises)
+- [server](iexecution.md#server)
+- [status](iexecution.md#status)
+- [tokens](iexecution.md#tokens)
+- [uids](iexecution.md#uids)
+- [userName](iexecution.md#username)
+- [worker](iexecution.md#worker)
 
 ### Methods
 
-- [appendData](IExecution.md#appenddata)
-- [doExecutionEvent](IExecution.md#doexecutionevent)
-- [doItemEvent](IExecution.md#doitemevent)
-- [end](IExecution.md#end)
-- [error](IExecution.md#error)
-- [execute](IExecution.md#execute)
-- [getAndCreateData](IExecution.md#getandcreatedata)
-- [getData](IExecution.md#getdata)
-- [getItems](IExecution.md#getitems)
-- [getItemsData](IExecution.md#getitemsdata)
-- [getNewId](IExecution.md#getnewid)
-- [getNodeById](IExecution.md#getnodebyid)
-- [getState](IExecution.md#getstate)
-- [getToken](IExecution.md#gettoken)
-- [getUUID](IExecution.md#getuuid)
-- [log](IExecution.md#log)
-- [report](IExecution.md#report)
-- [restored](IExecution.md#restored)
-- [resume](IExecution.md#resume)
-- [save](IExecution.md#save)
-- [signalEvent](IExecution.md#signalevent)
-- [signalItem](IExecution.md#signalitem)
-- [signalRepeatTimerEvent](IExecution.md#signalrepeattimerevent)
-- [stop](IExecution.md#stop)
-- [terminate](IExecution.md#terminate)
-- [tokenEnded](IExecution.md#tokenended)
+- [appendData](iexecution.md#appenddata)
+- [doExecutionEvent](iexecution.md#doexecutionevent)
+- [doItemEvent](iexecution.md#doitemevent)
+- [end](iexecution.md#end)
+- [error](iexecution.md#error)
+- [execute](iexecution.md#execute)
+- [getAndCreateData](iexecution.md#getandcreatedata)
+- [getData](iexecution.md#getdata)
+- [getItems](iexecution.md#getitems)
+- [getItemsData](iexecution.md#getitemsdata)
+- [getNewId](iexecution.md#getnewid)
+- [getNodeById](iexecution.md#getnodebyid)
+- [getState](iexecution.md#getstate)
+- [getToken](iexecution.md#gettoken)
+- [getUUID](iexecution.md#getuuid)
+- [log](iexecution.md#log)
+- [report](iexecution.md#report)
+- [restored](iexecution.md#restored)
+- [resume](iexecution.md#resume)
+- [save](iexecution.md#save)
+- [signalEvent](iexecution.md#signalevent)
+- [signalItem](iexecution.md#signalitem)
+- [signalRepeatTimerEvent](iexecution.md#signalrepeattimerevent)
+- [stop](iexecution.md#stop)
+- [terminate](iexecution.md#terminate)
+- [tokenEnded](iexecution.md#tokenended)
 
 ## Properties
 
@@ -80,7 +80,7 @@
 
 #### Overrides
 
-[IServerComponent](IServerComponent.md).[appDelegate](IServerComponent.md#appdelegate)
+[IServerComponent](Iservercomponent.md).[appDelegate](Iservercomponent.md#appdelegate)
 
 #### Defined in
 
@@ -94,7 +94,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[cache](IServerComponent.md#cache)
+[IServerComponent](Iservercomponent.md).[cache](Iservercomponent.md#cache)
 
 #### Defined in
 
@@ -108,7 +108,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[configuration](IServerComponent.md#configuration)
+[IServerComponent](Iservercomponent.md).[configuration](Iservercomponent.md#configuration)
 
 #### Defined in
 
@@ -122,7 +122,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[cron](IServerComponent.md#cron)
+[IServerComponent](Iservercomponent.md).[cron](Iservercomponent.md#cron)
 
 #### Defined in
 
@@ -136,7 +136,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[dataStore](IServerComponent.md#datastore)
+[IServerComponent](Iservercomponent.md).[dataStore](Iservercomponent.md#datastore)
 
 #### Defined in
 
@@ -146,7 +146,7 @@ ___
 
 ### definition
 
-• **definition**: [`IDefinition`](IDefinition.md)
+• **definition**: [`IDefinition`](idefinition.md)
 
 #### Defined in
 
@@ -160,7 +160,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[definitions](IServerComponent.md#definitions)
+[IServerComponent](Iservercomponent.md).[definitions](Iservercomponent.md#definitions)
 
 #### Defined in
 
@@ -174,7 +174,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](IServerComponent.md).[engine](IServerComponent.md#engine)
+[IServerComponent](Iservercomponent.md).[engine](Iservercomponent.md#engine)
 
 #### Defined in
 
@@ -204,7 +204,7 @@ ___
 
 ### instance
 
-• **instance**: [`IInstanceData`](IInstanceData.md)
+• **instance**: [`IInstanceData`](iinstancedata.md)
 
 #### Defined in
 
@@ -248,7 +248,7 @@ ___
 
 #### Overrides
 
-[IServerComponent](IServerComponent.md).[logger](IServerComponent.md#logger)
+[IServerComponent](Iservercomponent.md).[logger](Iservercomponent.md#logger)
 
 #### Defined in
 
@@ -308,11 +308,11 @@ ___
 
 ### server
 
-• **server**: [`IBPMNServer`](IBPMNServer.md)
+• **server**: [`IBPMNServer`](ibpmnserver.md)
 
 #### Overrides
 
-[IServerComponent](IServerComponent.md).[server](IServerComponent.md#server)
+[IServerComponent](Iservercomponent.md).[server](Iservercomponent.md#server)
 
 #### Defined in
 
@@ -553,11 +553,11 @@ ___
 
 ### getItemsData
 
-▸ **getItemsData**(): [`IItemData`](IItemData.md)[]
+▸ **getItemsData**(): [`IItemData`](iitemdata.md)[]
 
 #### Returns
 
-[`IItemData`](IItemData.md)[]
+[`IItemData`](iitemdata.md)[]
 
 #### Defined in
 
@@ -607,11 +607,11 @@ ___
 
 ### getState
 
-▸ **getState**(): [`IInstanceData`](IInstanceData.md)
+▸ **getState**(): [`IInstanceData`](iinstancedata.md)
 
 #### Returns
 
-[`IInstanceData`](IInstanceData.md)
+[`IInstanceData`](iinstancedata.md)
 
 #### Defined in
 
@@ -731,7 +731,7 @@ ___
 
 ### signalEvent
 
-▸ **signalEvent**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **signalEvent**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Parameters
 
@@ -743,7 +743,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -753,7 +753,7 @@ ___
 
 ### signalItem
 
-▸ **signalItem**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **signalItem**(`executionId`, `inputData`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 invoke scenarios:
      itemId
@@ -770,7 +770,7 @@ invoke scenarios:
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 
@@ -780,7 +780,7 @@ ___
 
 ### signalRepeatTimerEvent
 
-▸ **signalRepeatTimerEvent**(`executionId`, `prevItem`, `inputData`, `options?`): `Promise`\<[`IExecution`](IExecution.md)\>
+▸ **signalRepeatTimerEvent**(`executionId`, `prevItem`, `inputData`, `options?`): `Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Parameters
 
@@ -793,7 +793,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](IExecution.md)\>
+`Promise`\<[`IExecution`](iexecution.md)\>
 
 #### Defined in
 

@@ -6,21 +6,21 @@
 
 - **`IServerComponent`**
 
-  ↳ [`IExecution`](IExecution.md)
+  ↳ [`IExecution`](iexecution.md)
 
 ## Table of contents
 
 ### Properties
 
-- [appDelegate](IServerComponent.md#appdelegate)
-- [cache](IServerComponent.md#cache)
-- [configuration](IServerComponent.md#configuration)
-- [cron](IServerComponent.md#cron)
-- [dataStore](IServerComponent.md#datastore)
-- [definitions](IServerComponent.md#definitions)
-- [engine](IServerComponent.md#engine)
-- [logger](IServerComponent.md#logger)
-- [server](IServerComponent.md#server)
+- [appDelegate](Iservercomponent.md#appdelegate)
+- [cache](Iservercomponent.md#cache)
+- [configuration](Iservercomponent.md#configuration)
+- [cron](Iservercomponent.md#cron)
+- [dataStore](Iservercomponent.md#datastore)
+- [definitions](Iservercomponent.md#definitions)
+- [engine](Iservercomponent.md#engine)
+- [logger](Iservercomponent.md#logger)
+- [server](Iservercomponent.md#server)
 
 ## Properties
 
@@ -106,7 +106,7 @@ ___
 
 ### server
 
-• **server**: [`IBPMNServer`](IBPMNServer.md)
+• **server**: [`IBPMNServer`](ibpmnserver.md)
 
 #### Defined in
 

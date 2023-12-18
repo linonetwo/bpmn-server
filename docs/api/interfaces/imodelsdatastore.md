@@ -166,7 +166,7 @@ ___
 
 ### load
 
-▸ **load**(`name`, `owner`): `Promise`\<[`IDefinition`](IDefinition.md)\>
+▸ **load**(`name`, `owner`): `Promise`\<[`IDefinition`](idefinition.md)\>
 
 #### Parameters
 
@@ -177,7 +177,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IDefinition`](IDefinition.md)\>
+`Promise`\<[`IDefinition`](idefinition.md)\>
 
 #### Defined in
 

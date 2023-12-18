@@ -26,7 +26,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`IExecution`](IExecution.md) |
+| `execution` | [`IExecution`](iexecution.md) |
 
 #### Returns
 

@@ -77,11 +77,11 @@ APIComponent.api
 
 ### server
 
-• `get` **server**(): [`IBPMNServer`](../interfaces/IBPMNServer.md)
+• `get` **server**(): [`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Returns
 
-[`IBPMNServer`](../interfaces/IBPMNServer.md)
+[`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Inherited from
 
@@ -95,7 +95,7 @@ APIComponent.server
 
 ### assign
 
-▸ **assign**(`query`, `data`, `assignment`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **assign**(`query`, `data`, `assignment`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -109,7 +109,7 @@ APIComponent.server
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
@@ -123,7 +123,7 @@ ___
 
 ### invoke
 
-▸ **invoke**(`query`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **invoke**(`query`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -136,7 +136,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
@@ -150,7 +150,7 @@ ___
 
 ### start
 
-▸ **start**(`name`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **start**(`name`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -163,7 +163,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
@@ -177,7 +177,7 @@ ___
 
 ### startEvent
 
-▸ **startEvent**(`query`, `elementId`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **startEvent**(`query`, `elementId`, `data?`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -191,7 +191,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 
@@ -205,7 +205,7 @@ ___
 
 ### throwMessage
 
-▸ **throwMessage**(`messageId`, `data`, `messageMatchingKey`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+▸ **throwMessage**(`messageId`, `data`, `messageMatchingKey`, `user`, `options?`): `Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Parameters
 
@@ -219,7 +219,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IExecution`](../interfaces/IExecution.md)\>
+`Promise`\<[`IExecution`](../interfaces/iexecution.md)\>
 
 #### Implementation of
 

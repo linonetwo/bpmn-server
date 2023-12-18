@@ -76,11 +76,11 @@ APIComponent.api
 
 ### server
 
-• `get` **server**(): [`IBPMNServer`](../interfaces/IBPMNServer.md)
+• `get` **server**(): [`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Returns
 
-[`IBPMNServer`](../interfaces/IBPMNServer.md)
+[`IBPMNServer`](../interfaces/ibpmnserver.md)
 
 #### Inherited from
 
@@ -220,7 +220,7 @@ ___
 
 ### load
 
-▸ **load**(`name`, `user`): `Promise`\<[`IDefinition`](../interfaces/IDefinition.md)\>
+▸ **load**(`name`, `user`): `Promise`\<[`IDefinition`](../interfaces/idefinition.md)\>
 
 #### Parameters
 
@@ -231,7 +231,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IDefinition`](../interfaces/IDefinition.md)\>
+`Promise`\<[`IDefinition`](../interfaces/idefinition.md)\>
 
 #### Defined in
 

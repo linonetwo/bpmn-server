@@ -13,7 +13,7 @@ Behaviour
 
 ## Hierarchy
 
-- [`Behaviour`](Behaviour.md)
+- [`Behaviour`](behaviour.md)
 
   ↳ **`ScriptBehaviour`**
 
@@ -21,33 +21,33 @@ Behaviour
 
 ### Constructors
 
-- [constructor](ScriptBehaviour.md#constructor)
+- [constructor](Scriptbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](ScriptBehaviour.md#definition)
-- [node](ScriptBehaviour.md#node)
-- [scripts](ScriptBehaviour.md#scripts)
+- [definition](Scriptbehaviour.md#definition)
+- [node](Scriptbehaviour.md#node)
+- [scripts](Scriptbehaviour.md#scripts)
 
 ### Methods
 
-- [describe](ScriptBehaviour.md#describe)
-- [end](ScriptBehaviour.md#end)
-- [enter](ScriptBehaviour.md#enter)
-- [exit](ScriptBehaviour.md#exit)
-- [getItemAttributes](ScriptBehaviour.md#getitemattributes)
-- [getNodeAttributes](ScriptBehaviour.md#getnodeattributes)
-- [init](ScriptBehaviour.md#init)
-- [restored](ScriptBehaviour.md#restored)
-- [resume](ScriptBehaviour.md#resume)
-- [run](ScriptBehaviour.md#run)
-- [start](ScriptBehaviour.md#start)
+- [describe](Scriptbehaviour.md#describe)
+- [end](Scriptbehaviour.md#end)
+- [enter](Scriptbehaviour.md#enter)
+- [exit](Scriptbehaviour.md#exit)
+- [getItemAttributes](Scriptbehaviour.md#getitemattributes)
+- [getNodeAttributes](Scriptbehaviour.md#getnodeattributes)
+- [init](Scriptbehaviour.md#init)
+- [restored](Scriptbehaviour.md#restored)
+- [resume](Scriptbehaviour.md#resume)
+- [run](Scriptbehaviour.md#run)
+- [start](Scriptbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new ScriptBehaviour**(`node`, `definition`): [`ScriptBehaviour`](ScriptBehaviour.md)
+• **new ScriptBehaviour**(`node`, `definition`): [`ScriptBehaviour`](Scriptbehaviour.md)
 
 #### Parameters
 
@@ -58,11 +58,11 @@ Behaviour
 
 #### Returns
 
-[`ScriptBehaviour`](ScriptBehaviour.md)
+[`ScriptBehaviour`](Scriptbehaviour.md)
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[constructor](Behaviour.md#constructor)
+[Behaviour](behaviour.md).[constructor](behaviour.md#constructor)
 
 #### Defined in
 
@@ -76,7 +76,7 @@ Behaviour
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[definition](Behaviour.md#definition)
+[Behaviour](behaviour.md).[definition](behaviour.md#definition)
 
 #### Defined in
 
@@ -90,7 +90,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[node](Behaviour.md#node)
+[Behaviour](behaviour.md).[node](behaviour.md#node)
 
 #### Defined in
 
@@ -118,7 +118,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[describe](Behaviour.md#describe)
+[Behaviour](behaviour.md).[describe](behaviour.md#describe)
 
 #### Defined in
 
@@ -142,7 +142,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[end](Behaviour.md#end)
+[Behaviour](behaviour.md).[end](behaviour.md#end)
 
 #### Defined in
 
@@ -166,7 +166,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[enter](Behaviour.md#enter)
+[Behaviour](behaviour.md).[enter](behaviour.md#enter)
 
 #### Defined in
 
@@ -190,7 +190,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[exit](Behaviour.md#exit)
+[Behaviour](behaviour.md).[exit](behaviour.md#exit)
 
 #### Defined in
 
@@ -215,7 +215,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getItemAttributes](Behaviour.md#getitemattributes)
+[Behaviour](behaviour.md).[getItemAttributes](behaviour.md#getitemattributes)
 
 #### Defined in
 
@@ -239,7 +239,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getNodeAttributes](Behaviour.md#getnodeattributes)
+[Behaviour](behaviour.md).[getNodeAttributes](behaviour.md#getnodeattributes)
 
 #### Defined in
 
@@ -257,7 +257,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[init](Behaviour.md#init)
+[Behaviour](behaviour.md).[init](behaviour.md#init)
 
 #### Defined in
 
@@ -281,7 +281,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[restored](Behaviour.md#restored)
+[Behaviour](behaviour.md).[restored](behaviour.md#restored)
 
 #### Defined in
 
@@ -305,7 +305,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[resume](Behaviour.md#resume)
+[Behaviour](behaviour.md).[resume](behaviour.md#resume)
 
 #### Defined in
 
@@ -329,7 +329,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[run](Behaviour.md#run)
+[Behaviour](behaviour.md).[run](behaviour.md#run)
 
 #### Defined in
 
@@ -353,7 +353,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[start](Behaviour.md#start)
+[Behaviour](behaviour.md).[start](behaviour.md#start)
 
 #### Defined in
 

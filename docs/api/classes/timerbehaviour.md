@@ -13,7 +13,7 @@ Behaviour
 
 ## Hierarchy
 
-- [`Behaviour`](Behaviour.md)
+- [`Behaviour`](behaviour.md)
 
   ↳ **`TimerBehaviour`**
 
@@ -21,40 +21,40 @@ Behaviour
 
 ### Constructors
 
-- [constructor](TimerBehaviour.md#constructor)
+- [constructor](Timerbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](TimerBehaviour.md#definition)
-- [duration](TimerBehaviour.md#duration)
-- [node](TimerBehaviour.md#node)
-- [repeat](TimerBehaviour.md#repeat)
-- [timeCycle](TimerBehaviour.md#timecycle)
-- [timeDate](TimerBehaviour.md#timedate)
+- [definition](Timerbehaviour.md#definition)
+- [duration](Timerbehaviour.md#duration)
+- [node](Timerbehaviour.md#node)
+- [repeat](Timerbehaviour.md#repeat)
+- [timeCycle](Timerbehaviour.md#timecycle)
+- [timeDate](Timerbehaviour.md#timedate)
 
 ### Methods
 
-- [describe](TimerBehaviour.md#describe)
-- [end](TimerBehaviour.md#end)
-- [enter](TimerBehaviour.md#enter)
-- [exit](TimerBehaviour.md#exit)
-- [expires](TimerBehaviour.md#expires)
-- [getItemAttributes](TimerBehaviour.md#getitemattributes)
-- [getNodeAttributes](TimerBehaviour.md#getnodeattributes)
-- [getRepeat](TimerBehaviour.md#getrepeat)
-- [init](TimerBehaviour.md#init)
-- [restored](TimerBehaviour.md#restored)
-- [resume](TimerBehaviour.md#resume)
-- [run](TimerBehaviour.md#run)
-- [start](TimerBehaviour.md#start)
-- [startTimer](TimerBehaviour.md#starttimer)
-- [timeDue](TimerBehaviour.md#timedue)
+- [describe](Timerbehaviour.md#describe)
+- [end](Timerbehaviour.md#end)
+- [enter](Timerbehaviour.md#enter)
+- [exit](Timerbehaviour.md#exit)
+- [expires](Timerbehaviour.md#expires)
+- [getItemAttributes](Timerbehaviour.md#getitemattributes)
+- [getNodeAttributes](Timerbehaviour.md#getnodeattributes)
+- [getRepeat](Timerbehaviour.md#getrepeat)
+- [init](Timerbehaviour.md#init)
+- [restored](Timerbehaviour.md#restored)
+- [resume](Timerbehaviour.md#resume)
+- [run](Timerbehaviour.md#run)
+- [start](Timerbehaviour.md#start)
+- [startTimer](Timerbehaviour.md#starttimer)
+- [timeDue](Timerbehaviour.md#timedue)
 
 ## Constructors
 
 ### constructor
 
-• **new TimerBehaviour**(`node`, `definition`): [`TimerBehaviour`](TimerBehaviour.md)
+• **new TimerBehaviour**(`node`, `definition`): [`TimerBehaviour`](Timerbehaviour.md)
 
 #### Parameters
 
@@ -65,11 +65,11 @@ Behaviour
 
 #### Returns
 
-[`TimerBehaviour`](TimerBehaviour.md)
+[`TimerBehaviour`](Timerbehaviour.md)
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[constructor](Behaviour.md#constructor)
+[Behaviour](behaviour.md).[constructor](behaviour.md#constructor)
 
 #### Defined in
 
@@ -83,7 +83,7 @@ Behaviour
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[definition](Behaviour.md#definition)
+[Behaviour](behaviour.md).[definition](behaviour.md#definition)
 
 #### Defined in
 
@@ -107,7 +107,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[node](Behaviour.md#node)
+[Behaviour](behaviour.md).[node](behaviour.md#node)
 
 #### Defined in
 
@@ -155,7 +155,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[describe](Behaviour.md#describe)
+[Behaviour](behaviour.md).[describe](behaviour.md#describe)
 
 #### Defined in
 
@@ -179,7 +179,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[end](Behaviour.md#end)
+[Behaviour](behaviour.md).[end](behaviour.md#end)
 
 #### Defined in
 
@@ -203,7 +203,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[enter](Behaviour.md#enter)
+[Behaviour](behaviour.md).[enter](behaviour.md#enter)
 
 #### Defined in
 
@@ -227,7 +227,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[exit](Behaviour.md#exit)
+[Behaviour](behaviour.md).[exit](behaviour.md#exit)
 
 #### Defined in
 
@@ -266,7 +266,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getItemAttributes](Behaviour.md#getitemattributes)
+[Behaviour](behaviour.md).[getItemAttributes](behaviour.md#getitemattributes)
 
 #### Defined in
 
@@ -290,7 +290,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getNodeAttributes](Behaviour.md#getnodeattributes)
+[Behaviour](behaviour.md).[getNodeAttributes](behaviour.md#getnodeattributes)
 
 #### Defined in
 
@@ -328,7 +328,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[init](Behaviour.md#init)
+[Behaviour](behaviour.md).[init](behaviour.md#init)
 
 #### Defined in
 
@@ -352,7 +352,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[restored](Behaviour.md#restored)
+[Behaviour](behaviour.md).[restored](behaviour.md#restored)
 
 #### Defined in
 
@@ -370,7 +370,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[resume](Behaviour.md#resume)
+[Behaviour](behaviour.md).[resume](behaviour.md#resume)
 
 #### Defined in
 
@@ -394,7 +394,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[run](Behaviour.md#run)
+[Behaviour](behaviour.md).[run](behaviour.md#run)
 
 #### Defined in
 
@@ -418,7 +418,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[start](Behaviour.md#start)
+[Behaviour](behaviour.md).[start](behaviour.md#start)
 
 #### Defined in
 

@@ -6,7 +6,7 @@ as stroed in MongoDB
 
 ## Implements
 
-- [`IItemData`](../interfaces/IItemData.md)
+- [`IItemData`](../interfaces/iitemdata.md)
 
 ## Table of contents
 
@@ -62,7 +62,7 @@ as stroed in MongoDB
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[assignee](../interfaces/IItemData.md#assignee)
+[IItemData](../interfaces/iitemdata.md).[assignee](../interfaces/iitemdata.md#assignee)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[candidateGroups](../interfaces/IItemData.md#candidategroups)
+[IItemData](../interfaces/iitemdata.md).[candidateGroups](../interfaces/iitemdata.md#candidategroups)
 
 #### Defined in
 
@@ -110,7 +110,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[candidateUsers](../interfaces/IItemData.md#candidateusers)
+[IItemData](../interfaces/iitemdata.md).[candidateUsers](../interfaces/iitemdata.md#candidateusers)
 
 #### Defined in
 
@@ -134,7 +134,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[dueDate](../interfaces/IItemData.md#duedate)
+[IItemData](../interfaces/iitemdata.md).[dueDate](../interfaces/iitemdata.md#duedate)
 
 #### Defined in
 
@@ -148,7 +148,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[elementId](../interfaces/IItemData.md#elementid)
+[IItemData](../interfaces/iitemdata.md).[elementId](../interfaces/iitemdata.md#elementid)
 
 #### Defined in
 
@@ -162,7 +162,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[endedAt](../interfaces/IItemData.md#endedat)
+[IItemData](../interfaces/iitemdata.md).[endedAt](../interfaces/iitemdata.md#endedat)
 
 #### Defined in
 
@@ -176,7 +176,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[followUpDate](../interfaces/IItemData.md#followupdate)
+[IItemData](../interfaces/iitemdata.md).[followUpDate](../interfaces/iitemdata.md#followupdate)
 
 #### Defined in
 
@@ -190,7 +190,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[id](../interfaces/IItemData.md#id)
+[IItemData](../interfaces/iitemdata.md).[id](../interfaces/iitemdata.md#id)
 
 #### Defined in
 
@@ -206,7 +206,7 @@ retrieved from findObjects
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[instanceId](../interfaces/IItemData.md#instanceid)
+[IItemData](../interfaces/iitemdata.md).[instanceId](../interfaces/iitemdata.md#instanceid)
 
 #### Defined in
 
@@ -220,7 +220,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[itemKey](../interfaces/IItemData.md#itemkey)
+[IItemData](../interfaces/iitemdata.md).[itemKey](../interfaces/iitemdata.md#itemkey)
 
 #### Defined in
 
@@ -234,7 +234,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[messageId](../interfaces/IItemData.md#messageid)
+[IItemData](../interfaces/iitemdata.md).[messageId](../interfaces/iitemdata.md#messageid)
 
 #### Defined in
 
@@ -248,7 +248,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[name](../interfaces/IItemData.md#name)
+[IItemData](../interfaces/iitemdata.md).[name](../interfaces/iitemdata.md#name)
 
 #### Defined in
 
@@ -272,7 +272,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[priority](../interfaces/IItemData.md#priority)
+[IItemData](../interfaces/iitemdata.md).[priority](../interfaces/iitemdata.md#priority)
 
 #### Defined in
 
@@ -286,7 +286,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[processName](../interfaces/IItemData.md#processname)
+[IItemData](../interfaces/iitemdata.md).[processName](../interfaces/iitemdata.md#processname)
 
 #### Defined in
 
@@ -300,7 +300,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[seq](../interfaces/IItemData.md#seq)
+[IItemData](../interfaces/iitemdata.md).[seq](../interfaces/iitemdata.md#seq)
 
 #### Defined in
 
@@ -314,7 +314,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[signalId](../interfaces/IItemData.md#signalid)
+[IItemData](../interfaces/iitemdata.md).[signalId](../interfaces/iitemdata.md#signalid)
 
 #### Defined in
 
@@ -328,7 +328,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[startedAt](../interfaces/IItemData.md#startedat)
+[IItemData](../interfaces/iitemdata.md).[startedAt](../interfaces/iitemdata.md#startedat)
 
 #### Defined in
 
@@ -342,7 +342,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[status](../interfaces/IItemData.md#status)
+[IItemData](../interfaces/iitemdata.md).[status](../interfaces/iitemdata.md#status)
 
 #### Defined in
 
@@ -356,7 +356,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[timeDue](../interfaces/IItemData.md#timedue)
+[IItemData](../interfaces/iitemdata.md).[timeDue](../interfaces/iitemdata.md#timedue)
 
 #### Defined in
 
@@ -370,7 +370,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[tokenId](../interfaces/IItemData.md#tokenid)
+[IItemData](../interfaces/iitemdata.md).[tokenId](../interfaces/iitemdata.md#tokenid)
 
 #### Defined in
 
@@ -384,7 +384,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[type](../interfaces/IItemData.md#type)
+[IItemData](../interfaces/iitemdata.md).[type](../interfaces/iitemdata.md#type)
 
 #### Defined in
 
@@ -398,7 +398,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[userName](../interfaces/IItemData.md#username)
+[IItemData](../interfaces/iitemdata.md).[userName](../interfaces/iitemdata.md#username)
 
 #### Defined in
 
@@ -412,7 +412,7 @@ ___
 
 #### Implementation of
 
-[IItemData](../interfaces/IItemData.md).[vars](../interfaces/IItemData.md#vars)
+[IItemData](../interfaces/iitemdata.md).[vars](../interfaces/iitemdata.md#vars)
 
 #### Defined in
 

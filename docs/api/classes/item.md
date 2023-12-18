@@ -392,11 +392,11 @@ ___
 
 ### context
 
-• `get` **context**(): [`IExecution`](../interfaces/IExecution.md)
+• `get` **context**(): [`IExecution`](../interfaces/iexecution.md)
 
 #### Returns
 
-[`IExecution`](../interfaces/IExecution.md)
+[`IExecution`](../interfaces/iexecution.md)
 
 #### Implementation of
 
@@ -564,11 +564,11 @@ ___
 
 ### save
 
-▸ **save**(): [`IItemData`](../interfaces/IItemData.md)
+▸ **save**(): [`IItemData`](../interfaces/iitemdata.md)
 
 #### Returns
 
-[`IItemData`](../interfaces/IItemData.md)
+[`IItemData`](../interfaces/iitemdata.md)
 
 #### Defined in
 
@@ -605,7 +605,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `execution` | [`Execution`](Execution.md) |
-| `dataObject` | [`IItemData`](../interfaces/IItemData.md) |
+| `dataObject` | [`IItemData`](../interfaces/iitemdata.md) |
 | `token` | `any` |
 
 #### Returns

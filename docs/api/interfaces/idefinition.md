@@ -10,22 +10,22 @@
 
 ### Properties
 
-- [accessRules](IDefinition.md#accessrules)
-- [flows](IDefinition.md#flows)
-- [logger](IDefinition.md#logger)
-- [name](IDefinition.md#name)
-- [nodes](IDefinition.md#nodes)
-- [processes](IDefinition.md#processes)
-- [rootElements](IDefinition.md#rootelements)
-- [source](IDefinition.md#source)
+- [accessRules](idefinition.md#accessrules)
+- [flows](idefinition.md#flows)
+- [logger](idefinition.md#logger)
+- [name](idefinition.md#name)
+- [nodes](idefinition.md#nodes)
+- [processes](idefinition.md#processes)
+- [rootElements](idefinition.md#rootelements)
+- [source](idefinition.md#source)
 
 ### Methods
 
-- [getDefinition](IDefinition.md#getdefinition)
-- [getJson](IDefinition.md#getjson)
-- [getNodeById](IDefinition.md#getnodebyid)
-- [getStartNode](IDefinition.md#getstartnode)
-- [load](IDefinition.md#load)
+- [getDefinition](idefinition.md#getdefinition)
+- [getJson](idefinition.md#getjson)
+- [getNodeById](idefinition.md#getnodebyid)
+- [getStartNode](idefinition.md#getstartnode)
+- [load](idefinition.md#load)
 
 ## Properties
 

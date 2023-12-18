@@ -10,7 +10,7 @@ it is part of the following:
 
 ## Hierarchy
 
-- [`Behaviour`](Behaviour.md)
+- [`Behaviour`](behaviour.md)
 
   ↳ **`MessageEventBehaviour`**
 
@@ -18,36 +18,36 @@ it is part of the following:
 
 ### Constructors
 
-- [constructor](MessageEventBehaviour.md#constructor)
+- [constructor](MessageEventbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](MessageEventBehaviour.md#definition)
-- [node](MessageEventBehaviour.md#node)
+- [definition](MessageEventbehaviour.md#definition)
+- [node](MessageEventbehaviour.md#node)
 
 ### Accessors
 
-- [messageId](MessageEventBehaviour.md#messageid)
+- [messageId](MessageEventbehaviour.md#messageid)
 
 ### Methods
 
-- [describe](MessageEventBehaviour.md#describe)
-- [end](MessageEventBehaviour.md#end)
-- [enter](MessageEventBehaviour.md#enter)
-- [exit](MessageEventBehaviour.md#exit)
-- [getItemAttributes](MessageEventBehaviour.md#getitemattributes)
-- [getNodeAttributes](MessageEventBehaviour.md#getnodeattributes)
-- [init](MessageEventBehaviour.md#init)
-- [restored](MessageEventBehaviour.md#restored)
-- [resume](MessageEventBehaviour.md#resume)
-- [run](MessageEventBehaviour.md#run)
-- [start](MessageEventBehaviour.md#start)
+- [describe](MessageEventbehaviour.md#describe)
+- [end](MessageEventbehaviour.md#end)
+- [enter](MessageEventbehaviour.md#enter)
+- [exit](MessageEventbehaviour.md#exit)
+- [getItemAttributes](MessageEventbehaviour.md#getitemattributes)
+- [getNodeAttributes](MessageEventbehaviour.md#getnodeattributes)
+- [init](MessageEventbehaviour.md#init)
+- [restored](MessageEventbehaviour.md#restored)
+- [resume](MessageEventbehaviour.md#resume)
+- [run](MessageEventbehaviour.md#run)
+- [start](MessageEventbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new MessageEventBehaviour**(`node`, `definition`): [`MessageEventBehaviour`](MessageEventBehaviour.md)
+• **new MessageEventBehaviour**(`node`, `definition`): [`MessageEventBehaviour`](MessageEventbehaviour.md)
 
 #### Parameters
 
@@ -58,11 +58,11 @@ it is part of the following:
 
 #### Returns
 
-[`MessageEventBehaviour`](MessageEventBehaviour.md)
+[`MessageEventBehaviour`](MessageEventbehaviour.md)
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[constructor](Behaviour.md#constructor)
+[Behaviour](behaviour.md).[constructor](behaviour.md#constructor)
 
 #### Defined in
 
@@ -76,7 +76,7 @@ it is part of the following:
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[definition](Behaviour.md#definition)
+[Behaviour](behaviour.md).[definition](behaviour.md#definition)
 
 #### Defined in
 
@@ -90,7 +90,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[node](Behaviour.md#node)
+[Behaviour](behaviour.md).[node](behaviour.md#node)
 
 #### Defined in
 
@@ -122,7 +122,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[describe](Behaviour.md#describe)
+[Behaviour](behaviour.md).[describe](behaviour.md#describe)
 
 #### Defined in
 
@@ -146,7 +146,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[end](Behaviour.md#end)
+[Behaviour](behaviour.md).[end](behaviour.md#end)
 
 #### Defined in
 
@@ -170,7 +170,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[enter](Behaviour.md#enter)
+[Behaviour](behaviour.md).[enter](behaviour.md#enter)
 
 #### Defined in
 
@@ -194,7 +194,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[exit](Behaviour.md#exit)
+[Behaviour](behaviour.md).[exit](behaviour.md#exit)
 
 #### Defined in
 
@@ -219,7 +219,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getItemAttributes](Behaviour.md#getitemattributes)
+[Behaviour](behaviour.md).[getItemAttributes](behaviour.md#getitemattributes)
 
 #### Defined in
 
@@ -243,7 +243,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[getNodeAttributes](Behaviour.md#getnodeattributes)
+[Behaviour](behaviour.md).[getNodeAttributes](behaviour.md#getnodeattributes)
 
 #### Defined in
 
@@ -261,7 +261,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[init](Behaviour.md#init)
+[Behaviour](behaviour.md).[init](behaviour.md#init)
 
 #### Defined in
 
@@ -285,7 +285,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[restored](Behaviour.md#restored)
+[Behaviour](behaviour.md).[restored](behaviour.md#restored)
 
 #### Defined in
 
@@ -309,7 +309,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[resume](Behaviour.md#resume)
+[Behaviour](behaviour.md).[resume](behaviour.md#resume)
 
 #### Defined in
 
@@ -333,7 +333,7 @@ ___
 
 #### Inherited from
 
-[Behaviour](Behaviour.md).[run](Behaviour.md#run)
+[Behaviour](behaviour.md).[run](behaviour.md#run)
 
 #### Defined in
 
@@ -357,7 +357,7 @@ ___
 
 #### Overrides
 
-[Behaviour](Behaviour.md).[start](Behaviour.md#start)
+[Behaviour](behaviour.md).[start](behaviour.md#start)
 
 #### Defined in
 

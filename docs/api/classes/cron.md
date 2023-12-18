@@ -6,7 +6,7 @@ super class for various objects that are part of the server
 
 ## Hierarchy
 
-- [`ServerComponent`](ServerComponent.md)
+- [`ServerComponent`](servercomponent.md)
 
   ↳ **`Cron`**
 
@@ -56,7 +56,7 @@ super class for various objects that are part of the server
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`IBPMNServer`](../interfaces/IBPMNServer.md) |
+| `server` | [`IBPMNServer`](../interfaces/ibpmnserver.md) |
 
 #### Returns
 
@@ -64,7 +64,7 @@ super class for various objects that are part of the server
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[constructor](ServerComponent.md#constructor)
+[ServerComponent](servercomponent.md).[constructor](servercomponent.md#constructor)
 
 #### Defined in
 
@@ -78,7 +78,7 @@ super class for various objects that are part of the server
 
 #### Inherited from
 
-[ServerComponent](ServerComponent.md).[server](ServerComponent.md#server)
+[ServerComponent](servercomponent.md).[server](servercomponent.md#server)
 
 #### Defined in
 

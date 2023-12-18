@@ -4,7 +4,7 @@
 
 ## Implements
 
-- [`IDefinition`](../interfaces/IDefinition.md)
+- [`IDefinition`](../interfaces/idefinition.md)
 
 ## Table of contents
 
@@ -48,7 +48,7 @@
 | :------ | :------ |
 | `name` | `string` |
 | `source` | `string` |
-| `server` | [`BPMNServer`](BPMNServer.md) |
+| `server` | [`BPMNServer`](bpmnserver.md) |
 
 #### Returns
 
@@ -66,7 +66,7 @@
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[accessRules](../interfaces/IDefinition.md#accessrules)
+[IDefinition](../interfaces/idefinition.md).[accessRules](../interfaces/idefinition.md#accessrules)
 
 #### Defined in
 
@@ -80,7 +80,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[flows](../interfaces/IDefinition.md#flows)
+[IDefinition](../interfaces/idefinition.md).[flows](../interfaces/idefinition.md#flows)
 
 #### Defined in
 
@@ -94,7 +94,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[logger](../interfaces/IDefinition.md#logger)
+[IDefinition](../interfaces/idefinition.md).[logger](../interfaces/idefinition.md#logger)
 
 #### Defined in
 
@@ -118,7 +118,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[name](../interfaces/IDefinition.md#name)
+[IDefinition](../interfaces/idefinition.md).[name](../interfaces/idefinition.md#name)
 
 #### Defined in
 
@@ -132,7 +132,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[nodes](../interfaces/IDefinition.md#nodes)
+[IDefinition](../interfaces/idefinition.md).[nodes](../interfaces/idefinition.md#nodes)
 
 #### Defined in
 
@@ -146,7 +146,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[processes](../interfaces/IDefinition.md#processes)
+[IDefinition](../interfaces/idefinition.md).[processes](../interfaces/idefinition.md#processes)
 
 #### Defined in
 
@@ -160,7 +160,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[rootElements](../interfaces/IDefinition.md#rootelements)
+[IDefinition](../interfaces/idefinition.md).[rootElements](../interfaces/idefinition.md#rootelements)
 
 #### Defined in
 
@@ -184,7 +184,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[source](../interfaces/IDefinition.md#source)
+[IDefinition](../interfaces/idefinition.md).[source](../interfaces/idefinition.md#source)
 
 #### Defined in
 
@@ -209,7 +209,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[getDefinition](../interfaces/IDefinition.md#getdefinition)
+[IDefinition](../interfaces/idefinition.md).[getDefinition](../interfaces/idefinition.md#getdefinition)
 
 #### Defined in
 
@@ -247,7 +247,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[getJson](../interfaces/IDefinition.md#getjson)
+[IDefinition](../interfaces/idefinition.md).[getJson](../interfaces/idefinition.md#getjson)
 
 #### Defined in
 
@@ -271,7 +271,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[getNodeById](../interfaces/IDefinition.md#getnodebyid)
+[IDefinition](../interfaces/idefinition.md).[getNodeById](../interfaces/idefinition.md#getnodebyid)
 
 #### Defined in
 
@@ -289,7 +289,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[getStartNode](../interfaces/IDefinition.md#getstartnode)
+[IDefinition](../interfaces/idefinition.md).[getStartNode](../interfaces/idefinition.md#getstartnode)
 
 #### Defined in
 
@@ -327,7 +327,7 @@ ___
 
 #### Implementation of
 
-[IDefinition](../interfaces/IDefinition.md).[load](../interfaces/IDefinition.md#load)
+[IDefinition](../interfaces/idefinition.md).[load](../interfaces/idefinition.md#load)
 
 #### Defined in
 

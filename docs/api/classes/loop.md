@@ -77,7 +77,7 @@ ___
 
 ### definition
 
-• **definition**: [`LoopBehaviour`](LoopBehaviour.md)
+• **definition**: [`LoopBehaviour`](Loopbehaviour.md)
 
 #### Defined in
 

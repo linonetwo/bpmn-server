@@ -75,7 +75,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `type` | [`TOKEN_TYPE`](../enums/TOKEN_TYPE.md) |
+| `type` | [`TOKEN_TYPE`](../enums/token_type.md) |
 | `execution` | [`Execution`](Execution.md) |
 | `startNode` | [`Node`](Node.md) |
 | `dataPath?` | `any` |
@@ -122,7 +122,7 @@ ___
 
 ### execution
 
-• **execution**: [`IExecution`](../interfaces/IExecution.md)
+• **execution**: [`IExecution`](../interfaces/iexecution.md)
 
 #### Implementation of
 
@@ -264,7 +264,7 @@ ___
 
 ### status
 
-• **status**: [`TOKEN_STATUS`](../enums/TOKEN_STATUS.md)
+• **status**: [`TOKEN_STATUS`](../enums/token_status.md)
 
 #### Implementation of
 
@@ -278,7 +278,7 @@ ___
 
 ### type
 
-• **type**: [`TOKEN_TYPE`](../enums/TOKEN_TYPE.md)
+• **type**: [`TOKEN_TYPE`](../enums/token_type.md)
 
 #### Implementation of
 
@@ -743,8 +743,8 @@ ___
 | `originItem` | `any` |
 | `parentToken` | `any` |
 | `startNodeId` | `any` |
-| `status` | [`TOKEN_STATUS`](../enums/TOKEN_STATUS.md) |
-| `type` | [`TOKEN_TYPE`](../enums/TOKEN_TYPE.md) |
+| `status` | [`TOKEN_STATUS`](../enums/token_status.md) |
+| `type` | [`TOKEN_TYPE`](../enums/token_type.md) |
 
 #### Implementation of
 
@@ -868,7 +868,7 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `type` | [`TOKEN_TYPE`](../enums/TOKEN_TYPE.md) | `undefined` |
+| `type` | [`TOKEN_TYPE`](../enums/token_type.md) | `undefined` |
 | `execution` | `any` | `undefined` |
 | `startNode` | `any` | `undefined` |
 | `dataPath` | `any` | `undefined` |

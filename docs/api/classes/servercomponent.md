@@ -26,39 +26,39 @@ super class for various objects that are part of the server
 
 ### Constructors
 
-- [constructor](ServerComponent.md#constructor)
+- [constructor](servercomponent.md#constructor)
 
 ### Properties
 
-- [server](ServerComponent.md#server)
+- [server](servercomponent.md#server)
 
 ### Accessors
 
-- [appDelegate](ServerComponent.md#appdelegate)
-- [cache](ServerComponent.md#cache)
-- [configuration](ServerComponent.md#configuration)
-- [cron](ServerComponent.md#cron)
-- [dataStore](ServerComponent.md#datastore)
-- [definitions](ServerComponent.md#definitions)
-- [engine](ServerComponent.md#engine)
-- [listener](ServerComponent.md#listener)
-- [logger](ServerComponent.md#logger)
+- [appDelegate](servercomponent.md#appdelegate)
+- [cache](servercomponent.md#cache)
+- [configuration](servercomponent.md#configuration)
+- [cron](servercomponent.md#cron)
+- [dataStore](servercomponent.md#datastore)
+- [definitions](servercomponent.md#definitions)
+- [engine](servercomponent.md#engine)
+- [listener](servercomponent.md#listener)
+- [logger](servercomponent.md#logger)
 
 ## Constructors
 
 ### constructor
 
-• **new ServerComponent**(`server`): [`ServerComponent`](ServerComponent.md)
+• **new ServerComponent**(`server`): [`ServerComponent`](servercomponent.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `server` | [`IBPMNServer`](../interfaces/IBPMNServer.md) |
+| `server` | [`IBPMNServer`](../interfaces/ibpmnserver.md) |
 
 #### Returns
 
-[`ServerComponent`](ServerComponent.md)
+[`ServerComponent`](servercomponent.md)
 
 #### Defined in
 
