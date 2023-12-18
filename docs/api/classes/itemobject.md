@@ -338,7 +338,7 @@ ___
 
 ### status
 
-• **status**: [`ITEM_STATUS`](../enums/ITEM_STATUS.md)
+• **status**: [`ITEM_STATUS`](../enums/item_status.md)
 
 #### Implementation of
 
@@ -380,7 +380,7 @@ ___
 
 ### type
 
-• **type**: [`BPMN_TYPE`](../enums/BPMN_TYPE.md)
+• **type**: [`BPMN_TYPE`](../enums/bpmn_type.md)
 
 #### Implementation of
 

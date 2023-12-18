@@ -589,11 +589,11 @@ ___
 
 ### status
 
-• `get` **status**(): [`EXECUTION_STATUS`](../enums/EXECUTION_STATUS.md)
+• `get` **status**(): [`EXECUTION_STATUS`](../enums/execution_status.md)
 
 #### Returns
 
-[`EXECUTION_STATUS`](../enums/EXECUTION_STATUS.md)
+[`EXECUTION_STATUS`](../enums/execution_status.md)
 
 #### Implementation of
 

@@ -36,7 +36,7 @@
 | › `instanceName?` | `any` |
 | › `instanceSaved?` | `any` |
 | › `instanceStartedAt?` | `any` |
-| › `instanceStatus?` | [`EXECUTION_STATUS`](../enums/EXECUTION_STATUS.md) |
+| › `instanceStatus?` | [`EXECUTION_STATUS`](../enums/execution_status.md) |
 | › `itemElementId?` | `any` |
 | › `itemEndedAt?` | `any` |
 | › `itemId?` | `any` |
@@ -44,9 +44,9 @@
 | › `itemName?` | `any` |
 | › `itemSeq?` | `any` |
 | › `itemStartedAt?` | `any` |
-| › `itemStatus?` | [`ITEM_STATUS`](../enums/ITEM_STATUS.md) |
+| › `itemStatus?` | [`ITEM_STATUS`](../enums/item_status.md) |
 | › `itemTokenId?` | `any` |
-| › `itemType?` | [`BPMN_TYPE`](../enums/BPMN_TYPE.md) |
+| › `itemType?` | [`BPMN_TYPE`](../enums/bpmn_type.md) |
 
 #### Returns
 
@@ -126,7 +126,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `val` | [`EXECUTION_STATUS`](../enums/EXECUTION_STATUS.md) |
+| `val` | [`EXECUTION_STATUS`](../enums/execution_status.md) |
 
 #### Returns
 
@@ -206,7 +206,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `val` | [`ITEM_STATUS`](../enums/ITEM_STATUS.md) |
+| `val` | [`ITEM_STATUS`](../enums/item_status.md) |
 
 #### Returns
 

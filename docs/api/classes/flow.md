@@ -471,7 +471,7 @@ ___
 
 ### run
 
-▸ **run**(`item`): [`FLOW_ACTION`](../enums/FLOW_ACTION.md)
+▸ **run**(`item`): [`FLOW_ACTION`](../enums/flow_action.md)
 
 <Rule> if flow has a condition, it must be evaluated and if result is true flow will continue
  otherwise, flow will be discarded.
@@ -485,7 +485,7 @@ ___
 
 #### Returns
 
-[`FLOW_ACTION`](../enums/FLOW_ACTION.md)
+[`FLOW_ACTION`](../enums/flow_action.md)
 
 #### Defined in
 

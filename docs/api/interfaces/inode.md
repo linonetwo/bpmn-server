@@ -244,8 +244,8 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `item` | [`IItem`](IItem.md) |
-| `event` | [`EXECUTION_EVENT`](../enums/EXECUTION_EVENT.md) |
-| `newStatus` | [`ITEM_STATUS`](../enums/ITEM_STATUS.md) |
+| `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
+| `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
 #### Returns
 
@@ -299,7 +299,7 @@ ___
 
 ### execute
 
-▸ **execute**(`item`): `Promise`\<`void` \| [`wait`](../enums/NODE_ACTION.md#wait) \| [`error`](../enums/NODE_ACTION.md#error) \| [`abort`](../enums/NODE_ACTION.md#abort)\>
+▸ **execute**(`item`): `Promise`\<`void` \| [`wait`](../enums/node_action.md#wait) \| [`error`](../enums/node_action.md#error) \| [`abort`](../enums/node_action.md#abort)\>
 
 this is the primary exectuion method for a node
 
@@ -317,7 +317,7 @@ considerations: the following are handled by Token
 
 #### Returns
 
-`Promise`\<`void` \| [`wait`](../enums/NODE_ACTION.md#wait) \| [`error`](../enums/NODE_ACTION.md#error) \| [`abort`](../enums/NODE_ACTION.md#abort)\>
+`Promise`\<`void` \| [`wait`](../enums/node_action.md#wait) \| [`error`](../enums/node_action.md#error) \| [`abort`](../enums/node_action.md#abort)\>
 
 #### Defined in
 
@@ -483,7 +483,7 @@ ___
 
 ### run
 
-▸ **run**(`item`): `Promise`\<[`NODE_ACTION`](../enums/NODE_ACTION.md)\>
+▸ **run**(`item`): `Promise`\<[`NODE_ACTION`](../enums/node_action.md)\>
 
 #### Parameters
 
@@ -493,7 +493,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`NODE_ACTION`](../enums/NODE_ACTION.md)\>
+`Promise`\<[`NODE_ACTION`](../enums/node_action.md)\>
 
 #### Defined in
 
@@ -503,7 +503,7 @@ ___
 
 ### start
 
-▸ **start**(`item`): `Promise`\<[`NODE_ACTION`](../enums/NODE_ACTION.md)\>
+▸ **start**(`item`): `Promise`\<[`NODE_ACTION`](../enums/node_action.md)\>
 
 #### Parameters
 
@@ -513,7 +513,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`NODE_ACTION`](../enums/NODE_ACTION.md)\>
+`Promise`\<[`NODE_ACTION`](../enums/node_action.md)\>
 
 #### Defined in
 

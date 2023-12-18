@@ -6,13 +6,13 @@
 
 ### Enumeration Members
 
-- [abort](NODE_ACTION.md#abort)
-- [cancel](NODE_ACTION.md#cancel)
-- [continue](NODE_ACTION.md#continue)
-- [end](NODE_ACTION.md#end)
-- [error](NODE_ACTION.md#error)
-- [stop](NODE_ACTION.md#stop)
-- [wait](NODE_ACTION.md#wait)
+- [abort](node_action.md#abort)
+- [cancel](node_action.md#cancel)
+- [continue](node_action.md#continue)
+- [end](node_action.md#end)
+- [error](node_action.md#error)
+- [stop](node_action.md#stop)
+- [wait](node_action.md#wait)
 
 ## Enumeration Members
 

@@ -6,8 +6,8 @@
 
 ### Enumeration Members
 
-- [discard](FLOW_ACTION.md#discard)
-- [take](FLOW_ACTION.md#take)
+- [discard](flow_action.md#discard)
+- [take](flow_action.md#take)
 
 ## Enumeration Members
 

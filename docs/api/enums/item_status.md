@@ -6,13 +6,13 @@
 
 ### Enumeration Members
 
-- [cancelled](ITEM_STATUS.md#cancelled)
-- [discard](ITEM_STATUS.md#discard)
-- [end](ITEM_STATUS.md#end)
-- [enter](ITEM_STATUS.md#enter)
-- [start](ITEM_STATUS.md#start)
-- [terminated](ITEM_STATUS.md#terminated)
-- [wait](ITEM_STATUS.md#wait)
+- [cancelled](item_status.md#cancelled)
+- [discard](item_status.md#discard)
+- [end](item_status.md#end)
+- [enter](item_status.md#enter)
+- [start](item_status.md#start)
+- [terminated](item_status.md#terminated)
+- [wait](item_status.md#wait)
 
 ## Enumeration Members
 

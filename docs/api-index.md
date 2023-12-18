@@ -26,7 +26,7 @@
 - [DataStore](api/classes/datastore.md)
 - [ModelsDatastore](api/classes/ModelsDatastoreDB.md)
 - [MongoDB](api/classes/mongodb.md)
-- [ItemQuery](api/classes/itemquery.md)
+- [ItemQuery](dataQuery.md#item-query)
 - [Query](api/classes/query.md)
 
 ## Common Classes
@@ -111,7 +111,7 @@
 - [ILogger](api/interfaces/ilogger.md)
 - [IModelsDatastore](api/interfaces/imodelsdatastore.md)
 - [INode](api/interfaces/inode.md)
-- [IServerContext](api/interfaces/iservercontext.md)
+- [IServerContext](api3/README.md#IServerContext)
 - [IToken](api/interfaces/itoken.md)
 
 ### Object literals

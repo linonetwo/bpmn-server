@@ -6,13 +6,13 @@
 
 ### Enumeration Members
 
-- [cancel](NODE_SUBTYPE.md#cancel)
-- [compensate](NODE_SUBTYPE.md#compensate)
-- [error](NODE_SUBTYPE.md#error)
-- [escalation](NODE_SUBTYPE.md#escalation)
-- [message](NODE_SUBTYPE.md#message)
-- [signal](NODE_SUBTYPE.md#signal)
-- [timer](NODE_SUBTYPE.md#timer)
+- [cancel](node_subtype.md#cancel)
+- [compensate](node_subtype.md#compensate)
+- [error](node_subtype.md#error)
+- [escalation](node_subtype.md#escalation)
+- [message](node_subtype.md#message)
+- [signal](node_subtype.md#signal)
+- [timer](node_subtype.md#timer)
 
 ## Enumeration Members
 

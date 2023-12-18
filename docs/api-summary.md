@@ -12,7 +12,7 @@
 
 ## Other Components and Topics
 
-- [Data Query](./dataQuery.md)
+- [Data Query](dataQuery.md)
 - [configuration](#configuration)
 - [appDelegate](#appDelegate)
 - [events listener](#events)
@@ -26,9 +26,9 @@ The execution Engine , processes an BPMN definition - [Engine](api/classes/engin
 | Method     |                   parameters                   | return                                              | description                              |
 | ---------- | :--------------------------------------------: | --------------------------------------------------- | ---------------------------------------- |
 | **start**  |                  name, input                   | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | - Start a new Process execution          |
-| **invoke** | [itemQuery](./dataQuery.md#item-query) ,input  | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | Invoke an already started Item (waiting) |
+| **invoke** | [itemQuery](dataQuery.md#item-query) ,input  | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | Invoke an already started Item (waiting) |
 | **signal** |                 signalId,input                 | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | Issue a signal or message                |
-| **get**    | [instanceQuery](./dataQuery.md#instance-query) | [Instance](api/interfaces/iinstancedata.md)         | Get an already running or idle Instance  |
+| **get**    | [instanceQuery](dataQuery.md#instance-query) | [Instance](api/interfaces/iinstancedata.md)         | Get an already running or idle Instance  |
 
 examples:
 
@@ -59,8 +59,8 @@ Saves and retrievs Instances Data - [DataStore](api/classes/datastore.md)
 
 | Method            |                   parameters                   | return                                        | description |
 | ----------------- | :--------------------------------------------: | --------------------------------------------- | ----------- |
-| **findInstances** | [instanceQuery](./dataQuery.md#instance-query) | [Instance[]](api/interfaces/iinstancedata.md) |             |
-| **findItems**     |     [itemQuery](./dataQuery.md#item-query)     | [Item[]](api/interfaces/iitemdata.md)         |             |
+| **findInstances** | [instanceQuery](dataQuery.md#instance-query) | [Instance[]](api/interfaces/iinstancedata.md) |             |
+| **findItems**     |     [itemQuery](dataQuery.md#item-query)     | [Item[]](api/interfaces/iitemdata.md)         |             |
 
 ## cache
 

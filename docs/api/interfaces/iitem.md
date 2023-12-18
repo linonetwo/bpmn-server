@@ -316,7 +316,7 @@ ___
 
 ### status
 
-• **status**: [`ITEM_STATUS`](../enums/ITEM_STATUS.md)
+• **status**: [`ITEM_STATUS`](../enums/item_status.md)
 
 #### Inherited from
 

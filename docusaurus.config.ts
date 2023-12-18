@@ -67,7 +67,7 @@ export default {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "api-index",
             position: "left",
             label: "Tutorial",
           },

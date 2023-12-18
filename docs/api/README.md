@@ -6,13 +6,13 @@ bpmn-server
 
 ### Enumerations
 
-- [BPMN\_TYPE](enums/BPMN_TYPE.md)
-- [EXECUTION\_EVENT](enums/EXECUTION_EVENT.md)
-- [EXECUTION\_STATUS](enums/EXECUTION_STATUS.md)
-- [FLOW\_ACTION](enums/FLOW_ACTION.md)
-- [ITEM\_STATUS](enums/ITEM_STATUS.md)
-- [NODE\_ACTION](enums/NODE_ACTION.md)
-- [NODE\_SUBTYPE](enums/NODE_SUBTYPE.md)
+- [BPMN\_TYPE](enums/bpmn_type.md)
+- [EXECUTION\_EVENT](enums/execution_event.md)
+- [EXECUTION\_STATUS](enums/execution_status.md)
+- [FLOW\_ACTION](enums/flow_action.md)
+- [ITEM\_STATUS](enums/item_status.md)
+- [NODE\_ACTION](enums/node_action.md)
+- [NODE\_SUBTYPE](enums/node_subtype.md)
 - [TOKEN\_STATUS](enums/TOKEN_STATUS.md)
 - [TOKEN\_TYPE](enums/TOKEN_TYPE.md)
 - [USER\_ROLE](enums/USER_ROLE.md)

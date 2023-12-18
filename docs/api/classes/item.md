@@ -68,7 +68,7 @@
 | :------ | :------ | :------ |
 | `element` | `any` | `undefined` |
 | `token` | `any` | `undefined` |
-| `status` | [`ITEM_STATUS`](../enums/ITEM_STATUS.md) | `ITEM_STATUS.start` |
+| `status` | [`ITEM_STATUS`](../enums/item_status.md) | `ITEM_STATUS.start` |
 
 #### Returns
 
@@ -312,7 +312,7 @@ ___
 
 ### status
 
-• **status**: [`ITEM_STATUS`](../enums/ITEM_STATUS.md)
+• **status**: [`ITEM_STATUS`](../enums/item_status.md)
 
 #### Implementation of
 
