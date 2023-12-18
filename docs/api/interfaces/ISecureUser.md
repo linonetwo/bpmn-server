@@ -4,39 +4,39 @@
 
 ## Hierarchy
 
-- [`IUserInfo`](IUserInfo.md)
+- [`IUserInfo`](iuserinfo.md)
 
   ↳ **`ISecureUser`**
 
 ## Implemented by
 
-- [`SecureUser`](../classes/SecureUser.md)
+- [`SecureUser`](../classes/secureuser.md)
 
 ## Table of contents
 
 ### Properties
 
-- [modelsOwner](ISecureUser.md#modelsowner)
-- [tenantId](ISecureUser.md#tenantid)
-- [userGroups](ISecureUser.md#usergroups)
-- [userName](ISecureUser.md#username)
+- [modelsOwner](isecureuser.md#modelsowner)
+- [tenantId](isecureuser.md#tenantid)
+- [userGroups](isecureuser.md#usergroups)
+- [userName](isecureuser.md#username)
 
 ### Methods
 
-- [canAssign](ISecureUser.md#canassign)
-- [canDeleteModel](ISecureUser.md#candeletemodel)
-- [canInvoke](ISecureUser.md#caninvoke)
-- [canModifyModel](ISecureUser.md#canmodifymodel)
-- [canStart](ISecureUser.md#canstart)
-- [inGroup](ISecureUser.md#ingroup)
-- [isAdmin](ISecureUser.md#isadmin)
-- [isSystem](ISecureUser.md#issystem)
-- [qualifyDeleteInstances](ISecureUser.md#qualifydeleteinstances)
-- [qualifyInstances](ISecureUser.md#qualifyinstances)
-- [qualifyItems](ISecureUser.md#qualifyitems)
-- [qualifyModels](ISecureUser.md#qualifymodels)
-- [qualifyStartEvents](ISecureUser.md#qualifystartevents)
-- [qualifyViewItems](ISecureUser.md#qualifyviewitems)
+- [canAssign](isecureuser.md#canassign)
+- [canDeleteModel](isecureuser.md#candeletemodel)
+- [canInvoke](isecureuser.md#caninvoke)
+- [canModifyModel](isecureuser.md#canmodifymodel)
+- [canStart](isecureuser.md#canstart)
+- [inGroup](isecureuser.md#ingroup)
+- [isAdmin](isecureuser.md#isadmin)
+- [isSystem](isecureuser.md#issystem)
+- [qualifyDeleteInstances](isecureuser.md#qualifydeleteinstances)
+- [qualifyInstances](isecureuser.md#qualifyinstances)
+- [qualifyItems](isecureuser.md#qualifyitems)
+- [qualifyModels](isecureuser.md#qualifymodels)
+- [qualifyStartEvents](isecureuser.md#qualifystartevents)
+- [qualifyViewItems](isecureuser.md#qualifyviewitems)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Inherited from
 
-[IUserInfo](IUserInfo.md).[modelsOwner](IUserInfo.md#modelsowner)
+[IUserInfo](iuserinfo.md).[modelsOwner](iuserinfo.md#modelsowner)
 
 #### Defined in
 
@@ -60,7 +60,7 @@ ___
 
 #### Inherited from
 
-[IUserInfo](IUserInfo.md).[tenantId](IUserInfo.md#tenantid)
+[IUserInfo](iuserinfo.md).[tenantId](iuserinfo.md#tenantid)
 
 #### Defined in
 
@@ -74,7 +74,7 @@ ___
 
 #### Inherited from
 
-[IUserInfo](IUserInfo.md).[userGroups](IUserInfo.md#usergroups)
+[IUserInfo](iuserinfo.md).[userGroups](iuserinfo.md#usergroups)
 
 #### Defined in
 
@@ -88,7 +88,7 @@ ___
 
 #### Inherited from
 
-[IUserInfo](IUserInfo.md).[userName](IUserInfo.md#username)
+[IUserInfo](iuserinfo.md).[userName](iuserinfo.md#username)
 
 #### Defined in
 

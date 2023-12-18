@@ -19,49 +19,49 @@
 
 ### Constructors
 
-- [constructor](Loopbehaviour.md#constructor)
+- [constructor](loopbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](Loopbehaviour.md#definition)
-- [node](Loopbehaviour.md#node)
+- [definition](loopbehaviour.md#definition)
+- [node](loopbehaviour.md#node)
 
 ### Accessors
 
-- [collection](Loopbehaviour.md#collection)
+- [collection](loopbehaviour.md#collection)
 
 ### Methods
 
-- [describe](Loopbehaviour.md#describe)
-- [end](Loopbehaviour.md#end)
-- [enter](Loopbehaviour.md#enter)
-- [exit](Loopbehaviour.md#exit)
-- [getItemAttributes](Loopbehaviour.md#getitemattributes)
-- [getNodeAttributes](Loopbehaviour.md#getnodeattributes)
-- [init](Loopbehaviour.md#init)
-- [isSequential](Loopbehaviour.md#issequential)
-- [isStandard](Loopbehaviour.md#isstandard)
-- [restored](Loopbehaviour.md#restored)
-- [resume](Loopbehaviour.md#resume)
-- [run](Loopbehaviour.md#run)
-- [start](Loopbehaviour.md#start)
+- [describe](loopbehaviour.md#describe)
+- [end](loopbehaviour.md#end)
+- [enter](loopbehaviour.md#enter)
+- [exit](loopbehaviour.md#exit)
+- [getItemAttributes](loopbehaviour.md#getitemattributes)
+- [getNodeAttributes](loopbehaviour.md#getnodeattributes)
+- [init](loopbehaviour.md#init)
+- [isSequential](loopbehaviour.md#issequential)
+- [isStandard](loopbehaviour.md#isstandard)
+- [restored](loopbehaviour.md#restored)
+- [resume](loopbehaviour.md#resume)
+- [run](loopbehaviour.md#run)
+- [start](loopbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new LoopBehaviour**(`node`, `definition`): [`LoopBehaviour`](Loopbehaviour.md)
+• **new LoopBehaviour**(`node`, `definition`): [`LoopBehaviour`](loopbehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`LoopBehaviour`](Loopbehaviour.md)
+[`LoopBehaviour`](loopbehaviour.md)
 
 #### Inherited from
 
@@ -89,7 +89,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -141,7 +141,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -165,7 +165,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -189,7 +189,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -213,7 +213,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -332,7 +332,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -356,7 +356,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -380,7 +380,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

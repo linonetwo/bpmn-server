@@ -16,30 +16,30 @@
 
 ### Constructors
 
-- [constructor](APIEngine.md#constructor)
+- [constructor](apiengine.md#constructor)
 
 ### Properties
 
-- [api](APIEngine.md#api)
+- [api](apiengine.md#api)
 
 ### Accessors
 
-- [server](APIEngine.md#server)
+- [server](apiengine.md#server)
 
 ### Methods
 
-- [assign](APIEngine.md#assign)
-- [invoke](APIEngine.md#invoke)
-- [start](APIEngine.md#start)
-- [startEvent](APIEngine.md#startevent)
-- [throwMessage](APIEngine.md#throwmessage)
-- [throwSignal](APIEngine.md#throwsignal)
+- [assign](apiengine.md#assign)
+- [invoke](apiengine.md#invoke)
+- [start](apiengine.md#start)
+- [startEvent](apiengine.md#startevent)
+- [throwMessage](apiengine.md#throwmessage)
+- [throwSignal](apiengine.md#throwsignal)
 
 ## Constructors
 
 ### constructor
 
-• **new APIEngine**(`api`): [`APIEngine`](APIEngine.md)
+• **new APIEngine**(`api`): [`APIEngine`](apiengine.md)
 
 #### Parameters
 
@@ -49,7 +49,7 @@
 
 #### Returns
 
-[`APIEngine`](APIEngine.md)
+[`APIEngine`](apiengine.md)
 
 #### Inherited from
 
@@ -63,7 +63,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](BPMNAPI.md)
+• **api**: [`BPMNAPI`](bpmnapi.md)
 
 #### Inherited from
 
@@ -104,7 +104,7 @@ APIComponent.server
 | `query` | `any` |
 | `data` | `any` |
 | `assignment` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns
@@ -131,7 +131,7 @@ ___
 | :------ | :------ |
 | `query` | `any` |
 | `data` | `Object` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns
@@ -158,7 +158,7 @@ ___
 | :------ | :------ |
 | `name` | `any` |
 | `data` | `Object` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns
@@ -186,7 +186,7 @@ ___
 | `query` | `any` |
 | `elementId` | `any` |
 | `data` | `Object` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns
@@ -214,7 +214,7 @@ ___
 | `messageId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns
@@ -242,7 +242,7 @@ ___
 | `signalId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `Object` |
 
 #### Returns

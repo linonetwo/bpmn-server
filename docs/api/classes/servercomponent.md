@@ -8,19 +8,19 @@ super class for various objects that are part of the server
 
 - **`ServerComponent`**
 
-  ↳ [`Execution`](Execution.md)
+  ↳ [`Execution`](execution.md)
 
-  ↳ [`Cron`](Cron.md)
+  ↳ [`Cron`](cron.md)
 
-  ↳ [`CacheManager`](CacheManager.md)
+  ↳ [`CacheManager`](cachemanager.md)
 
-  ↳ [`NoCacheManager`](NoCacheManager.md)
+  ↳ [`NoCacheManager`](nocachemanager.md)
 
-  ↳ [`Engine`](Engine.md)
+  ↳ [`Engine`](engine.md)
 
-  ↳ [`DataStore`](DataStore.md)
+  ↳ [`DataStore`](datastore.md)
 
-  ↳ [`ModelsDatastoreDB`](ModelsDatastoreDB.md)
+  ↳ [`ModelsDatastoreDB`](modelsdatastoredb.md)
 
 ## Table of contents
 
@@ -92,11 +92,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Defined in
 
@@ -120,11 +120,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Defined in
 
@@ -162,11 +162,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Defined in
 

@@ -21,51 +21,51 @@ Behaviour
 
 ### Constructors
 
-- [constructor](Timerbehaviour.md#constructor)
+- [constructor](timerbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](Timerbehaviour.md#definition)
-- [duration](Timerbehaviour.md#duration)
-- [node](Timerbehaviour.md#node)
-- [repeat](Timerbehaviour.md#repeat)
-- [timeCycle](Timerbehaviour.md#timecycle)
-- [timeDate](Timerbehaviour.md#timedate)
+- [definition](timerbehaviour.md#definition)
+- [duration](timerbehaviour.md#duration)
+- [node](timerbehaviour.md#node)
+- [repeat](timerbehaviour.md#repeat)
+- [timeCycle](timerbehaviour.md#timecycle)
+- [timeDate](timerbehaviour.md#timedate)
 
 ### Methods
 
-- [describe](Timerbehaviour.md#describe)
-- [end](Timerbehaviour.md#end)
-- [enter](Timerbehaviour.md#enter)
-- [exit](Timerbehaviour.md#exit)
-- [expires](Timerbehaviour.md#expires)
-- [getItemAttributes](Timerbehaviour.md#getitemattributes)
-- [getNodeAttributes](Timerbehaviour.md#getnodeattributes)
-- [getRepeat](Timerbehaviour.md#getrepeat)
-- [init](Timerbehaviour.md#init)
-- [restored](Timerbehaviour.md#restored)
-- [resume](Timerbehaviour.md#resume)
-- [run](Timerbehaviour.md#run)
-- [start](Timerbehaviour.md#start)
-- [startTimer](Timerbehaviour.md#starttimer)
-- [timeDue](Timerbehaviour.md#timedue)
+- [describe](timerbehaviour.md#describe)
+- [end](timerbehaviour.md#end)
+- [enter](timerbehaviour.md#enter)
+- [exit](timerbehaviour.md#exit)
+- [expires](timerbehaviour.md#expires)
+- [getItemAttributes](timerbehaviour.md#getitemattributes)
+- [getNodeAttributes](timerbehaviour.md#getnodeattributes)
+- [getRepeat](timerbehaviour.md#getrepeat)
+- [init](timerbehaviour.md#init)
+- [restored](timerbehaviour.md#restored)
+- [resume](timerbehaviour.md#resume)
+- [run](timerbehaviour.md#run)
+- [start](timerbehaviour.md#start)
+- [startTimer](timerbehaviour.md#starttimer)
+- [timeDue](timerbehaviour.md#timedue)
 
 ## Constructors
 
 ### constructor
 
-• **new TimerBehaviour**(`node`, `definition`): [`TimerBehaviour`](Timerbehaviour.md)
+• **new TimerBehaviour**(`node`, `definition`): [`TimerBehaviour`](timerbehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`TimerBehaviour`](Timerbehaviour.md)
+[`TimerBehaviour`](timerbehaviour.md)
 
 #### Inherited from
 
@@ -103,7 +103,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -171,7 +171,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -195,7 +195,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -219,7 +219,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -257,7 +257,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -386,7 +386,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -410,7 +410,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

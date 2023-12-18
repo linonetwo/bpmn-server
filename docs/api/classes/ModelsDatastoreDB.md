@@ -10,59 +10,59 @@ super class for various objects that are part of the server
 
   ↳ **`ModelsDatastoreDB`**
 
-  ↳↳ [`ModelsDatastore`](ModelsDatastore.md)
+  ↳↳ [`ModelsDatastore`](modelsdatastore.md)
 
 ## Implements
 
-- [`IModelsDatastore`](../interfaces/IModelsDatastore.md)
+- [`IModelsDatastore`](../interfaces/imodelsdatastore.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ModelsDatastoreDB.md#constructor)
+- [constructor](modelsdatastoredb.md#constructor)
 
 ### Properties
 
-- [db](ModelsDatastoreDB.md#db)
-- [dbConfiguration](ModelsDatastoreDB.md#dbconfiguration)
-- [server](ModelsDatastoreDB.md#server)
+- [db](modelsdatastoredb.md#db)
+- [dbConfiguration](modelsdatastoredb.md#dbconfiguration)
+- [server](modelsdatastoredb.md#server)
 
 ### Accessors
 
-- [appDelegate](ModelsDatastoreDB.md#appdelegate)
-- [cache](ModelsDatastoreDB.md#cache)
-- [configuration](ModelsDatastoreDB.md#configuration)
-- [cron](ModelsDatastoreDB.md#cron)
-- [dataStore](ModelsDatastoreDB.md#datastore)
-- [definitions](ModelsDatastoreDB.md#definitions)
-- [engine](ModelsDatastoreDB.md#engine)
-- [listener](ModelsDatastoreDB.md#listener)
-- [logger](ModelsDatastoreDB.md#logger)
+- [appDelegate](modelsdatastoredb.md#appdelegate)
+- [cache](modelsdatastoredb.md#cache)
+- [configuration](modelsdatastoredb.md#configuration)
+- [cron](modelsdatastoredb.md#cron)
+- [dataStore](modelsdatastoredb.md#datastore)
+- [definitions](modelsdatastoredb.md#definitions)
+- [engine](modelsdatastoredb.md#engine)
+- [listener](modelsdatastoredb.md#listener)
+- [logger](modelsdatastoredb.md#logger)
 
 ### Methods
 
-- [deleteModel](ModelsDatastoreDB.md#deletemodel)
-- [export](ModelsDatastoreDB.md#export)
-- [findEvents](ModelsDatastoreDB.md#findevents)
-- [getList](ModelsDatastoreDB.md#getlist)
-- [getSVG](ModelsDatastoreDB.md#getsvg)
-- [getSource](ModelsDatastoreDB.md#getsource)
-- [import](ModelsDatastoreDB.md#import)
-- [install](ModelsDatastoreDB.md#install)
-- [load](ModelsDatastoreDB.md#load)
-- [loadModel](ModelsDatastoreDB.md#loadmodel)
-- [rebuild](ModelsDatastoreDB.md#rebuild)
-- [renameModel](ModelsDatastoreDB.md#renamemodel)
-- [save](ModelsDatastoreDB.md#save)
-- [saveModel](ModelsDatastoreDB.md#savemodel)
-- [updateTimer](ModelsDatastoreDB.md#updatetimer)
+- [deleteModel](modelsdatastoredb.md#deletemodel)
+- [export](modelsdatastoredb.md#export)
+- [findEvents](modelsdatastoredb.md#findevents)
+- [getList](modelsdatastoredb.md#getlist)
+- [getSVG](modelsdatastoredb.md#getsvg)
+- [getSource](modelsdatastoredb.md#getsource)
+- [import](modelsdatastoredb.md#import)
+- [install](modelsdatastoredb.md#install)
+- [load](modelsdatastoredb.md#load)
+- [loadModel](modelsdatastoredb.md#loadmodel)
+- [rebuild](modelsdatastoredb.md#rebuild)
+- [renameModel](modelsdatastoredb.md#renamemodel)
+- [save](modelsdatastoredb.md#save)
+- [saveModel](modelsdatastoredb.md#savemodel)
+- [updateTimer](modelsdatastoredb.md#updatetimer)
 
 ## Constructors
 
 ### constructor
 
-• **new ModelsDatastoreDB**(`server`): [`ModelsDatastoreDB`](ModelsDatastoreDB.md)
+• **new ModelsDatastoreDB**(`server`): [`ModelsDatastoreDB`](modelsdatastoredb.md)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ super class for various objects that are part of the server
 
 #### Returns
 
-[`ModelsDatastoreDB`](ModelsDatastoreDB.md)
+[`ModelsDatastoreDB`](modelsdatastoredb.md)
 
 #### Overrides
 
@@ -138,11 +138,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Inherited from
 
@@ -174,11 +174,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -228,11 +228,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Inherited from
 
@@ -297,7 +297,7 @@ ServerComponent.logger
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[deleteModel](../interfaces/IModelsDatastore.md#deletemodel)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[deleteModel](../interfaces/imodelsdatastore.md#deletemodel)
 
 #### Defined in
 
@@ -329,7 +329,7 @@ ___
 
 ### findEvents
 
-▸ **findEvents**(`query`, `owner?`): `Promise`\<[`IEventData`](../interfaces/IEventData.md)[]\>
+▸ **findEvents**(`query`, `owner?`): `Promise`\<[`IEventData`](../interfaces/ieventdata.md)[]\>
 
 #### Parameters
 
@@ -340,11 +340,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`IEventData`](../interfaces/IEventData.md)[]\>
+`Promise`\<[`IEventData`](../interfaces/ieventdata.md)[]\>
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[findEvents](../interfaces/IModelsDatastore.md#findevents)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[findEvents](../interfaces/imodelsdatastore.md#findevents)
 
 #### Defined in
 
@@ -368,7 +368,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[getList](../interfaces/IModelsDatastore.md#getlist)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[getList](../interfaces/imodelsdatastore.md#getlist)
 
 #### Defined in
 
@@ -393,7 +393,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[getSVG](../interfaces/IModelsDatastore.md#getsvg)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[getSVG](../interfaces/imodelsdatastore.md#getsvg)
 
 #### Defined in
 
@@ -418,7 +418,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[getSource](../interfaces/IModelsDatastore.md#getsource)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[getSource](../interfaces/imodelsdatastore.md#getsource)
 
 #### Defined in
 
@@ -443,7 +443,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[import](../interfaces/IModelsDatastore.md#import)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[import](../interfaces/imodelsdatastore.md#import)
 
 #### Defined in
 
@@ -465,7 +465,7 @@ creates a new collection and add an index
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[install](../interfaces/IModelsDatastore.md#install)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[install](../interfaces/imodelsdatastore.md#install)
 
 #### Defined in
 
@@ -475,7 +475,7 @@ ___
 
 ### load
 
-▸ **load**(`name`, `owner?`): `Promise`\<[`Definition`](Definition.md)\>
+▸ **load**(`name`, `owner?`): `Promise`\<[`Definition`](definition.md)\>
 
 #### Parameters
 
@@ -486,11 +486,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`Definition`](Definition.md)\>
+`Promise`\<[`Definition`](definition.md)\>
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[load](../interfaces/IModelsDatastore.md#load)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[load](../interfaces/imodelsdatastore.md#load)
 
 #### Defined in
 
@@ -500,7 +500,7 @@ ___
 
 ### loadModel
 
-▸ **loadModel**(`name`, `owner?`): `Promise`\<[`BpmnModelData`](BpmnModelData.md)\>
+▸ **loadModel**(`name`, `owner?`): `Promise`\<[`BpmnModelData`](bpmnmodeldata.md)\>
 
 #### Parameters
 
@@ -511,11 +511,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`BpmnModelData`](BpmnModelData.md)\>
+`Promise`\<[`BpmnModelData`](bpmnmodeldata.md)\>
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[loadModel](../interfaces/IModelsDatastore.md#loadmodel)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[loadModel](../interfaces/imodelsdatastore.md#loadmodel)
 
 #### Defined in
 
@@ -561,7 +561,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[renameModel](../interfaces/IModelsDatastore.md#renamemodel)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[renameModel](../interfaces/imodelsdatastore.md#renamemodel)
 
 #### Defined in
 
@@ -588,7 +588,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[save](../interfaces/IModelsDatastore.md#save)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[save](../interfaces/imodelsdatastore.md#save)
 
 #### Defined in
 
@@ -604,7 +604,7 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `model` | [`IBpmnModelData`](../interfaces/IBpmnModelData.md) | `undefined` |
+| `model` | [`IBpmnModelData`](../interfaces/ibpmnmodeldata.md) | `undefined` |
 | `owner` | `any` | `null` |
 
 #### Returns
@@ -613,7 +613,7 @@ ___
 
 #### Implementation of
 
-[IModelsDatastore](../interfaces/IModelsDatastore.md).[saveModel](../interfaces/IModelsDatastore.md#savemodel)
+[IModelsDatastore](../interfaces/imodelsdatastore.md).[saveModel](../interfaces/imodelsdatastore.md#savemodel)
 
 #### Defined in
 

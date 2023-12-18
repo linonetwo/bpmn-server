@@ -4,28 +4,28 @@
 
 ## Implemented by
 
-- [`EventData`](../classes/EventData.md)
+- [`EventData`](../classes/eventdata.md)
 
 ## Table of contents
 
 ### Properties
 
-- [candidateGroups](IEventData.md#candidategroups)
-- [candidateUsers](IEventData.md#candidateusers)
-- [elementId](IEventData.md#elementid)
-- [expression](IEventData.md#expression)
-- [expressionFormat](IEventData.md#expressionformat)
-- [lane](IEventData.md#lane)
-- [maxRepeat](IEventData.md#maxrepeat)
-- [messageId](IEventData.md#messageid)
-- [name](IEventData.md#name)
-- [processId](IEventData.md#processid)
-- [referenceDateTime](IEventData.md#referencedatetime)
-- [repeatCount](IEventData.md#repeatcount)
-- [signalId](IEventData.md#signalid)
-- [subType](IEventData.md#subtype)
-- [timeDue](IEventData.md#timedue)
-- [type](IEventData.md#type)
+- [candidateGroups](ieventdata.md#candidategroups)
+- [candidateUsers](ieventdata.md#candidateusers)
+- [elementId](ieventdata.md#elementid)
+- [expression](ieventdata.md#expression)
+- [expressionFormat](ieventdata.md#expressionformat)
+- [lane](ieventdata.md#lane)
+- [maxRepeat](ieventdata.md#maxrepeat)
+- [messageId](ieventdata.md#messageid)
+- [name](ieventdata.md#name)
+- [processId](ieventdata.md#processid)
+- [referenceDateTime](ieventdata.md#referencedatetime)
+- [repeatCount](ieventdata.md#repeatcount)
+- [signalId](ieventdata.md#signalid)
+- [subType](ieventdata.md#subtype)
+- [timeDue](ieventdata.md#timedue)
+- [type](ieventdata.md#type)
 
 ## Properties
 

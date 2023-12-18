@@ -4,32 +4,32 @@
 
 ## Implements
 
-- [`IBpmnModelData`](../interfaces/IBpmnModelData.md)
+- [`IBpmnModelData`](../interfaces/ibpmnmodeldata.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](BpmnModelData.md#constructor)
+- [constructor](bpmnmodeldata.md#constructor)
 
 ### Properties
 
-- [events](BpmnModelData.md#events)
-- [name](BpmnModelData.md#name)
-- [processes](BpmnModelData.md#processes)
-- [saved](BpmnModelData.md#saved)
-- [source](BpmnModelData.md#source)
-- [svg](BpmnModelData.md#svg)
+- [events](bpmnmodeldata.md#events)
+- [name](bpmnmodeldata.md#name)
+- [processes](bpmnmodeldata.md#processes)
+- [saved](bpmnmodeldata.md#saved)
+- [source](bpmnmodeldata.md#source)
+- [svg](bpmnmodeldata.md#svg)
 
 ### Methods
 
-- [parse](BpmnModelData.md#parse)
+- [parse](bpmnmodeldata.md#parse)
 
 ## Constructors
 
 ### constructor
 
-• **new BpmnModelData**(`name`, `source`, `svg`, `processes`, `events`): [`BpmnModelData`](BpmnModelData.md)
+• **new BpmnModelData**(`name`, `source`, `svg`, `processes`, `events`): [`BpmnModelData`](bpmnmodeldata.md)
 
 #### Parameters
 
@@ -43,7 +43,7 @@
 
 #### Returns
 
-[`BpmnModelData`](BpmnModelData.md)
+[`BpmnModelData`](bpmnmodeldata.md)
 
 #### Defined in
 
@@ -53,11 +53,11 @@
 
 ### events
 
-• **events**: [`IEventData`](../interfaces/IEventData.md)[]
+• **events**: [`IEventData`](../interfaces/ieventdata.md)[]
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[events](../interfaces/IBpmnModelData.md#events)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[events](../interfaces/ibpmnmodeldata.md#events)
 
 #### Defined in
 
@@ -71,7 +71,7 @@ ___
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[name](../interfaces/IBpmnModelData.md#name)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[name](../interfaces/ibpmnmodeldata.md#name)
 
 #### Defined in
 
@@ -81,11 +81,11 @@ ___
 
 ### processes
 
-• **processes**: [`IProcessData`](../interfaces/IProcessData.md)[]
+• **processes**: [`IProcessData`](../interfaces/iprocessdata.md)[]
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[processes](../interfaces/IBpmnModelData.md#processes)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[processes](../interfaces/ibpmnmodeldata.md#processes)
 
 #### Defined in
 
@@ -99,7 +99,7 @@ ___
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[saved](../interfaces/IBpmnModelData.md#saved)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[saved](../interfaces/ibpmnmodeldata.md#saved)
 
 #### Defined in
 
@@ -113,7 +113,7 @@ ___
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[source](../interfaces/IBpmnModelData.md#source)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[source](../interfaces/ibpmnmodeldata.md#source)
 
 #### Defined in
 
@@ -127,7 +127,7 @@ ___
 
 #### Implementation of
 
-[IBpmnModelData](../interfaces/IBpmnModelData.md).[svg](../interfaces/IBpmnModelData.md#svg)
+[IBpmnModelData](../interfaces/ibpmnmodeldata.md).[svg](../interfaces/ibpmnmodeldata.md#svg)
 
 #### Defined in
 
@@ -143,7 +143,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `definition` | [`Definition`](Definition.md) |
+| `definition` | [`Definition`](definition.md) |
 
 #### Returns
 

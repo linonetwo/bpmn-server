@@ -6,27 +6,27 @@
 
 ### Constructors
 
-- [constructor](NodeLoader.md#constructor)
+- [constructor](nodeloader.md#constructor)
 
 ### Methods
 
-- [loadNode](NodeLoader.md#loadnode)
+- [loadNode](nodeloader.md#loadnode)
 
 ## Constructors
 
 ### constructor
 
-• **new NodeLoader**(): [`NodeLoader`](NodeLoader.md)
+• **new NodeLoader**(): [`NodeLoader`](nodeloader.md)
 
 #### Returns
 
-[`NodeLoader`](NodeLoader.md)
+[`NodeLoader`](nodeloader.md)
 
 ## Methods
 
 ### loadNode
 
-▸ **loadNode**(`el`, `process`): [`Node`](Node.md)
+▸ **loadNode**(`el`, `process`): [`Node`](node.md)
 
 #### Parameters
 
@@ -37,7 +37,7 @@
 
 #### Returns
 
-[`Node`](Node.md)
+[`Node`](node.md)
 
 #### Defined in
 

@@ -4,24 +4,24 @@
 
 ## Implemented by
 
-- [`BpmnModelData`](../classes/BpmnModelData.md)
+- [`BpmnModelData`](../classes/bpmnmodeldata.md)
 
 ## Table of contents
 
 ### Properties
 
-- [events](IBpmnModelData.md#events)
-- [name](IBpmnModelData.md#name)
-- [processes](IBpmnModelData.md#processes)
-- [saved](IBpmnModelData.md#saved)
-- [source](IBpmnModelData.md#source)
-- [svg](IBpmnModelData.md#svg)
+- [events](ibpmnmodeldata.md#events)
+- [name](ibpmnmodeldata.md#name)
+- [processes](ibpmnmodeldata.md#processes)
+- [saved](ibpmnmodeldata.md#saved)
+- [source](ibpmnmodeldata.md#source)
+- [svg](ibpmnmodeldata.md#svg)
 
 ## Properties
 
 ### events
 
-• **events**: [`IEventData`](IEventData.md)[]
+• **events**: [`IEventData`](ieventdata.md)[]
 
 #### Defined in
 
@@ -41,7 +41,7 @@ ___
 
 ### processes
 
-• **processes**: [`IProcessData`](IProcessData.md)[]
+• **processes**: [`IProcessData`](iprocessdata.md)[]
 
 #### Defined in
 

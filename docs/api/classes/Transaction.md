@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`SubProcess`](SubProcess.md)
+- [`SubProcess`](subprocess.md)
 
   ↳ **`Transaction`**
 
@@ -12,72 +12,72 @@
 
 ### Constructors
 
-- [constructor](Transaction.md#constructor)
+- [constructor](transaction.md#constructor)
 
 ### Properties
 
-- [assignee](Transaction.md#assignee)
-- [attachedTo](Transaction.md#attachedto)
-- [attachments](Transaction.md#attachments)
-- [behaviours](Transaction.md#behaviours)
-- [childProcess](Transaction.md#childprocess)
-- [def](Transaction.md#def)
-- [id](Transaction.md#id)
-- [inbounds](Transaction.md#inbounds)
-- [initiator](Transaction.md#initiator)
-- [isFlow](Transaction.md#isflow)
-- [lane](Transaction.md#lane)
-- [messageId](Transaction.md#messageid)
-- [name](Transaction.md#name)
-- [outbounds](Transaction.md#outbounds)
-- [process](Transaction.md#process)
-- [scripts](Transaction.md#scripts)
-- [signalId](Transaction.md#signalid)
-- [subType](Transaction.md#subtype)
-- [type](Transaction.md#type)
+- [assignee](transaction.md#assignee)
+- [attachedTo](transaction.md#attachedto)
+- [attachments](transaction.md#attachments)
+- [behaviours](transaction.md#behaviours)
+- [childProcess](transaction.md#childprocess)
+- [def](transaction.md#def)
+- [id](transaction.md#id)
+- [inbounds](transaction.md#inbounds)
+- [initiator](transaction.md#initiator)
+- [isFlow](transaction.md#isflow)
+- [lane](transaction.md#lane)
+- [messageId](transaction.md#messageid)
+- [name](transaction.md#name)
+- [outbounds](transaction.md#outbounds)
+- [process](transaction.md#process)
+- [scripts](transaction.md#scripts)
+- [signalId](transaction.md#signalid)
+- [subType](transaction.md#subtype)
+- [type](transaction.md#type)
 
 ### Accessors
 
-- [canBeInvoked](Transaction.md#canbeinvoked)
-- [isCatching](Transaction.md#iscatching)
-- [processId](Transaction.md#processid)
-- [requiresWait](Transaction.md#requireswait)
+- [canBeInvoked](transaction.md#canbeinvoked)
+- [isCatching](transaction.md#iscatching)
+- [processId](transaction.md#processid)
+- [requiresWait](transaction.md#requireswait)
 
 ### Methods
 
-- [addBehaviour](Transaction.md#addbehaviour)
-- [cancelBoundaryEvents](Transaction.md#cancelboundaryevents)
-- [cancelEBG](Transaction.md#cancelebg)
-- [continue](Transaction.md#continue)
-- [describe](Transaction.md#describe)
-- [doEvent](Transaction.md#doevent)
-- [end](Transaction.md#end)
-- [enter](Transaction.md#enter)
-- [execute](Transaction.md#execute)
-- [getBehaviour](Transaction.md#getbehaviour)
-- [getInput](Transaction.md#getinput)
-- [getItems](Transaction.md#getitems)
-- [getItemsForToken](Transaction.md#getitemsfortoken)
-- [getNodes](Transaction.md#getnodes)
-- [getOutbounds](Transaction.md#getoutbounds)
-- [getOutput](Transaction.md#getoutput)
-- [hasBehaviour](Transaction.md#hasbehaviour)
-- [init](Transaction.md#init)
-- [restored](Transaction.md#restored)
-- [resume](Transaction.md#resume)
-- [run](Transaction.md#run)
-- [setInput](Transaction.md#setinput)
-- [start](Transaction.md#start)
-- [startBoundaryEvents](Transaction.md#startboundaryevents)
-- [validate](Transaction.md#validate)
-- [Cancel](Transaction.md#cancel)
-- [Compensate](Transaction.md#compensate)
+- [addBehaviour](transaction.md#addbehaviour)
+- [cancelBoundaryEvents](transaction.md#cancelboundaryevents)
+- [cancelEBG](transaction.md#cancelebg)
+- [continue](transaction.md#continue)
+- [describe](transaction.md#describe)
+- [doEvent](transaction.md#doevent)
+- [end](transaction.md#end)
+- [enter](transaction.md#enter)
+- [execute](transaction.md#execute)
+- [getBehaviour](transaction.md#getbehaviour)
+- [getInput](transaction.md#getinput)
+- [getItems](transaction.md#getitems)
+- [getItemsForToken](transaction.md#getitemsfortoken)
+- [getNodes](transaction.md#getnodes)
+- [getOutbounds](transaction.md#getoutbounds)
+- [getOutput](transaction.md#getoutput)
+- [hasBehaviour](transaction.md#hasbehaviour)
+- [init](transaction.md#init)
+- [restored](transaction.md#restored)
+- [resume](transaction.md#resume)
+- [run](transaction.md#run)
+- [setInput](transaction.md#setinput)
+- [start](transaction.md#start)
+- [startBoundaryEvents](transaction.md#startboundaryevents)
+- [validate](transaction.md#validate)
+- [Cancel](transaction.md#cancel)
+- [Compensate](transaction.md#compensate)
 
 ## Constructors
 
 ### constructor
 
-• **new Transaction**(`id`, `process`, `type`, `def`): [`Transaction`](Transaction.md)
+• **new Transaction**(`id`, `process`, `type`, `def`): [`Transaction`](transaction.md)
 
 #### Parameters
 
@@ -90,11 +90,11 @@
 
 #### Returns
 
-[`Transaction`](Transaction.md)
+[`Transaction`](transaction.md)
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[constructor](SubProcess.md#constructor)
+[SubProcess](subprocess.md).[constructor](subprocess.md#constructor)
 
 #### Defined in
 
@@ -108,7 +108,7 @@
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[assignee](SubProcess.md#assignee)
+[SubProcess](subprocess.md).[assignee](subprocess.md#assignee)
 
 #### Defined in
 
@@ -118,11 +118,11 @@ ___
 
 ### attachedTo
 
-• **attachedTo**: [`Node`](Node.md)
+• **attachedTo**: [`Node`](node.md)
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[attachedTo](SubProcess.md#attachedto)
+[SubProcess](subprocess.md).[attachedTo](subprocess.md#attachedto)
 
 #### Defined in
 
@@ -132,11 +132,11 @@ ___
 
 ### attachments
 
-• **attachments**: [`Node`](Node.md)[]
+• **attachments**: [`Node`](node.md)[]
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[attachments](SubProcess.md#attachments)
+[SubProcess](subprocess.md).[attachments](subprocess.md#attachments)
 
 #### Defined in
 
@@ -150,7 +150,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[behaviours](SubProcess.md#behaviours)
+[SubProcess](subprocess.md).[behaviours](subprocess.md#behaviours)
 
 #### Defined in
 
@@ -160,11 +160,11 @@ ___
 
 ### childProcess
 
-• **childProcess**: [`Process`](Process.md)
+• **childProcess**: [`Process`](process.md)
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[childProcess](SubProcess.md#childprocess)
+[SubProcess](subprocess.md).[childProcess](subprocess.md#childprocess)
 
 #### Defined in
 
@@ -178,7 +178,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[def](SubProcess.md#def)
+[SubProcess](subprocess.md).[def](subprocess.md#def)
 
 #### Defined in
 
@@ -192,7 +192,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[id](SubProcess.md#id)
+[SubProcess](subprocess.md).[id](subprocess.md#id)
 
 #### Defined in
 
@@ -202,11 +202,11 @@ ___
 
 ### inbounds
 
-• **inbounds**: [`Flow`](Flow.md)[]
+• **inbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[inbounds](SubProcess.md#inbounds)
+[SubProcess](subprocess.md).[inbounds](subprocess.md#inbounds)
 
 #### Defined in
 
@@ -220,7 +220,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[initiator](SubProcess.md#initiator)
+[SubProcess](subprocess.md).[initiator](subprocess.md#initiator)
 
 #### Defined in
 
@@ -234,7 +234,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[isFlow](SubProcess.md#isflow)
+[SubProcess](subprocess.md).[isFlow](subprocess.md#isflow)
 
 #### Defined in
 
@@ -248,7 +248,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[lane](SubProcess.md#lane)
+[SubProcess](subprocess.md).[lane](subprocess.md#lane)
 
 #### Defined in
 
@@ -262,7 +262,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[messageId](SubProcess.md#messageid)
+[SubProcess](subprocess.md).[messageId](subprocess.md#messageid)
 
 #### Defined in
 
@@ -276,7 +276,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[name](SubProcess.md#name)
+[SubProcess](subprocess.md).[name](subprocess.md#name)
 
 #### Defined in
 
@@ -286,11 +286,11 @@ ___
 
 ### outbounds
 
-• **outbounds**: [`Flow`](Flow.md)[]
+• **outbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[outbounds](SubProcess.md#outbounds)
+[SubProcess](subprocess.md).[outbounds](subprocess.md#outbounds)
 
 #### Defined in
 
@@ -304,7 +304,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[process](SubProcess.md#process)
+[SubProcess](subprocess.md).[process](subprocess.md#process)
 
 #### Defined in
 
@@ -318,7 +318,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[scripts](SubProcess.md#scripts)
+[SubProcess](subprocess.md).[scripts](subprocess.md#scripts)
 
 #### Defined in
 
@@ -332,7 +332,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[signalId](SubProcess.md#signalid)
+[SubProcess](subprocess.md).[signalId](subprocess.md#signalid)
 
 #### Defined in
 
@@ -346,7 +346,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[subType](SubProcess.md#subtype)
+[SubProcess](subprocess.md).[subType](subprocess.md#subtype)
 
 #### Defined in
 
@@ -360,7 +360,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[type](SubProcess.md#type)
+[SubProcess](subprocess.md).[type](subprocess.md#type)
 
 #### Defined in
 
@@ -457,7 +457,7 @@ SubProcess.requiresWait
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[addBehaviour](SubProcess.md#addbehaviour)
+[SubProcess](subprocess.md).[addBehaviour](subprocess.md#addbehaviour)
 
 #### Defined in
 
@@ -481,7 +481,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[cancelBoundaryEvents](SubProcess.md#cancelboundaryevents)
+[SubProcess](subprocess.md).[cancelBoundaryEvents](subprocess.md#cancelboundaryevents)
 
 #### Defined in
 
@@ -505,7 +505,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[cancelEBG](SubProcess.md#cancelebg)
+[SubProcess](subprocess.md).[cancelEBG](subprocess.md#cancelebg)
 
 #### Defined in
 
@@ -521,7 +521,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -529,7 +529,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[continue](SubProcess.md#continue)
+[SubProcess](subprocess.md).[continue](subprocess.md#continue)
 
 #### Defined in
 
@@ -547,7 +547,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[describe](SubProcess.md#describe)
+[SubProcess](subprocess.md).[describe](subprocess.md#describe)
 
 #### Defined in
 
@@ -563,7 +563,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
 | `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
@@ -573,7 +573,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[doEvent](SubProcess.md#doevent)
+[SubProcess](subprocess.md).[doEvent](subprocess.md#doevent)
 
 #### Defined in
 
@@ -598,7 +598,7 @@ ___
 
 #### Overrides
 
-[SubProcess](SubProcess.md).[end](SubProcess.md#end)
+[SubProcess](subprocess.md).[end](subprocess.md#end)
 
 #### Defined in
 
@@ -614,7 +614,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -622,7 +622,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[enter](SubProcess.md#enter)
+[SubProcess](subprocess.md).[enter](subprocess.md#enter)
 
 #### Defined in
 
@@ -646,7 +646,7 @@ considerations: the following are handled by Token
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -654,7 +654,7 @@ considerations: the following are handled by Token
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[execute](SubProcess.md#execute)
+[SubProcess](subprocess.md).[execute](subprocess.md#execute)
 
 #### Defined in
 
@@ -678,7 +678,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[getBehaviour](SubProcess.md#getbehaviour)
+[SubProcess](subprocess.md).[getBehaviour](subprocess.md#getbehaviour)
 
 #### Defined in
 
@@ -694,7 +694,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -703,7 +703,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[getInput](SubProcess.md#getinput)
+[SubProcess](subprocess.md).[getInput](subprocess.md#getinput)
 
 #### Defined in
 
@@ -753,11 +753,11 @@ ___
 
 ### getNodes
 
-▸ **getNodes**(): [`Node`](Node.md)[]
+▸ **getNodes**(): [`Node`](node.md)[]
 
 #### Returns
 
-[`Node`](Node.md)[]
+[`Node`](node.md)[]
 
 #### Defined in
 
@@ -767,21 +767,21 @@ ___
 
 ### getOutbounds
 
-▸ **getOutbounds**(`item`): [`Item`](Item.md)[]
+▸ **getOutbounds**(`item`): [`Item`](item.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
-[`Item`](Item.md)[]
+[`Item`](item.md)[]
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[getOutbounds](SubProcess.md#getoutbounds)
+[SubProcess](subprocess.md).[getOutbounds](subprocess.md#getoutbounds)
 
 #### Defined in
 
@@ -800,7 +800,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -808,7 +808,7 @@ todo
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[getOutput](SubProcess.md#getoutput)
+[SubProcess](subprocess.md).[getOutput](subprocess.md#getoutput)
 
 #### Defined in
 
@@ -835,7 +835,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[hasBehaviour](SubProcess.md#hasbehaviour)
+[SubProcess](subprocess.md).[hasBehaviour](subprocess.md#hasbehaviour)
 
 #### Defined in
 
@@ -851,7 +851,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -859,7 +859,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[init](SubProcess.md#init)
+[SubProcess](subprocess.md).[init](subprocess.md#init)
 
 #### Defined in
 
@@ -875,7 +875,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -883,7 +883,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[restored](SubProcess.md#restored)
+[SubProcess](subprocess.md).[restored](subprocess.md#restored)
 
 #### Defined in
 
@@ -902,7 +902,7 @@ different than init, which is called for all items
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -910,7 +910,7 @@ different than init, which is called for all items
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[resume](SubProcess.md#resume)
+[SubProcess](subprocess.md).[resume](subprocess.md#resume)
 
 #### Defined in
 
@@ -926,7 +926,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -934,7 +934,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[run](SubProcess.md#run)
+[SubProcess](subprocess.md).[run](subprocess.md#run)
 
 #### Defined in
 
@@ -954,7 +954,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -963,7 +963,7 @@ todo
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[setInput](SubProcess.md#setinput)
+[SubProcess](subprocess.md).[setInput](subprocess.md#setinput)
 
 #### Defined in
 
@@ -987,7 +987,7 @@ ___
 
 #### Overrides
 
-[SubProcess](SubProcess.md).[start](SubProcess.md#start)
+[SubProcess](subprocess.md).[start](subprocess.md#start)
 
 #### Defined in
 
@@ -1012,7 +1012,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[startBoundaryEvents](SubProcess.md#startboundaryevents)
+[SubProcess](subprocess.md).[startBoundaryEvents](subprocess.md#startboundaryevents)
 
 #### Defined in
 
@@ -1028,7 +1028,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1036,7 +1036,7 @@ ___
 
 #### Inherited from
 
-[SubProcess](SubProcess.md).[validate](SubProcess.md#validate)
+[SubProcess](subprocess.md).[validate](subprocess.md#validate)
 
 #### Defined in
 

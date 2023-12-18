@@ -12,47 +12,47 @@ as stroed in MongoDB
 
 ### Constructors
 
-- [constructor](ItemObject.md#constructor)
+- [constructor](itemobject.md#constructor)
 
 ### Properties
 
-- [assignee](ItemObject.md#assignee)
-- [assignments](ItemObject.md#assignments)
-- [authorizations](ItemObject.md#authorizations)
-- [candidateGroups](ItemObject.md#candidategroups)
-- [candidateUsers](ItemObject.md#candidateusers)
-- [data](ItemObject.md#data)
-- [dueDate](ItemObject.md#duedate)
-- [elementId](ItemObject.md#elementid)
-- [endedAt](ItemObject.md#endedat)
-- [followUpDate](ItemObject.md#followupdate)
-- [id](ItemObject.md#id)
-- [instanceId](ItemObject.md#instanceid)
-- [itemKey](ItemObject.md#itemkey)
-- [messageId](ItemObject.md#messageid)
-- [name](ItemObject.md#name)
-- [notifications](ItemObject.md#notifications)
-- [priority](ItemObject.md#priority)
-- [processName](ItemObject.md#processname)
-- [seq](ItemObject.md#seq)
-- [signalId](ItemObject.md#signalid)
-- [startedAt](ItemObject.md#startedat)
-- [status](ItemObject.md#status)
-- [timeDue](ItemObject.md#timedue)
-- [tokenId](ItemObject.md#tokenid)
-- [type](ItemObject.md#type)
-- [userName](ItemObject.md#username)
-- [vars](ItemObject.md#vars)
+- [assignee](itemobject.md#assignee)
+- [assignments](itemobject.md#assignments)
+- [authorizations](itemobject.md#authorizations)
+- [candidateGroups](itemobject.md#candidategroups)
+- [candidateUsers](itemobject.md#candidateusers)
+- [data](itemobject.md#data)
+- [dueDate](itemobject.md#duedate)
+- [elementId](itemobject.md#elementid)
+- [endedAt](itemobject.md#endedat)
+- [followUpDate](itemobject.md#followupdate)
+- [id](itemobject.md#id)
+- [instanceId](itemobject.md#instanceid)
+- [itemKey](itemobject.md#itemkey)
+- [messageId](itemobject.md#messageid)
+- [name](itemobject.md#name)
+- [notifications](itemobject.md#notifications)
+- [priority](itemobject.md#priority)
+- [processName](itemobject.md#processname)
+- [seq](itemobject.md#seq)
+- [signalId](itemobject.md#signalid)
+- [startedAt](itemobject.md#startedat)
+- [status](itemobject.md#status)
+- [timeDue](itemobject.md#timedue)
+- [tokenId](itemobject.md#tokenid)
+- [type](itemobject.md#type)
+- [userName](itemobject.md#username)
+- [vars](itemobject.md#vars)
 
 ## Constructors
 
 ### constructor
 
-• **new ItemObject**(): [`ItemObject`](ItemObject.md)
+• **new ItemObject**(): [`ItemObject`](itemobject.md)
 
 #### Returns
 
-[`ItemObject`](ItemObject.md)
+[`ItemObject`](itemobject.md)
 
 ## Properties
 

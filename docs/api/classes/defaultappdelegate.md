@@ -11,40 +11,40 @@ Application Delegate Object to respond to various events and services:
 
 ## Implements
 
-- [`IAppDelegate`](../interfaces/IAppDelegate.md)
+- [`IAppDelegate`](../interfaces/iappdelegate.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](DefaultAppDelegate.md#constructor)
+- [constructor](defaultappdelegate.md#constructor)
 
 ### Properties
 
-- [server](DefaultAppDelegate.md#server)
+- [server](defaultappdelegate.md#server)
 
 ### Accessors
 
-- [moddleOptions](DefaultAppDelegate.md#moddleoptions)
+- [moddleOptions](defaultappdelegate.md#moddleoptions)
 
 ### Methods
 
-- [executionEvent](DefaultAppDelegate.md#executionevent)
-- [executionStarted](DefaultAppDelegate.md#executionstarted)
-- [getServicesProvider](DefaultAppDelegate.md#getservicesprovider)
-- [issueMessage](DefaultAppDelegate.md#issuemessage)
-- [issueSignal](DefaultAppDelegate.md#issuesignal)
-- [messageThrown](DefaultAppDelegate.md#messagethrown)
-- [sendEmail](DefaultAppDelegate.md#sendemail)
-- [serviceCalled](DefaultAppDelegate.md#servicecalled)
-- [signalThrown](DefaultAppDelegate.md#signalthrown)
-- [startUp](DefaultAppDelegate.md#startup)
+- [executionEvent](defaultappdelegate.md#executionevent)
+- [executionStarted](defaultappdelegate.md#executionstarted)
+- [getServicesProvider](defaultappdelegate.md#getservicesprovider)
+- [issueMessage](defaultappdelegate.md#issuemessage)
+- [issueSignal](defaultappdelegate.md#issuesignal)
+- [messageThrown](defaultappdelegate.md#messagethrown)
+- [sendEmail](defaultappdelegate.md#sendemail)
+- [serviceCalled](defaultappdelegate.md#servicecalled)
+- [signalThrown](defaultappdelegate.md#signalthrown)
+- [startUp](defaultappdelegate.md#startup)
 
 ## Constructors
 
 ### constructor
 
-• **new DefaultAppDelegate**(`server`): [`DefaultAppDelegate`](DefaultAppDelegate.md)
+• **new DefaultAppDelegate**(`server`): [`DefaultAppDelegate`](defaultappdelegate.md)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Application Delegate Object to respond to various events and services:
 
 #### Returns
 
-[`DefaultAppDelegate`](DefaultAppDelegate.md)
+[`DefaultAppDelegate`](defaultappdelegate.md)
 
 #### Defined in
 
@@ -91,7 +91,7 @@ Application Delegate Object to respond to various events and services:
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[moddleOptions](../interfaces/IAppDelegate.md#moddleoptions)
+[IAppDelegate](../interfaces/iappdelegate.md).[moddleOptions](../interfaces/iappdelegate.md#moddleoptions)
 
 #### Defined in
 
@@ -136,7 +136,7 @@ ___
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[executionStarted](../interfaces/IAppDelegate.md#executionstarted)
+[IAppDelegate](../interfaces/iappdelegate.md).[executionStarted](../interfaces/iappdelegate.md#executionstarted)
 
 #### Defined in
 
@@ -146,7 +146,7 @@ ___
 
 ### getServicesProvider
 
-▸ **getServicesProvider**(`context`): `Promise`\<[`DefaultAppDelegate`](DefaultAppDelegate.md)\>
+▸ **getServicesProvider**(`context`): `Promise`\<[`DefaultAppDelegate`](defaultappdelegate.md)\>
 
 #### Parameters
 
@@ -156,11 +156,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`DefaultAppDelegate`](DefaultAppDelegate.md)\>
+`Promise`\<[`DefaultAppDelegate`](defaultappdelegate.md)\>
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[getServicesProvider](../interfaces/IAppDelegate.md#getservicesprovider)
+[IAppDelegate](../interfaces/iappdelegate.md).[getServicesProvider](../interfaces/iappdelegate.md#getservicesprovider)
 
 #### Defined in
 
@@ -187,7 +187,7 @@ is called when an event throws a message that can not be answered by another pro
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[issueMessage](../interfaces/IAppDelegate.md#issuemessage)
+[IAppDelegate](../interfaces/iappdelegate.md).[issueMessage](../interfaces/iappdelegate.md#issuemessage)
 
 #### Defined in
 
@@ -212,7 +212,7 @@ ___
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[issueSignal](../interfaces/IAppDelegate.md#issuesignal)
+[IAppDelegate](../interfaces/iappdelegate.md).[issueSignal](../interfaces/iappdelegate.md#issuesignal)
 
 #### Defined in
 
@@ -233,7 +233,7 @@ is called when a event throws a message
 | `messageId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -241,7 +241,7 @@ is called when a event throws a message
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[messageThrown](../interfaces/IAppDelegate.md#messagethrown)
+[IAppDelegate](../interfaces/iappdelegate.md).[messageThrown](../interfaces/iappdelegate.md#messagethrown)
 
 #### Defined in
 
@@ -267,7 +267,7 @@ ___
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[sendEmail](../interfaces/IAppDelegate.md#sendemail)
+[IAppDelegate](../interfaces/iappdelegate.md).[sendEmail](../interfaces/iappdelegate.md#sendemail)
 
 #### Defined in
 
@@ -287,7 +287,7 @@ is called only if the serviceTask has no implementation; otherwise the specified
 | :------ | :------ |
 | `serviceName` | `any` |
 | `data` | `any` |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -295,7 +295,7 @@ is called only if the serviceTask has no implementation; otherwise the specified
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[serviceCalled](../interfaces/IAppDelegate.md#servicecalled)
+[IAppDelegate](../interfaces/iappdelegate.md).[serviceCalled](../interfaces/iappdelegate.md#servicecalled)
 
 #### Defined in
 
@@ -314,7 +314,7 @@ ___
 | `signalId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -322,7 +322,7 @@ ___
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[signalThrown](../interfaces/IAppDelegate.md#signalthrown)
+[IAppDelegate](../interfaces/iappdelegate.md).[signalThrown](../interfaces/iappdelegate.md#signalthrown)
 
 #### Defined in
 
@@ -346,7 +346,7 @@ ___
 
 #### Implementation of
 
-[IAppDelegate](../interfaces/IAppDelegate.md).[startUp](../interfaces/IAppDelegate.md#startup)
+[IAppDelegate](../interfaces/iappdelegate.md).[startUp](../interfaces/iappdelegate.md#startup)
 
 #### Defined in
 

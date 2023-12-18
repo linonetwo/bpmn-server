@@ -4,54 +4,54 @@
 
 ## Implements
 
-- [`ISecureUser`](../interfaces/ISecureUser.md)
+- [`ISecureUser`](../interfaces/isecureuser.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](SecureUser.md#constructor)
+- [constructor](secureuser.md#constructor)
 
 ### Properties
 
-- [modelsOwner](SecureUser.md#modelsowner)
-- [tenantId](SecureUser.md#tenantid)
-- [userGroups](SecureUser.md#usergroups)
-- [userName](SecureUser.md#username)
+- [modelsOwner](secureuser.md#modelsowner)
+- [tenantId](secureuser.md#tenantid)
+- [userGroups](secureuser.md#usergroups)
+- [userName](secureuser.md#username)
 
 ### Methods
 
-- [canAssign](SecureUser.md#canassign)
-- [canDeleteModel](SecureUser.md#candeletemodel)
-- [canInvoke](SecureUser.md#caninvoke)
-- [canModifyModel](SecureUser.md#canmodifymodel)
-- [canStart](SecureUser.md#canstart)
-- [inGroup](SecureUser.md#ingroup)
-- [isAdmin](SecureUser.md#isadmin)
-- [isSystem](SecureUser.md#issystem)
-- [qualifyDeleteInstances](SecureUser.md#qualifydeleteinstances)
-- [qualifyInstances](SecureUser.md#qualifyinstances)
-- [qualifyItems](SecureUser.md#qualifyitems)
-- [qualifyModels](SecureUser.md#qualifymodels)
-- [qualifyStartEvents](SecureUser.md#qualifystartevents)
-- [qualifyViewItems](SecureUser.md#qualifyviewitems)
-- [SystemUser](SecureUser.md#systemuser)
+- [canAssign](secureuser.md#canassign)
+- [canDeleteModel](secureuser.md#candeletemodel)
+- [canInvoke](secureuser.md#caninvoke)
+- [canModifyModel](secureuser.md#canmodifymodel)
+- [canStart](secureuser.md#canstart)
+- [inGroup](secureuser.md#ingroup)
+- [isAdmin](secureuser.md#isadmin)
+- [isSystem](secureuser.md#issystem)
+- [qualifyDeleteInstances](secureuser.md#qualifydeleteinstances)
+- [qualifyInstances](secureuser.md#qualifyinstances)
+- [qualifyItems](secureuser.md#qualifyitems)
+- [qualifyModels](secureuser.md#qualifymodels)
+- [qualifyStartEvents](secureuser.md#qualifystartevents)
+- [qualifyViewItems](secureuser.md#qualifyviewitems)
+- [SystemUser](secureuser.md#systemuser)
 
 ## Constructors
 
 ### constructor
 
-• **new SecureUser**(`params`): [`SecureUser`](SecureUser.md)
+• **new SecureUser**(`params`): [`SecureUser`](secureuser.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params` | [`IUserInfo`](../interfaces/IUserInfo.md) |
+| `params` | [`IUserInfo`](../interfaces/iuserinfo.md) |
 
 #### Returns
 
-[`SecureUser`](SecureUser.md)
+[`SecureUser`](secureuser.md)
 
 #### Defined in
 
@@ -65,7 +65,7 @@
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[modelsOwner](../interfaces/ISecureUser.md#modelsowner)
+[ISecureUser](../interfaces/isecureuser.md).[modelsOwner](../interfaces/isecureuser.md#modelsowner)
 
 #### Defined in
 
@@ -79,7 +79,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[tenantId](../interfaces/ISecureUser.md#tenantid)
+[ISecureUser](../interfaces/isecureuser.md).[tenantId](../interfaces/isecureuser.md#tenantid)
 
 #### Defined in
 
@@ -93,7 +93,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[userGroups](../interfaces/ISecureUser.md#usergroups)
+[ISecureUser](../interfaces/isecureuser.md).[userGroups](../interfaces/isecureuser.md#usergroups)
 
 #### Defined in
 
@@ -107,7 +107,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[userName](../interfaces/ISecureUser.md#username)
+[ISecureUser](../interfaces/isecureuser.md).[userName](../interfaces/isecureuser.md#username)
 
 #### Defined in
 
@@ -131,7 +131,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[canAssign](../interfaces/ISecureUser.md#canassign)
+[ISecureUser](../interfaces/isecureuser.md).[canAssign](../interfaces/isecureuser.md#canassign)
 
 #### Defined in
 
@@ -155,7 +155,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[canDeleteModel](../interfaces/ISecureUser.md#candeletemodel)
+[ISecureUser](../interfaces/isecureuser.md).[canDeleteModel](../interfaces/isecureuser.md#candeletemodel)
 
 #### Defined in
 
@@ -179,7 +179,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[canInvoke](../interfaces/ISecureUser.md#caninvoke)
+[ISecureUser](../interfaces/isecureuser.md).[canInvoke](../interfaces/isecureuser.md#caninvoke)
 
 #### Defined in
 
@@ -203,7 +203,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[canModifyModel](../interfaces/ISecureUser.md#canmodifymodel)
+[ISecureUser](../interfaces/isecureuser.md).[canModifyModel](../interfaces/isecureuser.md#canmodifymodel)
 
 #### Defined in
 
@@ -229,7 +229,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[canStart](../interfaces/ISecureUser.md#canstart)
+[ISecureUser](../interfaces/isecureuser.md).[canStart](../interfaces/isecureuser.md#canstart)
 
 #### Defined in
 
@@ -253,7 +253,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[inGroup](../interfaces/ISecureUser.md#ingroup)
+[ISecureUser](../interfaces/isecureuser.md).[inGroup](../interfaces/isecureuser.md#ingroup)
 
 #### Defined in
 
@@ -271,7 +271,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[isAdmin](../interfaces/ISecureUser.md#isadmin)
+[ISecureUser](../interfaces/isecureuser.md).[isAdmin](../interfaces/isecureuser.md#isadmin)
 
 #### Defined in
 
@@ -289,7 +289,7 @@ ___
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[isSystem](../interfaces/ISecureUser.md#issystem)
+[ISecureUser](../interfaces/isecureuser.md).[isSystem](../interfaces/isecureuser.md#issystem)
 
 #### Defined in
 
@@ -317,7 +317,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyDeleteInstances](../interfaces/ISecureUser.md#qualifydeleteinstances)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyDeleteInstances](../interfaces/isecureuser.md#qualifydeleteinstances)
 
 #### Defined in
 
@@ -345,7 +345,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyInstances](../interfaces/ISecureUser.md#qualifyinstances)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyInstances](../interfaces/isecureuser.md#qualifyinstances)
 
 #### Defined in
 
@@ -373,7 +373,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyItems](../interfaces/ISecureUser.md#qualifyitems)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyItems](../interfaces/isecureuser.md#qualifyitems)
 
 #### Defined in
 
@@ -401,7 +401,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyModels](../interfaces/ISecureUser.md#qualifymodels)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyModels](../interfaces/isecureuser.md#qualifymodels)
 
 #### Defined in
 
@@ -429,7 +429,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyStartEvents](../interfaces/ISecureUser.md#qualifystartevents)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyStartEvents](../interfaces/isecureuser.md#qualifystartevents)
 
 #### Defined in
 
@@ -457,7 +457,7 @@ query
 
 #### Implementation of
 
-[ISecureUser](../interfaces/ISecureUser.md).[qualifyViewItems](../interfaces/ISecureUser.md#qualifyviewitems)
+[ISecureUser](../interfaces/isecureuser.md).[qualifyViewItems](../interfaces/isecureuser.md#qualifyviewitems)
 
 #### Defined in
 
@@ -467,11 +467,11 @@ ___
 
 ### SystemUser
 
-▸ **SystemUser**(): [`SecureUser`](SecureUser.md)
+▸ **SystemUser**(): [`SecureUser`](secureuser.md)
 
 #### Returns
 
-[`SecureUser`](SecureUser.md)
+[`SecureUser`](secureuser.md)
 
 #### Defined in
 

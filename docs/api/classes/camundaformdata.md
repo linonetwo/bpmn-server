@@ -21,45 +21,45 @@ Behaviour
 
 ### Constructors
 
-- [constructor](CamundaFormData.md#constructor)
+- [constructor](camundaformdata.md#constructor)
 
 ### Properties
 
-- [definition](CamundaFormData.md#definition)
-- [fields](CamundaFormData.md#fields)
-- [node](CamundaFormData.md#node)
+- [definition](camundaformdata.md#definition)
+- [fields](camundaformdata.md#fields)
+- [node](camundaformdata.md#node)
 
 ### Methods
 
-- [describe](CamundaFormData.md#describe)
-- [end](CamundaFormData.md#end)
-- [enter](CamundaFormData.md#enter)
-- [exit](CamundaFormData.md#exit)
-- [getFields](CamundaFormData.md#getfields)
-- [getItemAttributes](CamundaFormData.md#getitemattributes)
-- [getNodeAttributes](CamundaFormData.md#getnodeattributes)
-- [init](CamundaFormData.md#init)
-- [restored](CamundaFormData.md#restored)
-- [resume](CamundaFormData.md#resume)
-- [run](CamundaFormData.md#run)
-- [start](CamundaFormData.md#start)
+- [describe](camundaformdata.md#describe)
+- [end](camundaformdata.md#end)
+- [enter](camundaformdata.md#enter)
+- [exit](camundaformdata.md#exit)
+- [getFields](camundaformdata.md#getfields)
+- [getItemAttributes](camundaformdata.md#getitemattributes)
+- [getNodeAttributes](camundaformdata.md#getnodeattributes)
+- [init](camundaformdata.md#init)
+- [restored](camundaformdata.md#restored)
+- [resume](camundaformdata.md#resume)
+- [run](camundaformdata.md#run)
+- [start](camundaformdata.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new CamundaFormData**(`node`, `definition`): [`CamundaFormData`](CamundaFormData.md)
+• **new CamundaFormData**(`node`, `definition`): [`CamundaFormData`](camundaformdata.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`CamundaFormData`](CamundaFormData.md)
+[`CamundaFormData`](camundaformdata.md)
 
 #### Inherited from
 
@@ -97,7 +97,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -135,7 +135,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -159,7 +159,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -183,7 +183,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -221,7 +221,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -312,7 +312,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -336,7 +336,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -360,7 +360,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

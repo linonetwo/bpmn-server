@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`IElement`](IElement.md)
+- [`IElement`](ielement.md)
 
   ↳ **`INode`**
 
@@ -12,35 +12,35 @@
 
 ### Properties
 
-- [behaviours](INode.md#behaviours)
-- [def](INode.md#def)
-- [id](INode.md#id)
-- [inbounds](INode.md#inbounds)
-- [lane](INode.md#lane)
-- [name](INode.md#name)
-- [outbounds](INode.md#outbounds)
-- [processId](INode.md#processid)
-- [type](INode.md#type)
+- [behaviours](inode.md#behaviours)
+- [def](inode.md#def)
+- [id](inode.md#id)
+- [inbounds](inode.md#inbounds)
+- [lane](inode.md#lane)
+- [name](inode.md#name)
+- [outbounds](inode.md#outbounds)
+- [processId](inode.md#processid)
+- [type](inode.md#type)
 
 ### Methods
 
-- [addBehaviour](INode.md#addbehaviour)
-- [canBeInvoked](INode.md#canbeinvoked)
-- [continue](INode.md#continue)
-- [describe](INode.md#describe)
-- [doEvent](INode.md#doevent)
-- [end](INode.md#end)
-- [enter](INode.md#enter)
-- [execute](INode.md#execute)
-- [getBehaviour](INode.md#getbehaviour)
-- [getOutbounds](INode.md#getoutbounds)
-- [hasBehaviour](INode.md#hasbehaviour)
-- [init](INode.md#init)
-- [requiresWait](INode.md#requireswait)
-- [restored](INode.md#restored)
-- [resume](INode.md#resume)
-- [run](INode.md#run)
-- [start](INode.md#start)
+- [addBehaviour](inode.md#addbehaviour)
+- [canBeInvoked](inode.md#canbeinvoked)
+- [continue](inode.md#continue)
+- [describe](inode.md#describe)
+- [doEvent](inode.md#doevent)
+- [end](inode.md#end)
+- [enter](inode.md#enter)
+- [execute](inode.md#execute)
+- [getBehaviour](inode.md#getbehaviour)
+- [getOutbounds](inode.md#getoutbounds)
+- [hasBehaviour](inode.md#hasbehaviour)
+- [init](inode.md#init)
+- [requiresWait](inode.md#requireswait)
+- [restored](inode.md#restored)
+- [resume](inode.md#resume)
+- [run](inode.md#run)
+- [start](inode.md#start)
 
 ## Properties
 
@@ -50,7 +50,7 @@
 
 #### Inherited from
 
-[IElement](IElement.md).[behaviours](IElement.md#behaviours)
+[IElement](ielement.md).[behaviours](ielement.md#behaviours)
 
 #### Defined in
 
@@ -74,7 +74,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[id](IElement.md#id)
+[IElement](ielement.md).[id](ielement.md#id)
 
 #### Defined in
 
@@ -98,7 +98,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[lane](IElement.md#lane)
+[IElement](ielement.md).[lane](ielement.md#lane)
 
 #### Defined in
 
@@ -112,7 +112,7 @@ ___
 
 #### Overrides
 
-[IElement](IElement.md).[name](IElement.md#name)
+[IElement](ielement.md).[name](ielement.md#name)
 
 #### Defined in
 
@@ -146,7 +146,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[type](IElement.md#type)
+[IElement](ielement.md).[type](ielement.md#type)
 
 #### Defined in
 
@@ -171,7 +171,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[addBehaviour](IElement.md#addbehaviour)
+[IElement](ielement.md).[addBehaviour](ielement.md#addbehaviour)
 
 #### Defined in
 
@@ -201,7 +201,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -209,7 +209,7 @@ ___
 
 #### Overrides
 
-[IElement](IElement.md).[continue](IElement.md#continue)
+[IElement](ielement.md).[continue](ielement.md#continue)
 
 #### Defined in
 
@@ -227,7 +227,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[describe](IElement.md#describe)
+[IElement](ielement.md).[describe](ielement.md#describe)
 
 #### Defined in
 
@@ -243,7 +243,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 | `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
 | `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
@@ -265,7 +265,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -285,7 +285,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -313,7 +313,7 @@ considerations: the following are handled by Token
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -341,7 +341,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[getBehaviour](IElement.md#getbehaviour)
+[IElement](ielement.md).[getBehaviour](ielement.md#getbehaviour)
 
 #### Defined in
 
@@ -351,17 +351,17 @@ ___
 
 ### getOutbounds
 
-▸ **getOutbounds**(`item`): [`IItem`](IItem.md)[]
+▸ **getOutbounds**(`item`): [`IItem`](iitem.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
-[`IItem`](IItem.md)[]
+[`IItem`](iitem.md)[]
 
 #### Defined in
 
@@ -388,7 +388,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[IElement](IElement.md).[hasBehaviour](IElement.md#hasbehaviour)
+[IElement](ielement.md).[hasBehaviour](ielement.md#hasbehaviour)
 
 #### Defined in
 
@@ -404,7 +404,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -438,7 +438,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -446,7 +446,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[restored](IElement.md#restored)
+[IElement](ielement.md).[restored](ielement.md#restored)
 
 #### Defined in
 
@@ -465,7 +465,7 @@ different than init, which is called for all items
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -473,7 +473,7 @@ different than init, which is called for all items
 
 #### Overrides
 
-[IElement](IElement.md).[resume](IElement.md#resume)
+[IElement](ielement.md).[resume](ielement.md#resume)
 
 #### Defined in
 
@@ -489,7 +489,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -509,7 +509,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 

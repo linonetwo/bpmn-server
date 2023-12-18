@@ -4,7 +4,7 @@
 
 ## Implemented by
 
-- [`Definition`](../classes/Definition.md)
+- [`Definition`](../classes/definition.md)
 
 ## Table of contents
 
@@ -118,7 +118,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `source` | `any` |
-| `logger` | [`ILogger`](ILogger.md) |
+| `logger` | [`ILogger`](ilogger.md) |
 
 #### Returns
 
@@ -146,7 +146,7 @@ ___
 
 ### getNodeById
 
-▸ **getNodeById**(`id`): [`Node`](../classes/Node.md)
+▸ **getNodeById**(`id`): [`Node`](../classes/node.md)
 
 #### Parameters
 
@@ -156,7 +156,7 @@ ___
 
 #### Returns
 
-[`Node`](../classes/Node.md)
+[`Node`](../classes/node.md)
 
 #### Defined in
 
@@ -166,11 +166,11 @@ ___
 
 ### getStartNode
 
-▸ **getStartNode**(): [`Node`](../classes/Node.md)
+▸ **getStartNode**(): [`Node`](../classes/node.md)
 
 #### Returns
 
-[`Node`](../classes/Node.md)
+[`Node`](../classes/node.md)
 
 #### Defined in
 

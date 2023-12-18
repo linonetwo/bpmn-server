@@ -25,7 +25,7 @@
 
 ### appDelegate
 
-• **appDelegate**: [`IAppDelegate`](IAppDelegate.md)
+• **appDelegate**: [`IAppDelegate`](iappdelegate.md)
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### cache
 
-• **cache**: [`ICacheManager`](ICacheManager.md)
+• **cache**: [`ICacheManager`](icachemanager.md)
 
 #### Defined in
 
@@ -45,7 +45,7 @@ ___
 
 ### configuration
 
-• **configuration**: [`IConfiguration`](IConfiguration.md)
+• **configuration**: [`IConfiguration`](iconfiguration.md)
 
 #### Defined in
 
@@ -55,7 +55,7 @@ ___
 
 ### cron
 
-• **cron**: [`ICron`](ICron.md)
+• **cron**: [`ICron`](icron.md)
 
 #### Defined in
 
@@ -65,7 +65,7 @@ ___
 
 ### dataStore
 
-• **dataStore**: [`IDataStore`](IDataStore.md)
+• **dataStore**: [`IDataStore`](idatastore.md)
 
 #### Defined in
 
@@ -75,7 +75,7 @@ ___
 
 ### definitions
 
-• **definitions**: [`IModelsDatastore`](IModelsDatastore.md)
+• **definitions**: [`IModelsDatastore`](imodelsdatastore.md)
 
 #### Defined in
 
@@ -85,7 +85,7 @@ ___
 
 ### engine
 
-• **engine**: [`IEngine`](IEngine.md)
+• **engine**: [`IEngine`](iengine.md)
 
 #### Defined in
 
@@ -105,7 +105,7 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](ILogger.md)
+• **logger**: [`ILogger`](ilogger.md)
 
 #### Defined in
 
@@ -115,7 +115,7 @@ ___
 
 ### userService
 
-• **userService**: [`IUserService`](IUserService.md)
+• **userService**: [`IUserService`](iuserservice.md)
 
 #### Defined in
 

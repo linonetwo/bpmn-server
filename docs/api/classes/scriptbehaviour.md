@@ -21,44 +21,44 @@ Behaviour
 
 ### Constructors
 
-- [constructor](Scriptbehaviour.md#constructor)
+- [constructor](scriptbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](Scriptbehaviour.md#definition)
-- [node](Scriptbehaviour.md#node)
-- [scripts](Scriptbehaviour.md#scripts)
+- [definition](scriptbehaviour.md#definition)
+- [node](scriptbehaviour.md#node)
+- [scripts](scriptbehaviour.md#scripts)
 
 ### Methods
 
-- [describe](Scriptbehaviour.md#describe)
-- [end](Scriptbehaviour.md#end)
-- [enter](Scriptbehaviour.md#enter)
-- [exit](Scriptbehaviour.md#exit)
-- [getItemAttributes](Scriptbehaviour.md#getitemattributes)
-- [getNodeAttributes](Scriptbehaviour.md#getnodeattributes)
-- [init](Scriptbehaviour.md#init)
-- [restored](Scriptbehaviour.md#restored)
-- [resume](Scriptbehaviour.md#resume)
-- [run](Scriptbehaviour.md#run)
-- [start](Scriptbehaviour.md#start)
+- [describe](scriptbehaviour.md#describe)
+- [end](scriptbehaviour.md#end)
+- [enter](scriptbehaviour.md#enter)
+- [exit](scriptbehaviour.md#exit)
+- [getItemAttributes](scriptbehaviour.md#getitemattributes)
+- [getNodeAttributes](scriptbehaviour.md#getnodeattributes)
+- [init](scriptbehaviour.md#init)
+- [restored](scriptbehaviour.md#restored)
+- [resume](scriptbehaviour.md#resume)
+- [run](scriptbehaviour.md#run)
+- [start](scriptbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new ScriptBehaviour**(`node`, `definition`): [`ScriptBehaviour`](Scriptbehaviour.md)
+• **new ScriptBehaviour**(`node`, `definition`): [`ScriptBehaviour`](scriptbehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`ScriptBehaviour`](Scriptbehaviour.md)
+[`ScriptBehaviour`](scriptbehaviour.md)
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -134,7 +134,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -158,7 +158,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -182,7 +182,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -206,7 +206,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -297,7 +297,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -321,7 +321,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -345,7 +345,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

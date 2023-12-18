@@ -8,7 +8,7 @@
 
 ## Hierarchy
 
-- [`Flow`](Flow.md)
+- [`Flow`](flow.md)
 
   ↳ **`MessageFlow`**
 
@@ -16,40 +16,40 @@
 
 ### Constructors
 
-- [constructor](MessageFlow.md#constructor)
+- [constructor](messageflow.md#constructor)
 
 ### Properties
 
-- [behaviours](MessageFlow.md#behaviours)
-- [def](MessageFlow.md#def)
-- [from](MessageFlow.md#from)
-- [id](MessageFlow.md#id)
-- [isFlow](MessageFlow.md#isflow)
-- [isMessageFlow](MessageFlow.md#ismessageflow)
-- [lane](MessageFlow.md#lane)
-- [name](MessageFlow.md#name)
-- [subType](MessageFlow.md#subtype)
-- [to](MessageFlow.md#to)
-- [type](MessageFlow.md#type)
+- [behaviours](messageflow.md#behaviours)
+- [def](messageflow.md#def)
+- [from](messageflow.md#from)
+- [id](messageflow.md#id)
+- [isFlow](messageflow.md#isflow)
+- [isMessageFlow](messageflow.md#ismessageflow)
+- [lane](messageflow.md#lane)
+- [name](messageflow.md#name)
+- [subType](messageflow.md#subtype)
+- [to](messageflow.md#to)
+- [type](messageflow.md#type)
 
 ### Methods
 
-- [addBehaviour](MessageFlow.md#addbehaviour)
-- [continue](MessageFlow.md#continue)
-- [describe](MessageFlow.md#describe)
-- [evaluateCondition](MessageFlow.md#evaluatecondition)
-- [execute](MessageFlow.md#execute)
-- [getBehaviour](MessageFlow.md#getbehaviour)
-- [hasBehaviour](MessageFlow.md#hasbehaviour)
-- [restored](MessageFlow.md#restored)
-- [resume](MessageFlow.md#resume)
-- [run](MessageFlow.md#run)
+- [addBehaviour](messageflow.md#addbehaviour)
+- [continue](messageflow.md#continue)
+- [describe](messageflow.md#describe)
+- [evaluateCondition](messageflow.md#evaluatecondition)
+- [execute](messageflow.md#execute)
+- [getBehaviour](messageflow.md#getbehaviour)
+- [hasBehaviour](messageflow.md#hasbehaviour)
+- [restored](messageflow.md#restored)
+- [resume](messageflow.md#resume)
+- [run](messageflow.md#run)
 
 ## Constructors
 
 ### constructor
 
-• **new MessageFlow**(`id`, `type`, `from`, `to`, `def`): [`MessageFlow`](MessageFlow.md)
+• **new MessageFlow**(`id`, `type`, `from`, `to`, `def`): [`MessageFlow`](messageflow.md)
 
 #### Parameters
 
@@ -63,11 +63,11 @@
 
 #### Returns
 
-[`MessageFlow`](MessageFlow.md)
+[`MessageFlow`](messageflow.md)
 
 #### Inherited from
 
-[Flow](Flow.md).[constructor](Flow.md#constructor)
+[Flow](flow.md).[constructor](flow.md#constructor)
 
 #### Defined in
 
@@ -81,7 +81,7 @@
 
 #### Inherited from
 
-[Flow](Flow.md).[behaviours](Flow.md#behaviours)
+[Flow](flow.md).[behaviours](flow.md#behaviours)
 
 #### Defined in
 
@@ -95,7 +95,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[def](Flow.md#def)
+[Flow](flow.md).[def](flow.md#def)
 
 #### Defined in
 
@@ -105,11 +105,11 @@ ___
 
 ### from
 
-• **from**: [`Node`](Node.md)
+• **from**: [`Node`](node.md)
 
 #### Inherited from
 
-[Flow](Flow.md).[from](Flow.md#from)
+[Flow](flow.md).[from](flow.md#from)
 
 #### Defined in
 
@@ -123,7 +123,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[id](Flow.md#id)
+[Flow](flow.md).[id](flow.md#id)
 
 #### Defined in
 
@@ -137,7 +137,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[isFlow](Flow.md#isflow)
+[Flow](flow.md).[isFlow](flow.md#isflow)
 
 #### Defined in
 
@@ -151,7 +151,7 @@ ___
 
 #### Overrides
 
-[Flow](Flow.md).[isMessageFlow](Flow.md#ismessageflow)
+[Flow](flow.md).[isMessageFlow](flow.md#ismessageflow)
 
 #### Defined in
 
@@ -165,7 +165,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[lane](Flow.md#lane)
+[Flow](flow.md).[lane](flow.md#lane)
 
 #### Defined in
 
@@ -179,7 +179,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[name](Flow.md#name)
+[Flow](flow.md).[name](flow.md#name)
 
 #### Defined in
 
@@ -193,7 +193,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[subType](Flow.md#subtype)
+[Flow](flow.md).[subType](flow.md#subtype)
 
 #### Defined in
 
@@ -203,11 +203,11 @@ ___
 
 ### to
 
-• **to**: [`Node`](Node.md)
+• **to**: [`Node`](node.md)
 
 #### Inherited from
 
-[Flow](Flow.md).[to](Flow.md#to)
+[Flow](flow.md).[to](flow.md#to)
 
 #### Defined in
 
@@ -221,7 +221,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[type](Flow.md#type)
+[Flow](flow.md).[type](flow.md#type)
 
 #### Defined in
 
@@ -246,7 +246,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[addBehaviour](Flow.md#addbehaviour)
+[Flow](flow.md).[addBehaviour](flow.md#addbehaviour)
 
 #### Defined in
 
@@ -262,7 +262,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -270,7 +270,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[continue](Flow.md#continue)
+[Flow](flow.md).[continue](flow.md#continue)
 
 #### Defined in
 
@@ -288,7 +288,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[describe](Flow.md#describe)
+[Flow](flow.md).[describe](flow.md#describe)
 
 #### Defined in
 
@@ -312,7 +312,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[evaluateCondition](Flow.md#evaluatecondition)
+[Flow](flow.md).[evaluateCondition](flow.md#evaluatecondition)
 
 #### Defined in
 
@@ -328,7 +328,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -336,7 +336,7 @@ ___
 
 #### Overrides
 
-[Flow](Flow.md).[execute](Flow.md#execute)
+[Flow](flow.md).[execute](flow.md#execute)
 
 #### Defined in
 
@@ -360,7 +360,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[getBehaviour](Flow.md#getbehaviour)
+[Flow](flow.md).[getBehaviour](flow.md#getbehaviour)
 
 #### Defined in
 
@@ -387,7 +387,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[Flow](Flow.md).[hasBehaviour](Flow.md#hasbehaviour)
+[Flow](flow.md).[hasBehaviour](flow.md#hasbehaviour)
 
 #### Defined in
 
@@ -403,7 +403,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -411,7 +411,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[restored](Flow.md#restored)
+[Flow](flow.md).[restored](flow.md#restored)
 
 #### Defined in
 
@@ -427,7 +427,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -435,7 +435,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[resume](Flow.md#resume)
+[Flow](flow.md).[resume](flow.md#resume)
 
 #### Defined in
 
@@ -455,7 +455,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -463,7 +463,7 @@ ___
 
 #### Inherited from
 
-[Flow](Flow.md).[run](Flow.md#run)
+[Flow](flow.md).[run](flow.md#run)
 
 #### Defined in
 

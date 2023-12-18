@@ -12,47 +12,47 @@ super class for various objects that are part of the server
 
 ## Implements
 
-- [`IEngine`](../interfaces/IEngine.md)
+- [`IEngine`](../interfaces/iengine.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Engine.md#constructor)
+- [constructor](engine.md#constructor)
 
 ### Properties
 
-- [server](Engine.md#server)
+- [server](engine.md#server)
 
 ### Accessors
 
-- [appDelegate](Engine.md#appdelegate)
-- [cache](Engine.md#cache)
-- [configuration](Engine.md#configuration)
-- [cron](Engine.md#cron)
-- [dataStore](Engine.md#datastore)
-- [definitions](Engine.md#definitions)
-- [engine](Engine.md#engine)
-- [listener](Engine.md#listener)
-- [logger](Engine.md#logger)
+- [appDelegate](engine.md#appdelegate)
+- [cache](engine.md#cache)
+- [configuration](engine.md#configuration)
+- [cron](engine.md#cron)
+- [dataStore](engine.md#datastore)
+- [definitions](engine.md#definitions)
+- [engine](engine.md#engine)
+- [listener](engine.md#listener)
+- [logger](engine.md#logger)
 
 ### Methods
 
-- [assign](Engine.md#assign)
-- [get](Engine.md#get)
-- [invoke](Engine.md#invoke)
-- [invokeItem](Engine.md#invokeitem)
-- [start](Engine.md#start)
-- [startEvent](Engine.md#startevent)
-- [startRepeatTimerEvent](Engine.md#startrepeattimerevent)
-- [throwMessage](Engine.md#throwmessage)
-- [throwSignal](Engine.md#throwsignal)
+- [assign](engine.md#assign)
+- [get](engine.md#get)
+- [invoke](engine.md#invoke)
+- [invokeItem](engine.md#invokeitem)
+- [start](engine.md#start)
+- [startEvent](engine.md#startevent)
+- [startRepeatTimerEvent](engine.md#startrepeattimerevent)
+- [throwMessage](engine.md#throwmessage)
+- [throwSignal](engine.md#throwsignal)
 
 ## Constructors
 
 ### constructor
 
-• **new Engine**(`server`): [`Engine`](Engine.md)
+• **new Engine**(`server`): [`Engine`](engine.md)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ super class for various objects that are part of the server
 
 #### Returns
 
-[`Engine`](Engine.md)
+[`Engine`](engine.md)
 
 #### Overrides
 
@@ -108,11 +108,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Inherited from
 
@@ -144,11 +144,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -198,11 +198,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Inherited from
 
@@ -252,7 +252,7 @@ ServerComponent.logger
 
 ### assign
 
-▸ **assign**(`itemQuery`, `data?`, `assignment?`, `userName`, `options?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **assign**(`itemQuery`, `data?`, `assignment?`, `userName`, `options?`): `Promise`\<[`Execution`](execution.md)\>
 
 update an existing item that is in a wait state with an assignment
 can modify data or assignment or both
@@ -271,11 +271,11 @@ can modify data or assignment or both
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[assign](../interfaces/IEngine.md#assign)
+[IEngine](../interfaces/iengine.md).[assign](../interfaces/iengine.md#assign)
 
 #### Defined in
 
@@ -285,7 +285,7 @@ ___
 
 ### get
 
-▸ **get**(`instanceQuery`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **get**(`instanceQuery`): `Promise`\<[`Execution`](execution.md)\>
 
 restores an instance into memeory or provides you access to a running instance
 
@@ -299,11 +299,11 @@ this will also resume execution
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[get](../interfaces/IEngine.md#get)
+[IEngine](../interfaces/iengine.md).[get](../interfaces/iengine.md#get)
 
 #### Defined in
 
@@ -313,7 +313,7 @@ ___
 
 ### invoke
 
-▸ **invoke**(`itemQuery`, `data?`, `userName?`, `options?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **invoke**(`itemQuery`, `data?`, `userName?`, `options?`): `Promise`\<[`Execution`](execution.md)\>
 
 Continue an existing item that is in a wait state
 
@@ -334,11 +334,11 @@ scenario:
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[invoke](../interfaces/IEngine.md#invoke)
+[IEngine](../interfaces/iengine.md).[invoke](../interfaces/iengine.md#invoke)
 
 #### Defined in
 
@@ -348,7 +348,7 @@ ___
 
 ### invokeItem
 
-▸ **invokeItem**(`itemQuery`, `data?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **invokeItem**(`itemQuery`, `data?`): `Promise`\<[`Execution`](execution.md)\>
 
 #### Parameters
 
@@ -359,7 +359,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Defined in
 
@@ -369,7 +369,7 @@ ___
 
 ### start
 
-▸ **start**(`name`, `data?`, `startNodeId?`, `userName?`, `options?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **start**(`name`, `data?`, `startNodeId?`, `userName?`, `options?`): `Promise`\<[`Execution`](execution.md)\>
 
 loads a definitions  and start execution
 
@@ -385,11 +385,11 @@ loads a definitions  and start execution
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[start](../interfaces/IEngine.md#start)
+[IEngine](../interfaces/iengine.md).[start](../interfaces/iengine.md#start)
 
 #### Defined in
 
@@ -399,7 +399,7 @@ ___
 
 ### startEvent
 
-▸ **startEvent**(`instanceId`, `elementId`, `data?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **startEvent**(`instanceId`, `elementId`, `data?`): `Promise`\<[`Execution`](execution.md)\>
 
 Invoking an event (usually start event of a secondary process) against an existing instance
 or
@@ -420,11 +420,11 @@ Invoking a start event (of a secondary process) against an existing instance
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[startEvent](../interfaces/IEngine.md#startevent)
+[IEngine](../interfaces/iengine.md).[startEvent](../interfaces/iengine.md#startevent)
 
 #### Defined in
 
@@ -434,7 +434,7 @@ ___
 
 ### startRepeatTimerEvent
 
-▸ **startRepeatTimerEvent**(`instanceId`, `prevItem`, `data?`, `options?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **startRepeatTimerEvent**(`instanceId`, `prevItem`, `data?`, `options?`): `Promise`\<[`Execution`](execution.md)\>
 
 Repeat Timers need to create new Item
 
@@ -449,11 +449,11 @@ Repeat Timers need to create new Item
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[startRepeatTimerEvent](../interfaces/IEngine.md#startrepeattimerevent)
+[IEngine](../interfaces/iengine.md).[startRepeatTimerEvent](../interfaces/iengine.md#startrepeattimerevent)
 
 #### Defined in
 
@@ -463,7 +463,7 @@ ___
 
 ### throwMessage
 
-▸ **throwMessage**(`messageId`, `data?`, `matchingQuery?`): `Promise`\<[`Execution`](Execution.md)\>
+▸ **throwMessage**(`messageId`, `data?`, `matchingQuery?`): `Promise`\<[`Execution`](execution.md)\>
 
 signal/message raise a signal or throw a message
 
@@ -482,11 +482,11 @@ that can be againt a running instance or it may start a new instance
 
 #### Returns
 
-`Promise`\<[`Execution`](Execution.md)\>
+`Promise`\<[`Execution`](execution.md)\>
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[throwMessage](../interfaces/IEngine.md#throwmessage)
+[IEngine](../interfaces/iengine.md).[throwMessage](../interfaces/iengine.md#throwmessage)
 
 #### Defined in
 
@@ -519,7 +519,7 @@ that can be againt a running instance or it may start a new instance
 
 #### Implementation of
 
-[IEngine](../interfaces/IEngine.md).[throwSignal](../interfaces/IEngine.md#throwsignal)
+[IEngine](../interfaces/iengine.md).[throwSignal](../interfaces/iengine.md#throwsignal)
 
 #### Defined in
 

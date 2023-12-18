@@ -6,24 +6,24 @@
 
 ### Constructors
 
-- [constructor](Query.md#constructor)
+- [constructor](query.md#constructor)
 
 ### Methods
 
-- [data](Query.md#data)
-- [instanceId](Query.md#instanceid)
-- [instanceName](Query.md#instancename)
-- [instanceStatus](Query.md#instancestatus)
-- [itemElementId](Query.md#itemelementid)
-- [itemId](Query.md#itemid)
-- [itemName](Query.md#itemname)
-- [itemStatus](Query.md#itemstatus)
+- [data](query.md#data)
+- [instanceId](query.md#instanceid)
+- [instanceName](query.md#instancename)
+- [instanceStatus](query.md#instancestatus)
+- [itemElementId](query.md#itemelementid)
+- [itemId](query.md#itemid)
+- [itemName](query.md#itemname)
+- [itemStatus](query.md#itemstatus)
 
 ## Constructors
 
 ### constructor
 
-• **new Query**(`«destructured»?`): [`Query`](Query.md)
+• **new Query**(`«destructured»?`): [`Query`](query.md)
 
 #### Parameters
 
@@ -50,7 +50,7 @@
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -60,7 +60,7 @@
 
 ### data
 
-▸ **data**(`val`): [`Query`](Query.md)
+▸ **data**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -70,7 +70,7 @@
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -80,7 +80,7 @@ ___
 
 ### instanceId
 
-▸ **instanceId**(`val`): [`Query`](Query.md)
+▸ **instanceId**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -100,7 +100,7 @@ ___
 
 ### instanceName
 
-▸ **instanceName**(`val`): [`Query`](Query.md)
+▸ **instanceName**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -120,7 +120,7 @@ ___
 
 ### instanceStatus
 
-▸ **instanceStatus**(`val`): [`Query`](Query.md)
+▸ **instanceStatus**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -130,7 +130,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -140,7 +140,7 @@ ___
 
 ### itemElementId
 
-▸ **itemElementId**(`val`): [`Query`](Query.md)
+▸ **itemElementId**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -160,7 +160,7 @@ ___
 
 ### itemId
 
-▸ **itemId**(`val`): [`Query`](Query.md)
+▸ **itemId**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -170,7 +170,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -180,7 +180,7 @@ ___
 
 ### itemName
 
-▸ **itemName**(`val`): [`Query`](Query.md)
+▸ **itemName**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -190,7 +190,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 
@@ -200,7 +200,7 @@ ___
 
 ### itemStatus
 
-▸ **itemStatus**(`val`): [`Query`](Query.md)
+▸ **itemStatus**(`val`): [`Query`](query.md)
 
 #### Parameters
 
@@ -210,7 +210,7 @@ ___
 
 #### Returns
 
-[`Query`](Query.md)
+[`Query`](query.md)
 
 #### Defined in
 

@@ -4,63 +4,63 @@
 
 ## Implements
 
-- [`IItem`](../interfaces/IItem.md)
+- [`IItem`](../interfaces/iitem.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Item.md#constructor)
+- [constructor](item.md#constructor)
 
 ### Properties
 
-- [assignee](Item.md#assignee)
-- [candidateGroups](Item.md#candidategroups)
-- [candidateUsers](Item.md#candidateusers)
-- [dueDate](Item.md#duedate)
-- [element](Item.md#element)
-- [endedAt](Item.md#endedat)
-- [followUpDate](Item.md#followupdate)
-- [id](Item.md#id)
-- [input](Item.md#input)
-- [instanceId](Item.md#instanceid)
-- [itemKey](Item.md#itemkey)
-- [messageId](Item.md#messageid)
-- [output](Item.md#output)
-- [priority](Item.md#priority)
-- [seq](Item.md#seq)
-- [signalId](Item.md#signalid)
-- [startedAt](Item.md#startedat)
-- [status](Item.md#status)
-- [timeDue](Item.md#timedue)
-- [timerCount](Item.md#timercount)
-- [token](Item.md#token)
-- [userName](Item.md#username)
-- [vars](Item.md#vars)
+- [assignee](item.md#assignee)
+- [candidateGroups](item.md#candidategroups)
+- [candidateUsers](item.md#candidateusers)
+- [dueDate](item.md#duedate)
+- [element](item.md#element)
+- [endedAt](item.md#endedat)
+- [followUpDate](item.md#followupdate)
+- [id](item.md#id)
+- [input](item.md#input)
+- [instanceId](item.md#instanceid)
+- [itemKey](item.md#itemkey)
+- [messageId](item.md#messageid)
+- [output](item.md#output)
+- [priority](item.md#priority)
+- [seq](item.md#seq)
+- [signalId](item.md#signalid)
+- [startedAt](item.md#startedat)
+- [status](item.md#status)
+- [timeDue](item.md#timedue)
+- [timerCount](item.md#timercount)
+- [token](item.md#token)
+- [userName](item.md#username)
+- [vars](item.md#vars)
 
 ### Accessors
 
-- [context](Item.md#context)
-- [data](Item.md#data)
-- [elementId](Item.md#elementid)
-- [name](Item.md#name)
-- [node](Item.md#node)
-- [options](Item.md#options)
-- [tokenId](Item.md#tokenid)
-- [type](Item.md#type)
+- [context](item.md#context)
+- [data](item.md#data)
+- [elementId](item.md#elementid)
+- [name](item.md#name)
+- [node](item.md#node)
+- [options](item.md#options)
+- [tokenId](item.md#tokenid)
+- [type](item.md#type)
 
 ### Methods
 
-- [log](Item.md#log)
-- [save](Item.md#save)
-- [setData](Item.md#setdata)
-- [load](Item.md#load)
+- [log](item.md#log)
+- [save](item.md#save)
+- [setData](item.md#setdata)
+- [load](item.md#load)
 
 ## Constructors
 
 ### constructor
 
-• **new Item**(`element`, `token`, `status?`): [`Item`](Item.md)
+• **new Item**(`element`, `token`, `status?`): [`Item`](item.md)
 
 #### Parameters
 
@@ -72,7 +72,7 @@
 
 #### Returns
 
-[`Item`](Item.md)
+[`Item`](item.md)
 
 #### Defined in
 
@@ -86,7 +86,7 @@
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[assignee](../interfaces/IItem.md#assignee)
+[IItem](../interfaces/iitem.md).[assignee](../interfaces/iitem.md#assignee)
 
 #### Defined in
 
@@ -100,7 +100,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[candidateGroups](../interfaces/IItem.md#candidategroups)
+[IItem](../interfaces/iitem.md).[candidateGroups](../interfaces/iitem.md#candidategroups)
 
 #### Defined in
 
@@ -114,7 +114,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[candidateUsers](../interfaces/IItem.md#candidateusers)
+[IItem](../interfaces/iitem.md).[candidateUsers](../interfaces/iitem.md#candidateusers)
 
 #### Defined in
 
@@ -128,7 +128,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[dueDate](../interfaces/IItem.md#duedate)
+[IItem](../interfaces/iitem.md).[dueDate](../interfaces/iitem.md#duedate)
 
 #### Defined in
 
@@ -138,11 +138,11 @@ ___
 
 ### element
 
-• **element**: [`Element`](Element.md)
+• **element**: [`Element`](element.md)
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[element](../interfaces/IItem.md#element)
+[IItem](../interfaces/iitem.md).[element](../interfaces/iitem.md#element)
 
 #### Defined in
 
@@ -156,7 +156,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[endedAt](../interfaces/IItem.md#endedat)
+[IItem](../interfaces/iitem.md).[endedAt](../interfaces/iitem.md#endedat)
 
 #### Defined in
 
@@ -170,7 +170,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[followUpDate](../interfaces/IItem.md#followupdate)
+[IItem](../interfaces/iitem.md).[followUpDate](../interfaces/iitem.md#followupdate)
 
 #### Defined in
 
@@ -184,7 +184,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[id](../interfaces/IItem.md#id)
+[IItem](../interfaces/iitem.md).[id](../interfaces/iitem.md#id)
 
 #### Defined in
 
@@ -208,7 +208,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[instanceId](../interfaces/IItem.md#instanceid)
+[IItem](../interfaces/iitem.md).[instanceId](../interfaces/iitem.md#instanceid)
 
 #### Defined in
 
@@ -222,7 +222,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[itemKey](../interfaces/IItem.md#itemkey)
+[IItem](../interfaces/iitem.md).[itemKey](../interfaces/iitem.md#itemkey)
 
 #### Defined in
 
@@ -236,7 +236,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[messageId](../interfaces/IItem.md#messageid)
+[IItem](../interfaces/iitem.md).[messageId](../interfaces/iitem.md#messageid)
 
 #### Defined in
 
@@ -260,7 +260,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[priority](../interfaces/IItem.md#priority)
+[IItem](../interfaces/iitem.md).[priority](../interfaces/iitem.md#priority)
 
 #### Defined in
 
@@ -274,7 +274,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[seq](../interfaces/IItem.md#seq)
+[IItem](../interfaces/iitem.md).[seq](../interfaces/iitem.md#seq)
 
 #### Defined in
 
@@ -288,7 +288,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[signalId](../interfaces/IItem.md#signalid)
+[IItem](../interfaces/iitem.md).[signalId](../interfaces/iitem.md#signalid)
 
 #### Defined in
 
@@ -302,7 +302,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[startedAt](../interfaces/IItem.md#startedat)
+[IItem](../interfaces/iitem.md).[startedAt](../interfaces/iitem.md#startedat)
 
 #### Defined in
 
@@ -316,7 +316,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[status](../interfaces/IItem.md#status)
+[IItem](../interfaces/iitem.md).[status](../interfaces/iitem.md#status)
 
 #### Defined in
 
@@ -330,7 +330,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[timeDue](../interfaces/IItem.md#timedue)
+[IItem](../interfaces/iitem.md).[timeDue](../interfaces/iitem.md#timedue)
 
 #### Defined in
 
@@ -350,11 +350,11 @@ ___
 
 ### token
 
-• **token**: [`Token`](Token.md)
+• **token**: [`Token`](token.md)
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[token](../interfaces/IItem.md#token)
+[IItem](../interfaces/iitem.md).[token](../interfaces/iitem.md#token)
 
 #### Defined in
 
@@ -368,7 +368,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[userName](../interfaces/IItem.md#username)
+[IItem](../interfaces/iitem.md).[userName](../interfaces/iitem.md#username)
 
 #### Defined in
 
@@ -382,7 +382,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[vars](../interfaces/IItem.md#vars)
+[IItem](../interfaces/iitem.md).[vars](../interfaces/iitem.md#vars)
 
 #### Defined in
 
@@ -400,7 +400,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[context](../interfaces/IItem.md#context)
+[IItem](../interfaces/iitem.md).[context](../interfaces/iitem.md#context)
 
 #### Defined in
 
@@ -448,7 +448,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[elementId](../interfaces/IItem.md#elementid)
+[IItem](../interfaces/iitem.md).[elementId](../interfaces/iitem.md#elementid)
 
 #### Defined in
 
@@ -466,7 +466,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[name](../interfaces/IItem.md#name)
+[IItem](../interfaces/iitem.md).[name](../interfaces/iitem.md#name)
 
 #### Defined in
 
@@ -476,15 +476,15 @@ ___
 
 ### node
 
-• `get` **node**(): [`Node`](Node.md)
+• `get` **node**(): [`Node`](node.md)
 
 #### Returns
 
-[`Node`](Node.md)
+[`Node`](node.md)
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[node](../interfaces/IItem.md#node)
+[IItem](../interfaces/iitem.md).[node](../interfaces/iitem.md#node)
 
 #### Defined in
 
@@ -516,7 +516,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[tokenId](../interfaces/IItem.md#tokenid)
+[IItem](../interfaces/iitem.md).[tokenId](../interfaces/iitem.md#tokenid)
 
 #### Defined in
 
@@ -534,7 +534,7 @@ ___
 
 #### Implementation of
 
-[IItem](../interfaces/IItem.md).[type](../interfaces/IItem.md#type)
+[IItem](../interfaces/iitem.md).[type](../interfaces/iitem.md#type)
 
 #### Defined in
 
@@ -598,19 +598,19 @@ ___
 
 ### load
 
-▸ **load**(`execution`, `dataObject`, `token`): [`Item`](Item.md)
+▸ **load**(`execution`, `dataObject`, `token`): [`Item`](item.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`Execution`](Execution.md) |
+| `execution` | [`Execution`](execution.md) |
 | `dataObject` | [`IItemData`](../interfaces/iitemdata.md) |
 | `token` | `any` |
 
 #### Returns
 
-[`Item`](Item.md)
+[`Item`](item.md)
 
 #### Defined in
 

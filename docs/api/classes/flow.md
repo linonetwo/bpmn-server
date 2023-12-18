@@ -4,54 +4,54 @@
 
 ## Hierarchy
 
-- [`Element`](Element.md)
+- [`Element`](element.md)
 
   ↳ **`Flow`**
 
-  ↳↳ [`MessageFlow`](MessageFlow.md)
+  ↳↳ [`MessageFlow`](messageflow.md)
 
 ## Implements
 
-- [`IFlow`](../interfaces/IFlow.md)
+- [`IFlow`](../interfaces/iflow.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Flow.md#constructor)
+- [constructor](flow.md#constructor)
 
 ### Properties
 
-- [behaviours](Flow.md#behaviours)
-- [def](Flow.md#def)
-- [from](Flow.md#from)
-- [id](Flow.md#id)
-- [isFlow](Flow.md#isflow)
-- [isMessageFlow](Flow.md#ismessageflow)
-- [lane](Flow.md#lane)
-- [name](Flow.md#name)
-- [subType](Flow.md#subtype)
-- [to](Flow.md#to)
-- [type](Flow.md#type)
+- [behaviours](flow.md#behaviours)
+- [def](flow.md#def)
+- [from](flow.md#from)
+- [id](flow.md#id)
+- [isFlow](flow.md#isflow)
+- [isMessageFlow](flow.md#ismessageflow)
+- [lane](flow.md#lane)
+- [name](flow.md#name)
+- [subType](flow.md#subtype)
+- [to](flow.md#to)
+- [type](flow.md#type)
 
 ### Methods
 
-- [addBehaviour](Flow.md#addbehaviour)
-- [continue](Flow.md#continue)
-- [describe](Flow.md#describe)
-- [evaluateCondition](Flow.md#evaluatecondition)
-- [execute](Flow.md#execute)
-- [getBehaviour](Flow.md#getbehaviour)
-- [hasBehaviour](Flow.md#hasbehaviour)
-- [restored](Flow.md#restored)
-- [resume](Flow.md#resume)
-- [run](Flow.md#run)
+- [addBehaviour](flow.md#addbehaviour)
+- [continue](flow.md#continue)
+- [describe](flow.md#describe)
+- [evaluateCondition](flow.md#evaluatecondition)
+- [execute](flow.md#execute)
+- [getBehaviour](flow.md#getbehaviour)
+- [hasBehaviour](flow.md#hasbehaviour)
+- [restored](flow.md#restored)
+- [resume](flow.md#resume)
+- [run](flow.md#run)
 
 ## Constructors
 
 ### constructor
 
-• **new Flow**(`id`, `type`, `from`, `to`, `def`): [`Flow`](Flow.md)
+• **new Flow**(`id`, `type`, `from`, `to`, `def`): [`Flow`](flow.md)
 
 #### Parameters
 
@@ -65,11 +65,11 @@
 
 #### Returns
 
-[`Flow`](Flow.md)
+[`Flow`](flow.md)
 
 #### Overrides
 
-[Element](Element.md).[constructor](Element.md#constructor)
+[Element](element.md).[constructor](element.md#constructor)
 
 #### Defined in
 
@@ -83,11 +83,11 @@
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[behaviours](../interfaces/IFlow.md#behaviours)
+[IFlow](../interfaces/iflow.md).[behaviours](../interfaces/iflow.md#behaviours)
 
 #### Inherited from
 
-[Element](Element.md).[behaviours](Element.md#behaviours)
+[Element](element.md).[behaviours](element.md#behaviours)
 
 #### Defined in
 
@@ -107,7 +107,7 @@ ___
 
 ### from
 
-• **from**: [`Node`](Node.md)
+• **from**: [`Node`](node.md)
 
 #### Defined in
 
@@ -121,11 +121,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[id](../interfaces/IFlow.md#id)
+[IFlow](../interfaces/iflow.md).[id](../interfaces/iflow.md#id)
 
 #### Inherited from
 
-[Element](Element.md).[id](Element.md#id)
+[Element](element.md).[id](element.md#id)
 
 #### Defined in
 
@@ -139,7 +139,7 @@ ___
 
 #### Inherited from
 
-[Element](Element.md).[isFlow](Element.md#isflow)
+[Element](element.md).[isFlow](element.md#isflow)
 
 #### Defined in
 
@@ -163,11 +163,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[lane](../interfaces/IFlow.md#lane)
+[IFlow](../interfaces/iflow.md).[lane](../interfaces/iflow.md#lane)
 
 #### Inherited from
 
-[Element](Element.md).[lane](Element.md#lane)
+[Element](element.md).[lane](element.md#lane)
 
 #### Defined in
 
@@ -181,11 +181,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[name](../interfaces/IFlow.md#name)
+[IFlow](../interfaces/iflow.md).[name](../interfaces/iflow.md#name)
 
 #### Inherited from
 
-[Element](Element.md).[name](Element.md#name)
+[Element](element.md).[name](element.md#name)
 
 #### Defined in
 
@@ -199,7 +199,7 @@ ___
 
 #### Inherited from
 
-[Element](Element.md).[subType](Element.md#subtype)
+[Element](element.md).[subType](element.md#subtype)
 
 #### Defined in
 
@@ -209,7 +209,7 @@ ___
 
 ### to
 
-• **to**: [`Node`](Node.md)
+• **to**: [`Node`](node.md)
 
 #### Defined in
 
@@ -223,11 +223,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[type](../interfaces/IFlow.md#type)
+[IFlow](../interfaces/iflow.md).[type](../interfaces/iflow.md#type)
 
 #### Inherited from
 
-[Element](Element.md).[type](Element.md#type)
+[Element](element.md).[type](element.md#type)
 
 #### Defined in
 
@@ -252,11 +252,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[addBehaviour](../interfaces/IFlow.md#addbehaviour)
+[IFlow](../interfaces/iflow.md).[addBehaviour](../interfaces/iflow.md#addbehaviour)
 
 #### Inherited from
 
-[Element](Element.md).[addBehaviour](Element.md#addbehaviour)
+[Element](element.md).[addBehaviour](element.md#addbehaviour)
 
 #### Defined in
 
@@ -272,7 +272,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -280,11 +280,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[continue](../interfaces/IFlow.md#continue)
+[IFlow](../interfaces/iflow.md).[continue](../interfaces/iflow.md#continue)
 
 #### Inherited from
 
-[Element](Element.md).[continue](Element.md#continue)
+[Element](element.md).[continue](element.md#continue)
 
 #### Defined in
 
@@ -302,11 +302,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[describe](../interfaces/IFlow.md#describe)
+[IFlow](../interfaces/iflow.md).[describe](../interfaces/iflow.md#describe)
 
 #### Overrides
 
-[Element](Element.md).[describe](Element.md#describe)
+[Element](element.md).[describe](element.md#describe)
 
 #### Defined in
 
@@ -370,11 +370,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[getBehaviour](../interfaces/IFlow.md#getbehaviour)
+[IFlow](../interfaces/iflow.md).[getBehaviour](../interfaces/iflow.md#getbehaviour)
 
 #### Inherited from
 
-[Element](Element.md).[getBehaviour](Element.md#getbehaviour)
+[Element](element.md).[getBehaviour](element.md#getbehaviour)
 
 #### Defined in
 
@@ -401,11 +401,11 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[hasBehaviour](../interfaces/IFlow.md#hasbehaviour)
+[IFlow](../interfaces/iflow.md).[hasBehaviour](../interfaces/iflow.md#hasbehaviour)
 
 #### Inherited from
 
-[Element](Element.md).[hasBehaviour](Element.md#hasbehaviour)
+[Element](element.md).[hasBehaviour](element.md#hasbehaviour)
 
 #### Defined in
 
@@ -421,7 +421,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -429,11 +429,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[restored](../interfaces/IFlow.md#restored)
+[IFlow](../interfaces/iflow.md).[restored](../interfaces/iflow.md#restored)
 
 #### Inherited from
 
-[Element](Element.md).[restored](Element.md#restored)
+[Element](element.md).[restored](element.md#restored)
 
 #### Defined in
 
@@ -449,7 +449,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -457,11 +457,11 @@ ___
 
 #### Implementation of
 
-[IFlow](../interfaces/IFlow.md).[resume](../interfaces/IFlow.md#resume)
+[IFlow](../interfaces/iflow.md).[resume](../interfaces/iflow.md#resume)
 
 #### Inherited from
 
-[Element](Element.md).[resume](Element.md#resume)
+[Element](element.md).[resume](element.md#resume)
 
 #### Defined in
 
@@ -481,7 +481,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

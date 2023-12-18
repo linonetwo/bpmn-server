@@ -6,24 +6,24 @@
 
 ### Constructors
 
-- [constructor](ScriptHandler.md#constructor)
+- [constructor](scripthandler.md#constructor)
 
 ### Methods
 
-- [evaluateExpression](ScriptHandler.md#evaluateexpression)
-- [evaluateInputExpression](ScriptHandler.md#evaluateinputexpression)
-- [executeScript](ScriptHandler.md#executescript)
-- [getJSvars](ScriptHandler.md#getjsvars)
+- [evaluateExpression](scripthandler.md#evaluateexpression)
+- [evaluateInputExpression](scripthandler.md#evaluateinputexpression)
+- [executeScript](scripthandler.md#executescript)
+- [getJSvars](scripthandler.md#getjsvars)
 
 ## Constructors
 
 ### constructor
 
-• **new ScriptHandler**(): [`ScriptHandler`](ScriptHandler.md)
+• **new ScriptHandler**(): [`ScriptHandler`](scripthandler.md)
 
 #### Returns
 
-[`ScriptHandler`](ScriptHandler.md)
+[`ScriptHandler`](scripthandler.md)
 
 ## Methods
 

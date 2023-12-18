@@ -9,21 +9,21 @@ msgs can be cleared by the clean method
 
 ## Implemented by
 
-- [`Logger`](../classes/Logger.md)
+- [`Logger`](../classes/logger.md)
 
 ## Table of contents
 
 ### Methods
 
-- [clear](ILogger.md#clear)
-- [debug](ILogger.md#debug)
-- [error](ILogger.md#error)
-- [get](ILogger.md#get)
-- [log](ILogger.md#log)
-- [reportError](ILogger.md#reporterror)
-- [save](ILogger.md#save)
-- [setOptions](ILogger.md#setoptions)
-- [warn](ILogger.md#warn)
+- [clear](ilogger.md#clear)
+- [debug](ilogger.md#debug)
+- [error](ilogger.md#error)
+- [get](ilogger.md#get)
+- [log](ilogger.md#log)
+- [reportError](ilogger.md#reporterror)
+- [save](ilogger.md#save)
+- [setOptions](ilogger.md#setoptions)
+- [warn](ilogger.md#warn)
 
 ## Methods
 

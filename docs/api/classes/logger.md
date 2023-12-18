@@ -9,40 +9,40 @@ msgs can be cleared by the clean method
 
 ## Implements
 
-- [`ILogger`](../interfaces/ILogger.md)
+- [`ILogger`](../interfaces/ilogger.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Logger.md#constructor)
+- [constructor](logger.md#constructor)
 
 ### Properties
 
-- [callback](Logger.md#callback)
-- [debugMsgs](Logger.md#debugmsgs)
-- [toConsole](Logger.md#toconsole)
-- [toFile](Logger.md#tofile)
+- [callback](logger.md#callback)
+- [debugMsgs](logger.md#debugmsgs)
+- [toConsole](logger.md#toconsole)
+- [toFile](logger.md#tofile)
 
 ### Methods
 
-- [clear](Logger.md#clear)
-- [debug](Logger.md#debug)
-- [error](Logger.md#error)
-- [get](Logger.md#get)
-- [log](Logger.md#log)
-- [msg](Logger.md#msg)
-- [reportError](Logger.md#reporterror)
-- [save](Logger.md#save)
-- [setOptions](Logger.md#setoptions)
-- [toString](Logger.md#tostring)
-- [warn](Logger.md#warn)
+- [clear](logger.md#clear)
+- [debug](logger.md#debug)
+- [error](logger.md#error)
+- [get](logger.md#get)
+- [log](logger.md#log)
+- [msg](logger.md#msg)
+- [reportError](logger.md#reporterror)
+- [save](logger.md#save)
+- [setOptions](logger.md#setoptions)
+- [toString](logger.md#tostring)
+- [warn](logger.md#warn)
 
 ## Constructors
 
 ### constructor
 
-• **new Logger**(`«destructured»`): [`Logger`](Logger.md)
+• **new Logger**(`«destructured»`): [`Logger`](logger.md)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ msgs can be cleared by the clean method
 
 #### Returns
 
-[`Logger`](Logger.md)
+[`Logger`](logger.md)
 
 #### Defined in
 
@@ -113,7 +113,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[clear](../interfaces/ILogger.md#clear)
+[ILogger](../interfaces/ilogger.md).[clear](../interfaces/ilogger.md#clear)
 
 #### Defined in
 
@@ -137,7 +137,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[debug](../interfaces/ILogger.md#debug)
+[ILogger](../interfaces/ilogger.md).[debug](../interfaces/ilogger.md#debug)
 
 #### Defined in
 
@@ -161,7 +161,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[error](../interfaces/ILogger.md#error)
+[ILogger](../interfaces/ilogger.md).[error](../interfaces/ilogger.md#error)
 
 #### Defined in
 
@@ -179,7 +179,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[get](../interfaces/ILogger.md#get)
+[ILogger](../interfaces/ilogger.md).[get](../interfaces/ilogger.md#get)
 
 #### Defined in
 
@@ -208,7 +208,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[log](../interfaces/ILogger.md#log)
+[ILogger](../interfaces/ilogger.md).[log](../interfaces/ilogger.md#log)
 
 #### Defined in
 
@@ -258,7 +258,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[reportError](../interfaces/ILogger.md#reporterror)
+[ILogger](../interfaces/ilogger.md).[reportError](../interfaces/ilogger.md#reporterror)
 
 #### Defined in
 
@@ -282,7 +282,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[save](../interfaces/ILogger.md#save)
+[ILogger](../interfaces/ilogger.md).[save](../interfaces/ilogger.md#save)
 
 #### Defined in
 
@@ -309,7 +309,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[setOptions](../interfaces/ILogger.md#setoptions)
+[ILogger](../interfaces/ilogger.md).[setOptions](../interfaces/ilogger.md#setoptions)
 
 #### Defined in
 
@@ -353,7 +353,7 @@ ___
 
 #### Implementation of
 
-[ILogger](../interfaces/ILogger.md).[warn](../interfaces/ILogger.md#warn)
+[ILogger](../interfaces/ilogger.md).[warn](../interfaces/ilogger.md#warn)
 
 #### Defined in
 

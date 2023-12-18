@@ -12,44 +12,44 @@ super class for various objects that are part of the server
 
 ## Implements
 
-- [`ICacheManager`](../interfaces/ICacheManager.md)
+- [`ICacheManager`](../interfaces/icachemanager.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](NoCacheManager.md#constructor)
+- [constructor](nocachemanager.md#constructor)
 
 ### Properties
 
-- [server](NoCacheManager.md#server)
+- [server](nocachemanager.md#server)
 
 ### Accessors
 
-- [appDelegate](NoCacheManager.md#appdelegate)
-- [cache](NoCacheManager.md#cache)
-- [configuration](NoCacheManager.md#configuration)
-- [cron](NoCacheManager.md#cron)
-- [dataStore](NoCacheManager.md#datastore)
-- [definitions](NoCacheManager.md#definitions)
-- [engine](NoCacheManager.md#engine)
-- [listener](NoCacheManager.md#listener)
-- [logger](NoCacheManager.md#logger)
+- [appDelegate](nocachemanager.md#appdelegate)
+- [cache](nocachemanager.md#cache)
+- [configuration](nocachemanager.md#configuration)
+- [cron](nocachemanager.md#cron)
+- [dataStore](nocachemanager.md#datastore)
+- [definitions](nocachemanager.md#definitions)
+- [engine](nocachemanager.md#engine)
+- [listener](nocachemanager.md#listener)
+- [logger](nocachemanager.md#logger)
 
 ### Methods
 
-- [add](NoCacheManager.md#add)
-- [getInstance](NoCacheManager.md#getinstance)
-- [list](NoCacheManager.md#list)
-- [remove](NoCacheManager.md#remove)
-- [restart](NoCacheManager.md#restart)
-- [shutdown](NoCacheManager.md#shutdown)
+- [add](nocachemanager.md#add)
+- [getInstance](nocachemanager.md#getinstance)
+- [list](nocachemanager.md#list)
+- [remove](nocachemanager.md#remove)
+- [restart](nocachemanager.md#restart)
+- [shutdown](nocachemanager.md#shutdown)
 
 ## Constructors
 
 ### constructor
 
-• **new NoCacheManager**(`server`): [`NoCacheManager`](NoCacheManager.md)
+• **new NoCacheManager**(`server`): [`NoCacheManager`](nocachemanager.md)
 
 #### Parameters
 
@@ -59,7 +59,7 @@ super class for various objects that are part of the server
 
 #### Returns
 
-[`NoCacheManager`](NoCacheManager.md)
+[`NoCacheManager`](nocachemanager.md)
 
 #### Overrides
 
@@ -105,11 +105,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Inherited from
 
@@ -141,11 +141,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -195,11 +195,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Inherited from
 
@@ -263,7 +263,7 @@ ServerComponent.logger
 
 #### Implementation of
 
-[ICacheManager](../interfaces/ICacheManager.md).[add](../interfaces/ICacheManager.md#add)
+[ICacheManager](../interfaces/icachemanager.md).[add](../interfaces/icachemanager.md#add)
 
 #### Defined in
 
@@ -301,7 +301,7 @@ ___
 
 #### Implementation of
 
-[ICacheManager](../interfaces/ICacheManager.md).[list](../interfaces/ICacheManager.md#list)
+[ICacheManager](../interfaces/icachemanager.md).[list](../interfaces/icachemanager.md#list)
 
 #### Defined in
 
@@ -325,7 +325,7 @@ ___
 
 #### Implementation of
 
-[ICacheManager](../interfaces/ICacheManager.md).[remove](../interfaces/ICacheManager.md#remove)
+[ICacheManager](../interfaces/icachemanager.md).[remove](../interfaces/icachemanager.md#remove)
 
 #### Defined in
 
@@ -357,7 +357,7 @@ ___
 
 #### Implementation of
 
-[ICacheManager](../interfaces/ICacheManager.md).[shutdown](../interfaces/ICacheManager.md#shutdown)
+[ICacheManager](../interfaces/icachemanager.md).[shutdown](../interfaces/icachemanager.md#shutdown)
 
 #### Defined in
 

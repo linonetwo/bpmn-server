@@ -6,24 +6,24 @@
 
 ### Constructors
 
-- [constructor](LoopObject.md#constructor)
+- [constructor](loopobject.md#constructor)
 
 ### Properties
 
-- [dataPath](LoopObject.md#datapath)
-- [nodeId](LoopObject.md#nodeid)
-- [ownerTokenId](LoopObject.md#ownertokenid)
-- [sequence](LoopObject.md#sequence)
+- [dataPath](loopobject.md#datapath)
+- [nodeId](loopobject.md#nodeid)
+- [ownerTokenId](loopobject.md#ownertokenid)
+- [sequence](loopobject.md#sequence)
 
 ## Constructors
 
 ### constructor
 
-• **new LoopObject**(): [`LoopObject`](LoopObject.md)
+• **new LoopObject**(): [`LoopObject`](loopobject.md)
 
 #### Returns
 
-[`LoopObject`](LoopObject.md)
+[`LoopObject`](loopobject.md)
 
 ## Properties
 

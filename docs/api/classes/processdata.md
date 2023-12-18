@@ -4,29 +4,29 @@
 
 ## Implements
 
-- [`IProcessData`](../interfaces/IProcessData.md)
+- [`IProcessData`](../interfaces/iprocessdata.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ProcessData.md#constructor)
+- [constructor](processdata.md#constructor)
 
 ### Properties
 
-- [id](ProcessData.md#id)
-- [isExecutable](ProcessData.md#isexecutable)
-- [name](ProcessData.md#name)
+- [id](processdata.md#id)
+- [isExecutable](processdata.md#isexecutable)
+- [name](processdata.md#name)
 
 ## Constructors
 
 ### constructor
 
-• **new ProcessData**(): [`ProcessData`](ProcessData.md)
+• **new ProcessData**(): [`ProcessData`](processdata.md)
 
 #### Returns
 
-[`ProcessData`](ProcessData.md)
+[`ProcessData`](processdata.md)
 
 ## Properties
 
@@ -36,7 +36,7 @@
 
 #### Implementation of
 
-[IProcessData](../interfaces/IProcessData.md).[id](../interfaces/IProcessData.md#id)
+[IProcessData](../interfaces/iprocessdata.md).[id](../interfaces/iprocessdata.md#id)
 
 #### Defined in
 
@@ -50,7 +50,7 @@ ___
 
 #### Implementation of
 
-[IProcessData](../interfaces/IProcessData.md).[isExecutable](../interfaces/IProcessData.md#isexecutable)
+[IProcessData](../interfaces/iprocessdata.md).[isExecutable](../interfaces/iprocessdata.md#isexecutable)
 
 #### Defined in
 
@@ -64,7 +64,7 @@ ___
 
 #### Implementation of
 
-[IProcessData](../interfaces/IProcessData.md).[name](../interfaces/IProcessData.md#name)
+[IProcessData](../interfaces/iprocessdata.md).[name](../interfaces/iprocessdata.md#name)
 
 #### Defined in
 

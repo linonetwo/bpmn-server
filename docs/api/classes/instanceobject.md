@@ -12,37 +12,37 @@ as stored in MongoDB
 
 ### Constructors
 
-- [constructor](InstanceObject.md#constructor)
+- [constructor](instanceobject.md#constructor)
 
 ### Properties
 
-- [authorizations](InstanceObject.md#authorizations)
-- [data](InstanceObject.md#data)
-- [endedAt](InstanceObject.md#endedat)
-- [id](InstanceObject.md#id)
-- [involvements](InstanceObject.md#involvements)
-- [items](InstanceObject.md#items)
-- [logs](InstanceObject.md#logs)
-- [loops](InstanceObject.md#loops)
-- [name](InstanceObject.md#name)
-- [parentItemId](InstanceObject.md#parentitemid)
-- [saved](InstanceObject.md#saved)
-- [source](InstanceObject.md#source)
-- [startedAt](InstanceObject.md#startedat)
-- [status](InstanceObject.md#status)
-- [tokens](InstanceObject.md#tokens)
-- [vars](InstanceObject.md#vars)
-- [version](InstanceObject.md#version)
+- [authorizations](instanceobject.md#authorizations)
+- [data](instanceobject.md#data)
+- [endedAt](instanceobject.md#endedat)
+- [id](instanceobject.md#id)
+- [involvements](instanceobject.md#involvements)
+- [items](instanceobject.md#items)
+- [logs](instanceobject.md#logs)
+- [loops](instanceobject.md#loops)
+- [name](instanceobject.md#name)
+- [parentItemId](instanceobject.md#parentitemid)
+- [saved](instanceobject.md#saved)
+- [source](instanceobject.md#source)
+- [startedAt](instanceobject.md#startedat)
+- [status](instanceobject.md#status)
+- [tokens](instanceobject.md#tokens)
+- [vars](instanceobject.md#vars)
+- [version](instanceobject.md#version)
 
 ## Constructors
 
 ### constructor
 
-• **new InstanceObject**(): [`InstanceObject`](InstanceObject.md)
+• **new InstanceObject**(): [`InstanceObject`](instanceobject.md)
 
 #### Returns
 
-[`InstanceObject`](InstanceObject.md)
+[`InstanceObject`](instanceobject.md)
 
 ## Properties
 

@@ -6,34 +6,34 @@
 
 ### Constructors
 
-- [constructor](Process.md#constructor)
+- [constructor](process.md#constructor)
 
 ### Properties
 
-- [childrenNodes](Process.md#childrennodes)
-- [def](Process.md#def)
-- [eventSubProcesses](Process.md#eventsubprocesses)
-- [id](Process.md#id)
-- [isExecutable](Process.md#isexecutable)
-- [name](Process.md#name)
-- [parent](Process.md#parent)
-- [scripts](Process.md#scripts)
-- [subProcessEvents](Process.md#subprocessevents)
+- [childrenNodes](process.md#childrennodes)
+- [def](process.md#def)
+- [eventSubProcesses](process.md#eventsubprocesses)
+- [id](process.md#id)
+- [isExecutable](process.md#isexecutable)
+- [name](process.md#name)
+- [parent](process.md#parent)
+- [scripts](process.md#scripts)
+- [subProcessEvents](process.md#subprocessevents)
 
 ### Methods
 
-- [end](Process.md#end)
-- [getEventSubProcessStart](Process.md#geteventsubprocessstart)
-- [getStartNode](Process.md#getstartnode)
-- [getStartNodes](Process.md#getstartnodes)
-- [init](Process.md#init)
-- [start](Process.md#start)
+- [end](process.md#end)
+- [getEventSubProcessStart](process.md#geteventsubprocessstart)
+- [getStartNode](process.md#getstartnode)
+- [getStartNodes](process.md#getstartnodes)
+- [init](process.md#init)
+- [start](process.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new Process**(`definition`, `parent?`): [`Process`](Process.md)
+• **new Process**(`definition`, `parent?`): [`Process`](process.md)
 
 #### Parameters
 
@@ -44,7 +44,7 @@
 
 #### Returns
 
-[`Process`](Process.md)
+[`Process`](process.md)
 
 #### Defined in
 
@@ -54,7 +54,7 @@
 
 ### childrenNodes
 
-• **childrenNodes**: [`Node`](Node.md)[]
+• **childrenNodes**: [`Node`](node.md)[]
 
 #### Defined in
 
@@ -64,7 +64,7 @@ ___
 
 ### def
 
-• **def**: [`Definition`](Definition.md)
+• **def**: [`Definition`](definition.md)
 
 #### Defined in
 
@@ -114,7 +114,7 @@ ___
 
 ### parent
 
-• **parent**: [`Process`](Process.md)
+• **parent**: [`Process`](process.md)
 
 #### Defined in
 
@@ -160,11 +160,11 @@ ___
 
 ### getEventSubProcessStart
 
-▸ **getEventSubProcessStart**(): [`Node`](Node.md)[]
+▸ **getEventSubProcessStart**(): [`Node`](node.md)[]
 
 #### Returns
 
-[`Node`](Node.md)[]
+[`Node`](node.md)[]
 
 #### Defined in
 
@@ -243,7 +243,7 @@ Notify process that it started
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`Execution`](Execution.md) |
+| `execution` | [`Execution`](execution.md) |
 | `parentToken` | `any` |
 
 #### Returns

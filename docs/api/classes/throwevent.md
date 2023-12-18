@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- [`Event`](Event.md)
+- [`Event`](event.md)
 
   ↳ **`ThrowEvent`**
 
@@ -12,69 +12,69 @@
 
 ### Constructors
 
-- [constructor](ThrowEvent.md#constructor)
+- [constructor](throwevent.md#constructor)
 
 ### Properties
 
-- [assignee](ThrowEvent.md#assignee)
-- [attachedTo](ThrowEvent.md#attachedto)
-- [attachments](ThrowEvent.md#attachments)
-- [behaviours](ThrowEvent.md#behaviours)
-- [def](ThrowEvent.md#def)
-- [id](ThrowEvent.md#id)
-- [inbounds](ThrowEvent.md#inbounds)
-- [initiator](ThrowEvent.md#initiator)
-- [isFlow](ThrowEvent.md#isflow)
-- [lane](ThrowEvent.md#lane)
-- [messageId](ThrowEvent.md#messageid)
-- [name](ThrowEvent.md#name)
-- [outbounds](ThrowEvent.md#outbounds)
-- [process](ThrowEvent.md#process)
-- [scripts](ThrowEvent.md#scripts)
-- [signalId](ThrowEvent.md#signalid)
-- [subType](ThrowEvent.md#subtype)
-- [type](ThrowEvent.md#type)
+- [assignee](throwevent.md#assignee)
+- [attachedTo](throwevent.md#attachedto)
+- [attachments](throwevent.md#attachments)
+- [behaviours](throwevent.md#behaviours)
+- [def](throwevent.md#def)
+- [id](throwevent.md#id)
+- [inbounds](throwevent.md#inbounds)
+- [initiator](throwevent.md#initiator)
+- [isFlow](throwevent.md#isflow)
+- [lane](throwevent.md#lane)
+- [messageId](throwevent.md#messageid)
+- [name](throwevent.md#name)
+- [outbounds](throwevent.md#outbounds)
+- [process](throwevent.md#process)
+- [scripts](throwevent.md#scripts)
+- [signalId](throwevent.md#signalid)
+- [subType](throwevent.md#subtype)
+- [type](throwevent.md#type)
 
 ### Accessors
 
-- [canBeInvoked](ThrowEvent.md#canbeinvoked)
-- [isCatching](ThrowEvent.md#iscatching)
-- [processId](ThrowEvent.md#processid)
-- [requiresWait](ThrowEvent.md#requireswait)
+- [canBeInvoked](throwevent.md#canbeinvoked)
+- [isCatching](throwevent.md#iscatching)
+- [processId](throwevent.md#processid)
+- [requiresWait](throwevent.md#requireswait)
 
 ### Methods
 
-- [addBehaviour](ThrowEvent.md#addbehaviour)
-- [cancelBoundaryEvents](ThrowEvent.md#cancelboundaryevents)
-- [cancelEBG](ThrowEvent.md#cancelebg)
-- [continue](ThrowEvent.md#continue)
-- [describe](ThrowEvent.md#describe)
-- [doEvent](ThrowEvent.md#doevent)
-- [end](ThrowEvent.md#end)
-- [enter](ThrowEvent.md#enter)
-- [execute](ThrowEvent.md#execute)
-- [getBehaviour](ThrowEvent.md#getbehaviour)
-- [getInput](ThrowEvent.md#getinput)
-- [getOutbounds](ThrowEvent.md#getoutbounds)
-- [getOutput](ThrowEvent.md#getoutput)
-- [hasBehaviour](ThrowEvent.md#hasbehaviour)
-- [hasMessage](ThrowEvent.md#hasmessage)
-- [hasSignal](ThrowEvent.md#hassignal)
-- [hasTimer](ThrowEvent.md#hastimer)
-- [init](ThrowEvent.md#init)
-- [restored](ThrowEvent.md#restored)
-- [resume](ThrowEvent.md#resume)
-- [run](ThrowEvent.md#run)
-- [setInput](ThrowEvent.md#setinput)
-- [start](ThrowEvent.md#start)
-- [startBoundaryEvents](ThrowEvent.md#startboundaryevents)
-- [validate](ThrowEvent.md#validate)
+- [addBehaviour](throwevent.md#addbehaviour)
+- [cancelBoundaryEvents](throwevent.md#cancelboundaryevents)
+- [cancelEBG](throwevent.md#cancelebg)
+- [continue](throwevent.md#continue)
+- [describe](throwevent.md#describe)
+- [doEvent](throwevent.md#doevent)
+- [end](throwevent.md#end)
+- [enter](throwevent.md#enter)
+- [execute](throwevent.md#execute)
+- [getBehaviour](throwevent.md#getbehaviour)
+- [getInput](throwevent.md#getinput)
+- [getOutbounds](throwevent.md#getoutbounds)
+- [getOutput](throwevent.md#getoutput)
+- [hasBehaviour](throwevent.md#hasbehaviour)
+- [hasMessage](throwevent.md#hasmessage)
+- [hasSignal](throwevent.md#hassignal)
+- [hasTimer](throwevent.md#hastimer)
+- [init](throwevent.md#init)
+- [restored](throwevent.md#restored)
+- [resume](throwevent.md#resume)
+- [run](throwevent.md#run)
+- [setInput](throwevent.md#setinput)
+- [start](throwevent.md#start)
+- [startBoundaryEvents](throwevent.md#startboundaryevents)
+- [validate](throwevent.md#validate)
 
 ## Constructors
 
 ### constructor
 
-• **new ThrowEvent**(`id`, `process`, `type`, `def`): [`ThrowEvent`](ThrowEvent.md)
+• **new ThrowEvent**(`id`, `process`, `type`, `def`): [`ThrowEvent`](throwevent.md)
 
 #### Parameters
 
@@ -87,11 +87,11 @@
 
 #### Returns
 
-[`ThrowEvent`](ThrowEvent.md)
+[`ThrowEvent`](throwevent.md)
 
 #### Inherited from
 
-[Event](Event.md).[constructor](Event.md#constructor)
+[Event](event.md).[constructor](event.md#constructor)
 
 #### Defined in
 
@@ -105,7 +105,7 @@
 
 #### Inherited from
 
-[Event](Event.md).[assignee](Event.md#assignee)
+[Event](event.md).[assignee](event.md#assignee)
 
 #### Defined in
 
@@ -115,11 +115,11 @@ ___
 
 ### attachedTo
 
-• **attachedTo**: [`Node`](Node.md)
+• **attachedTo**: [`Node`](node.md)
 
 #### Inherited from
 
-[Event](Event.md).[attachedTo](Event.md#attachedto)
+[Event](event.md).[attachedTo](event.md#attachedto)
 
 #### Defined in
 
@@ -129,11 +129,11 @@ ___
 
 ### attachments
 
-• **attachments**: [`Node`](Node.md)[]
+• **attachments**: [`Node`](node.md)[]
 
 #### Inherited from
 
-[Event](Event.md).[attachments](Event.md#attachments)
+[Event](event.md).[attachments](event.md#attachments)
 
 #### Defined in
 
@@ -147,7 +147,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[behaviours](Event.md#behaviours)
+[Event](event.md).[behaviours](event.md#behaviours)
 
 #### Defined in
 
@@ -161,7 +161,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[def](Event.md#def)
+[Event](event.md).[def](event.md#def)
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[id](Event.md#id)
+[Event](event.md).[id](event.md#id)
 
 #### Defined in
 
@@ -185,11 +185,11 @@ ___
 
 ### inbounds
 
-• **inbounds**: [`Flow`](Flow.md)[]
+• **inbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Event](Event.md).[inbounds](Event.md#inbounds)
+[Event](event.md).[inbounds](event.md#inbounds)
 
 #### Defined in
 
@@ -203,7 +203,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[initiator](Event.md#initiator)
+[Event](event.md).[initiator](event.md#initiator)
 
 #### Defined in
 
@@ -217,7 +217,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[isFlow](Event.md#isflow)
+[Event](event.md).[isFlow](event.md#isflow)
 
 #### Defined in
 
@@ -231,7 +231,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[lane](Event.md#lane)
+[Event](event.md).[lane](event.md#lane)
 
 #### Defined in
 
@@ -245,7 +245,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[messageId](Event.md#messageid)
+[Event](event.md).[messageId](event.md#messageid)
 
 #### Defined in
 
@@ -259,7 +259,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[name](Event.md#name)
+[Event](event.md).[name](event.md#name)
 
 #### Defined in
 
@@ -269,11 +269,11 @@ ___
 
 ### outbounds
 
-• **outbounds**: [`Flow`](Flow.md)[]
+• **outbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Event](Event.md).[outbounds](Event.md#outbounds)
+[Event](event.md).[outbounds](event.md#outbounds)
 
 #### Defined in
 
@@ -287,7 +287,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[process](Event.md#process)
+[Event](event.md).[process](event.md#process)
 
 #### Defined in
 
@@ -301,7 +301,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[scripts](Event.md#scripts)
+[Event](event.md).[scripts](event.md#scripts)
 
 #### Defined in
 
@@ -315,7 +315,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[signalId](Event.md#signalid)
+[Event](event.md).[signalId](event.md#signalid)
 
 #### Defined in
 
@@ -329,7 +329,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[subType](Event.md#subtype)
+[Event](event.md).[subType](event.md#subtype)
 
 #### Defined in
 
@@ -343,7 +343,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[type](Event.md#type)
+[Event](event.md).[type](event.md#type)
 
 #### Defined in
 
@@ -442,7 +442,7 @@ Event.requiresWait
 
 #### Inherited from
 
-[Event](Event.md).[addBehaviour](Event.md#addbehaviour)
+[Event](event.md).[addBehaviour](event.md#addbehaviour)
 
 #### Defined in
 
@@ -466,7 +466,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[cancelBoundaryEvents](Event.md#cancelboundaryevents)
+[Event](event.md).[cancelBoundaryEvents](event.md#cancelboundaryevents)
 
 #### Defined in
 
@@ -490,7 +490,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[cancelEBG](Event.md#cancelebg)
+[Event](event.md).[cancelEBG](event.md#cancelebg)
 
 #### Defined in
 
@@ -506,7 +506,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -514,7 +514,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[continue](Event.md#continue)
+[Event](event.md).[continue](event.md#continue)
 
 #### Defined in
 
@@ -532,7 +532,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[describe](Event.md#describe)
+[Event](event.md).[describe](event.md#describe)
 
 #### Defined in
 
@@ -548,7 +548,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
 | `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
@@ -558,7 +558,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[doEvent](Event.md#doevent)
+[Event](event.md).[doEvent](event.md#doevent)
 
 #### Defined in
 
@@ -574,7 +574,7 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `item` | [`Item`](Item.md) | `undefined` |
+| `item` | [`Item`](item.md) | `undefined` |
 | `cancel` | `Boolean` | `false` |
 
 #### Returns
@@ -583,7 +583,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[end](Event.md#end)
+[Event](event.md).[end](event.md#end)
 
 #### Defined in
 
@@ -599,7 +599,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -607,7 +607,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[enter](Event.md#enter)
+[Event](event.md).[enter](event.md#enter)
 
 #### Defined in
 
@@ -631,7 +631,7 @@ considerations: the following are handled by Token
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -639,7 +639,7 @@ considerations: the following are handled by Token
 
 #### Inherited from
 
-[Event](Event.md).[execute](Event.md#execute)
+[Event](event.md).[execute](event.md#execute)
 
 #### Defined in
 
@@ -663,7 +663,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[getBehaviour](Event.md#getbehaviour)
+[Event](event.md).[getBehaviour](event.md#getbehaviour)
 
 #### Defined in
 
@@ -679,7 +679,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -688,7 +688,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[getInput](Event.md#getinput)
+[Event](event.md).[getInput](event.md#getinput)
 
 #### Defined in
 
@@ -698,21 +698,21 @@ ___
 
 ### getOutbounds
 
-▸ **getOutbounds**(`item`): [`Item`](Item.md)[]
+▸ **getOutbounds**(`item`): [`Item`](item.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
-[`Item`](Item.md)[]
+[`Item`](item.md)[]
 
 #### Inherited from
 
-[Event](Event.md).[getOutbounds](Event.md#getoutbounds)
+[Event](event.md).[getOutbounds](event.md#getoutbounds)
 
 #### Defined in
 
@@ -731,7 +731,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -739,7 +739,7 @@ todo
 
 #### Inherited from
 
-[Event](Event.md).[getOutput](Event.md#getoutput)
+[Event](event.md).[getOutput](event.md#getoutput)
 
 #### Defined in
 
@@ -766,7 +766,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[Event](Event.md).[hasBehaviour](Event.md#hasbehaviour)
+[Event](event.md).[hasBehaviour](event.md#hasbehaviour)
 
 #### Defined in
 
@@ -784,7 +784,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[hasMessage](Event.md#hasmessage)
+[Event](event.md).[hasMessage](event.md#hasmessage)
 
 #### Defined in
 
@@ -802,7 +802,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[hasSignal](Event.md#hassignal)
+[Event](event.md).[hasSignal](event.md#hassignal)
 
 #### Defined in
 
@@ -820,7 +820,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[hasTimer](Event.md#hastimer)
+[Event](event.md).[hasTimer](event.md#hastimer)
 
 #### Defined in
 
@@ -836,7 +836,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -844,7 +844,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[init](Event.md#init)
+[Event](event.md).[init](event.md#init)
 
 #### Defined in
 
@@ -860,7 +860,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -868,7 +868,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[restored](Event.md#restored)
+[Event](event.md).[restored](event.md#restored)
 
 #### Defined in
 
@@ -887,7 +887,7 @@ different than init, which is called for all items
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -895,7 +895,7 @@ different than init, which is called for all items
 
 #### Inherited from
 
-[Event](Event.md).[resume](Event.md#resume)
+[Event](event.md).[resume](event.md#resume)
 
 #### Defined in
 
@@ -911,7 +911,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -919,7 +919,7 @@ ___
 
 #### Overrides
 
-[Event](Event.md).[run](Event.md#run)
+[Event](event.md).[run](event.md#run)
 
 #### Defined in
 
@@ -939,7 +939,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -948,7 +948,7 @@ todo
 
 #### Inherited from
 
-[Event](Event.md).[setInput](Event.md#setinput)
+[Event](event.md).[setInput](event.md#setinput)
 
 #### Defined in
 
@@ -966,7 +966,7 @@ using token: check if fromEventBasedGateway;	if yes cancel all other events
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -974,7 +974,7 @@ using token: check if fromEventBasedGateway;	if yes cancel all other events
 
 #### Overrides
 
-[Event](Event.md).[start](Event.md#start)
+[Event](event.md).[start](event.md#start)
 
 #### Defined in
 
@@ -999,7 +999,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[startBoundaryEvents](Event.md#startboundaryevents)
+[Event](event.md).[startBoundaryEvents](event.md#startboundaryevents)
 
 #### Defined in
 
@@ -1015,7 +1015,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1023,7 +1023,7 @@ ___
 
 #### Inherited from
 
-[Event](Event.md).[validate](Event.md#validate)
+[Event](event.md).[validate](event.md#validate)
 
 #### Defined in
 

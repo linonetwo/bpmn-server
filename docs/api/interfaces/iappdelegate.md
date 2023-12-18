@@ -11,25 +11,25 @@ Application Delegate Object to respond to various events and services:
 
 ## Implemented by
 
-- [`DefaultAppDelegate`](../classes/DefaultAppDelegate.md)
+- [`DefaultAppDelegate`](../classes/defaultappdelegate.md)
 
 ## Table of contents
 
 ### Properties
 
-- [moddleOptions](IAppDelegate.md#moddleoptions)
+- [moddleOptions](iappdelegate.md#moddleoptions)
 
 ### Methods
 
-- [executionStarted](IAppDelegate.md#executionstarted)
-- [getServicesProvider](IAppDelegate.md#getservicesprovider)
-- [issueMessage](IAppDelegate.md#issuemessage)
-- [issueSignal](IAppDelegate.md#issuesignal)
-- [messageThrown](IAppDelegate.md#messagethrown)
-- [sendEmail](IAppDelegate.md#sendemail)
-- [serviceCalled](IAppDelegate.md#servicecalled)
-- [signalThrown](IAppDelegate.md#signalthrown)
-- [startUp](IAppDelegate.md#startup)
+- [executionStarted](iappdelegate.md#executionstarted)
+- [getServicesProvider](iappdelegate.md#getservicesprovider)
+- [issueMessage](iappdelegate.md#issuemessage)
+- [issueSignal](iappdelegate.md#issuesignal)
+- [messageThrown](iappdelegate.md#messagethrown)
+- [sendEmail](iappdelegate.md#sendemail)
+- [serviceCalled](iappdelegate.md#servicecalled)
+- [signalThrown](iappdelegate.md#signalthrown)
+- [startUp](iappdelegate.md#startup)
 
 ## Properties
 
@@ -138,7 +138,7 @@ ___
 | `signalId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -184,7 +184,7 @@ is called only if the serviceTask has no implementation; otherwise the specified
 | :------ | :------ |
 | `serviceName` | `any` |
 | `data` | `any` |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -207,7 +207,7 @@ ___
 | `signalId` | `any` |
 | `data` | `any` |
 | `messageMatchingKey` | `any` |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 

@@ -4,13 +4,13 @@
 
 ## Hierarchy
 
-- [`IServerComponent`](Iservercomponent.md)
+- [`IServerComponent`](iservercomponent.md)
 
   ↳ **`IExecution`**
 
 ## Implemented by
 
-- [`Execution`](../classes/Execution.md)
+- [`Execution`](../classes/execution.md)
 
 ## Table of contents
 
@@ -76,11 +76,11 @@
 
 ### appDelegate
 
-• **appDelegate**: [`IAppDelegate`](IAppDelegate.md)
+• **appDelegate**: [`IAppDelegate`](iappdelegate.md)
 
 #### Overrides
 
-[IServerComponent](Iservercomponent.md).[appDelegate](Iservercomponent.md#appdelegate)
+[IServerComponent](iservercomponent.md).[appDelegate](iservercomponent.md#appdelegate)
 
 #### Defined in
 
@@ -94,7 +94,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[cache](Iservercomponent.md#cache)
+[IServerComponent](iservercomponent.md).[cache](iservercomponent.md#cache)
 
 #### Defined in
 
@@ -104,11 +104,11 @@ ___
 
 ### configuration
 
-• **configuration**: [`IConfiguration`](IConfiguration.md)
+• **configuration**: [`IConfiguration`](iconfiguration.md)
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[configuration](Iservercomponent.md#configuration)
+[IServerComponent](iservercomponent.md).[configuration](iservercomponent.md#configuration)
 
 #### Defined in
 
@@ -122,7 +122,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[cron](Iservercomponent.md#cron)
+[IServerComponent](iservercomponent.md).[cron](iservercomponent.md#cron)
 
 #### Defined in
 
@@ -132,11 +132,11 @@ ___
 
 ### dataStore
 
-• **dataStore**: [`IDataStore`](IDataStore.md)
+• **dataStore**: [`IDataStore`](idatastore.md)
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[dataStore](Iservercomponent.md#datastore)
+[IServerComponent](iservercomponent.md).[dataStore](iservercomponent.md#datastore)
 
 #### Defined in
 
@@ -160,7 +160,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[definitions](Iservercomponent.md#definitions)
+[IServerComponent](iservercomponent.md).[definitions](iservercomponent.md#definitions)
 
 #### Defined in
 
@@ -174,7 +174,7 @@ ___
 
 #### Inherited from
 
-[IServerComponent](Iservercomponent.md).[engine](Iservercomponent.md#engine)
+[IServerComponent](iservercomponent.md).[engine](iservercomponent.md#engine)
 
 #### Defined in
 
@@ -244,11 +244,11 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](ILogger.md)
+• **logger**: [`ILogger`](ilogger.md)
 
 #### Overrides
 
-[IServerComponent](Iservercomponent.md).[logger](Iservercomponent.md#logger)
+[IServerComponent](iservercomponent.md).[logger](iservercomponent.md#logger)
 
 #### Defined in
 
@@ -312,7 +312,7 @@ ___
 
 #### Overrides
 
-[IServerComponent](Iservercomponent.md).[server](Iservercomponent.md#server)
+[IServerComponent](iservercomponent.md).[server](iservercomponent.md#server)
 
 #### Defined in
 
@@ -332,7 +332,7 @@ ___
 
 ### tokens
 
-• **tokens**: `Map`\<`any`, [`IToken`](IToken.md)\>
+• **tokens**: `Map`\<`any`, [`IToken`](itoken.md)\>
 
 #### Defined in
 
@@ -379,7 +379,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `inputData` | `any` |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 | `dataPath?` | `any` |
 | `assignment?` | `any` |
 
@@ -533,7 +533,7 @@ ___
 
 ### getItems
 
-▸ **getItems**(`query?`): [`IItem`](IItem.md)[]
+▸ **getItems**(`query?`): [`IItem`](iitem.md)[]
 
 #### Parameters
 
@@ -543,7 +543,7 @@ ___
 
 #### Returns
 
-[`IItem`](IItem.md)[]
+[`IItem`](iitem.md)[]
 
 #### Defined in
 
@@ -587,7 +587,7 @@ ___
 
 ### getNodeById
 
-▸ **getNodeById**(`id`): [`Node`](../classes/Node.md)
+▸ **getNodeById**(`id`): [`Node`](../classes/node.md)
 
 #### Parameters
 
@@ -597,7 +597,7 @@ ___
 
 #### Returns
 
-[`Node`](../classes/Node.md)
+[`Node`](../classes/node.md)
 
 #### Defined in
 
@@ -621,7 +621,7 @@ ___
 
 ### getToken
 
-▸ **getToken**(`id`): [`IToken`](IToken.md)
+▸ **getToken**(`id`): [`IToken`](itoken.md)
 
 #### Parameters
 
@@ -631,7 +631,7 @@ ___
 
 #### Returns
 
-[`IToken`](IToken.md)
+[`IToken`](itoken.md)
 
 #### Defined in
 
@@ -839,7 +839,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `token` | [`IToken`](IToken.md) |
+| `token` | [`IToken`](itoken.md) |
 
 #### Returns
 

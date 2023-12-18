@@ -12,45 +12,45 @@ super class for various objects that are part of the server
 
 ## Implements
 
-- [`ICron`](../interfaces/ICron.md)
+- [`ICron`](../interfaces/icron.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Cron.md#constructor)
+- [constructor](cron.md#constructor)
 
 ### Properties
 
-- [server](Cron.md#server)
+- [server](cron.md#server)
 
 ### Accessors
 
-- [appDelegate](Cron.md#appdelegate)
-- [cache](Cron.md#cache)
-- [configuration](Cron.md#configuration)
-- [cron](Cron.md#cron)
-- [dataStore](Cron.md#datastore)
-- [definitions](Cron.md#definitions)
-- [engine](Cron.md#engine)
-- [listener](Cron.md#listener)
-- [logger](Cron.md#logger)
+- [appDelegate](cron.md#appdelegate)
+- [cache](cron.md#cache)
+- [configuration](cron.md#configuration)
+- [cron](cron.md#cron)
+- [dataStore](cron.md#datastore)
+- [definitions](cron.md#definitions)
+- [engine](cron.md#engine)
+- [listener](cron.md#listener)
+- [logger](cron.md#logger)
 
 ### Methods
 
-- [checkTimers](Cron.md#checktimers)
-- [start](Cron.md#start)
-- [startTimers](Cron.md#starttimers)
-- [checkCron](Cron.md#checkcron)
-- [timeDue](Cron.md#timedue)
-- [timerEnded](Cron.md#timerended)
-- [timerScheduled](Cron.md#timerscheduled)
+- [checkTimers](cron.md#checktimers)
+- [start](cron.md#start)
+- [startTimers](cron.md#starttimers)
+- [checkCron](cron.md#checkcron)
+- [timeDue](cron.md#timedue)
+- [timerEnded](cron.md#timerended)
+- [timerScheduled](cron.md#timerscheduled)
 
 ## Constructors
 
 ### constructor
 
-• **new Cron**(`server`): [`Cron`](Cron.md)
+• **new Cron**(`server`): [`Cron`](cron.md)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ super class for various objects that are part of the server
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -106,11 +106,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Inherited from
 
@@ -142,11 +142,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -196,11 +196,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Inherited from
 
@@ -264,7 +264,7 @@ ServerComponent.logger
 
 #### Implementation of
 
-[ICron](../interfaces/ICron.md).[checkTimers](../interfaces/ICron.md#checktimers)
+[ICron](../interfaces/icron.md).[checkTimers](../interfaces/icron.md#checktimers)
 
 #### Defined in
 
@@ -282,7 +282,7 @@ ___
 
 #### Implementation of
 
-[ICron](../interfaces/ICron.md).[start](../interfaces/ICron.md#start)
+[ICron](../interfaces/icron.md).[start](../interfaces/icron.md#start)
 
 #### Defined in
 
@@ -300,7 +300,7 @@ ___
 
 #### Implementation of
 
-[ICron](../interfaces/ICron.md).[startTimers](../interfaces/ICron.md#starttimers)
+[ICron](../interfaces/icron.md).[startTimers](../interfaces/icron.md#starttimers)
 
 #### Defined in
 

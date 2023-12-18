@@ -12,21 +12,21 @@
 
 ### Properties
 
-- [appDelegate](Iservercomponent.md#appdelegate)
-- [cache](Iservercomponent.md#cache)
-- [configuration](Iservercomponent.md#configuration)
-- [cron](Iservercomponent.md#cron)
-- [dataStore](Iservercomponent.md#datastore)
-- [definitions](Iservercomponent.md#definitions)
-- [engine](Iservercomponent.md#engine)
-- [logger](Iservercomponent.md#logger)
-- [server](Iservercomponent.md#server)
+- [appDelegate](iservercomponent.md#appdelegate)
+- [cache](iservercomponent.md#cache)
+- [configuration](iservercomponent.md#configuration)
+- [cron](iservercomponent.md#cron)
+- [dataStore](iservercomponent.md#datastore)
+- [definitions](iservercomponent.md#definitions)
+- [engine](iservercomponent.md#engine)
+- [logger](iservercomponent.md#logger)
+- [server](iservercomponent.md#server)
 
 ## Properties
 
 ### appDelegate
 
-• **appDelegate**: [`IAppDelegate`](IAppDelegate.md)
+• **appDelegate**: [`IAppDelegate`](iappdelegate.md)
 
 #### Defined in
 
@@ -46,7 +46,7 @@ ___
 
 ### configuration
 
-• **configuration**: [`IConfiguration`](IConfiguration.md)
+• **configuration**: [`IConfiguration`](iconfiguration.md)
 
 #### Defined in
 
@@ -66,7 +66,7 @@ ___
 
 ### dataStore
 
-• **dataStore**: [`IDataStore`](IDataStore.md)
+• **dataStore**: [`IDataStore`](idatastore.md)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](ILogger.md)
+• **logger**: [`ILogger`](ilogger.md)
 
 #### Defined in
 

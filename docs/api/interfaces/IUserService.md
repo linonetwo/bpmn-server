@@ -6,10 +6,10 @@
 
 ### Methods
 
-- [addUser](IUserService.md#adduser)
-- [findUsers](IUserService.md#findusers)
-- [install](IUserService.md#install)
-- [setPassword](IUserService.md#setpassword)
+- [addUser](iuserservice.md#adduser)
+- [findUsers](iuserservice.md#findusers)
+- [install](iuserservice.md#install)
+- [setPassword](iuserservice.md#setpassword)
 
 ## Methods
 

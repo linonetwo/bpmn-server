@@ -6,14 +6,14 @@
 
 ### Properties
 
-- [accessRules](IDefinitionData.md#accessrules)
-- [flows](IDefinitionData.md#flows)
-- [logger](IDefinitionData.md#logger)
-- [name](IDefinitionData.md#name)
-- [nodes](IDefinitionData.md#nodes)
-- [processes](IDefinitionData.md#processes)
-- [rootElements](IDefinitionData.md#rootelements)
-- [source](IDefinitionData.md#source)
+- [accessRules](idefinitiondata.md#accessrules)
+- [flows](idefinitiondata.md#flows)
+- [logger](idefinitiondata.md#logger)
+- [name](idefinitiondata.md#name)
+- [nodes](idefinitiondata.md#nodes)
+- [processes](idefinitiondata.md#processes)
+- [rootElements](idefinitiondata.md#rootelements)
+- [source](idefinitiondata.md#source)
 
 ## Properties
 

@@ -6,11 +6,11 @@
 
 - **`IItemData`**
 
-  ↳ [`IItem`](IItem.md)
+  ↳ [`IItem`](iitem.md)
 
 ## Implemented by
 
-- [`ItemObject`](../classes/ItemObject.md)
+- [`ItemObject`](../classes/itemobject.md)
 
 ## Table of contents
 

@@ -4,42 +4,42 @@
 
 ## Implements
 
-- [`IEventData`](../interfaces/IEventData.md)
+- [`IEventData`](../interfaces/ieventdata.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](EventData.md#constructor)
+- [constructor](eventdata.md#constructor)
 
 ### Properties
 
-- [candidateGroups](EventData.md#candidategroups)
-- [candidateUsers](EventData.md#candidateusers)
-- [elementId](EventData.md#elementid)
-- [expression](EventData.md#expression)
-- [expressionFormat](EventData.md#expressionformat)
-- [lane](EventData.md#lane)
-- [maxRepeat](EventData.md#maxrepeat)
-- [messageId](EventData.md#messageid)
-- [name](EventData.md#name)
-- [processId](EventData.md#processid)
-- [referenceDateTime](EventData.md#referencedatetime)
-- [repeatCount](EventData.md#repeatcount)
-- [signalId](EventData.md#signalid)
-- [subType](EventData.md#subtype)
-- [timeDue](EventData.md#timedue)
-- [type](EventData.md#type)
+- [candidateGroups](eventdata.md#candidategroups)
+- [candidateUsers](eventdata.md#candidateusers)
+- [elementId](eventdata.md#elementid)
+- [expression](eventdata.md#expression)
+- [expressionFormat](eventdata.md#expressionformat)
+- [lane](eventdata.md#lane)
+- [maxRepeat](eventdata.md#maxrepeat)
+- [messageId](eventdata.md#messageid)
+- [name](eventdata.md#name)
+- [processId](eventdata.md#processid)
+- [referenceDateTime](eventdata.md#referencedatetime)
+- [repeatCount](eventdata.md#repeatcount)
+- [signalId](eventdata.md#signalid)
+- [subType](eventdata.md#subtype)
+- [timeDue](eventdata.md#timedue)
+- [type](eventdata.md#type)
 
 ## Constructors
 
 ### constructor
 
-• **new EventData**(): [`EventData`](EventData.md)
+• **new EventData**(): [`EventData`](eventdata.md)
 
 #### Returns
 
-[`EventData`](EventData.md)
+[`EventData`](eventdata.md)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[candidateGroups](../interfaces/IEventData.md#candidategroups)
+[IEventData](../interfaces/ieventdata.md).[candidateGroups](../interfaces/ieventdata.md#candidategroups)
 
 #### Defined in
 
@@ -63,7 +63,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[candidateUsers](../interfaces/IEventData.md#candidateusers)
+[IEventData](../interfaces/ieventdata.md).[candidateUsers](../interfaces/ieventdata.md#candidateusers)
 
 #### Defined in
 
@@ -77,7 +77,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[elementId](../interfaces/IEventData.md#elementid)
+[IEventData](../interfaces/ieventdata.md).[elementId](../interfaces/ieventdata.md#elementid)
 
 #### Defined in
 
@@ -91,7 +91,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[expression](../interfaces/IEventData.md#expression)
+[IEventData](../interfaces/ieventdata.md).[expression](../interfaces/ieventdata.md#expression)
 
 #### Defined in
 
@@ -105,7 +105,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[expressionFormat](../interfaces/IEventData.md#expressionformat)
+[IEventData](../interfaces/ieventdata.md).[expressionFormat](../interfaces/ieventdata.md#expressionformat)
 
 #### Defined in
 
@@ -119,7 +119,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[lane](../interfaces/IEventData.md#lane)
+[IEventData](../interfaces/ieventdata.md).[lane](../interfaces/ieventdata.md#lane)
 
 #### Defined in
 
@@ -133,7 +133,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[maxRepeat](../interfaces/IEventData.md#maxrepeat)
+[IEventData](../interfaces/ieventdata.md).[maxRepeat](../interfaces/ieventdata.md#maxrepeat)
 
 #### Defined in
 
@@ -147,7 +147,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[messageId](../interfaces/IEventData.md#messageid)
+[IEventData](../interfaces/ieventdata.md).[messageId](../interfaces/ieventdata.md#messageid)
 
 #### Defined in
 
@@ -161,7 +161,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[name](../interfaces/IEventData.md#name)
+[IEventData](../interfaces/ieventdata.md).[name](../interfaces/ieventdata.md#name)
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[processId](../interfaces/IEventData.md#processid)
+[IEventData](../interfaces/ieventdata.md).[processId](../interfaces/ieventdata.md#processid)
 
 #### Defined in
 
@@ -189,7 +189,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[referenceDateTime](../interfaces/IEventData.md#referencedatetime)
+[IEventData](../interfaces/ieventdata.md).[referenceDateTime](../interfaces/ieventdata.md#referencedatetime)
 
 #### Defined in
 
@@ -203,7 +203,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[repeatCount](../interfaces/IEventData.md#repeatcount)
+[IEventData](../interfaces/ieventdata.md).[repeatCount](../interfaces/ieventdata.md#repeatcount)
 
 #### Defined in
 
@@ -217,7 +217,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[signalId](../interfaces/IEventData.md#signalid)
+[IEventData](../interfaces/ieventdata.md).[signalId](../interfaces/ieventdata.md#signalid)
 
 #### Defined in
 
@@ -231,7 +231,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[subType](../interfaces/IEventData.md#subtype)
+[IEventData](../interfaces/ieventdata.md).[subType](../interfaces/ieventdata.md#subtype)
 
 #### Defined in
 
@@ -245,7 +245,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[timeDue](../interfaces/IEventData.md#timedue)
+[IEventData](../interfaces/ieventdata.md).[timeDue](../interfaces/ieventdata.md#timedue)
 
 #### Defined in
 
@@ -259,7 +259,7 @@ ___
 
 #### Implementation of
 
-[IEventData](../interfaces/IEventData.md).[type](../interfaces/IEventData.md#type)
+[IEventData](../interfaces/ieventdata.md).[type](../interfaces/ieventdata.md#type)
 
 #### Defined in
 

@@ -4,17 +4,17 @@
 
 ## Implemented by
 
-- [`CacheManager`](../classes/CacheManager.md)
-- [`NoCacheManager`](../classes/NoCacheManager.md)
+- [`CacheManager`](../classes/cachemanager.md)
+- [`NoCacheManager`](../classes/nocachemanager.md)
 
 ## Table of contents
 
 ### Methods
 
-- [add](ICacheManager.md#add)
-- [list](ICacheManager.md#list)
-- [remove](ICacheManager.md#remove)
-- [shutdown](ICacheManager.md#shutdown)
+- [add](icachemanager.md#add)
+- [list](icachemanager.md#list)
+- [remove](icachemanager.md#remove)
+- [shutdown](icachemanager.md#shutdown)
 
 ## Methods
 

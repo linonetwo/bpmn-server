@@ -6,48 +6,48 @@
 
 ### Constructors
 
-- [constructor](Loop.md#constructor)
+- [constructor](loop.md#constructor)
 
 ### Properties
 
-- [completed](Loop.md#completed)
-- [dataPath](Loop.md#datapath)
-- [definition](Loop.md#definition)
-- [id](Loop.md#id)
-- [items](Loop.md#items)
-- [node](Loop.md#node)
-- [ownerToken](Loop.md#ownertoken)
-- [sequence](Loop.md#sequence)
+- [completed](loop.md#completed)
+- [dataPath](loop.md#datapath)
+- [definition](loop.md#definition)
+- [id](loop.md#id)
+- [items](loop.md#items)
+- [node](loop.md#node)
+- [ownerToken](loop.md#ownertoken)
+- [sequence](loop.md#sequence)
 
 ### Methods
 
-- [getKeyName](Loop.md#getkeyname)
-- [getNext](Loop.md#getnext)
-- [isDone](Loop.md#isdone)
-- [isSequential](Loop.md#issequential)
-- [isStandard](Loop.md#isstandard)
-- [save](Loop.md#save)
-- [checkNext](Loop.md#checknext)
-- [checkStart](Loop.md#checkstart)
-- [load](Loop.md#load)
+- [getKeyName](loop.md#getkeyname)
+- [getNext](loop.md#getnext)
+- [isDone](loop.md#isdone)
+- [isSequential](loop.md#issequential)
+- [isStandard](loop.md#isstandard)
+- [save](loop.md#save)
+- [checkNext](loop.md#checknext)
+- [checkStart](loop.md#checkstart)
+- [load](loop.md#load)
 
 ## Constructors
 
 ### constructor
 
-• **new Loop**(`node`, `token`, `dataObject?`): [`Loop`](Loop.md)
+• **new Loop**(`node`, `token`, `dataObject?`): [`Loop`](loop.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
-| `token` | [`Token`](Token.md) |
+| `node` | [`Node`](node.md) |
+| `token` | [`Token`](token.md) |
 | `dataObject?` | `any` |
 
 #### Returns
 
-[`Loop`](Loop.md)
+[`Loop`](loop.md)
 
 #### Defined in
 
@@ -77,7 +77,7 @@ ___
 
 ### definition
 
-• **definition**: [`LoopBehaviour`](Loopbehaviour.md)
+• **definition**: [`LoopBehaviour`](loopbehaviour.md)
 
 #### Defined in
 
@@ -236,7 +236,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `token` | [`Token`](Token.md) |
+| `token` | [`Token`](token.md) |
 
 #### Returns
 
@@ -270,7 +270,7 @@ ___
 
 ### load
 
-▸ **load**(`execution`, `dataObject`): [`Loop`](Loop.md)
+▸ **load**(`execution`, `dataObject`): [`Loop`](loop.md)
 
 #### Parameters
 
@@ -281,7 +281,7 @@ ___
 
 #### Returns
 
-[`Loop`](Loop.md)
+[`Loop`](loop.md)
 
 #### Defined in
 

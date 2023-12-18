@@ -4,7 +4,7 @@
 
 ## Implemented by
 
-- [`InstanceObject`](../classes/InstanceObject.md)
+- [`InstanceObject`](../classes/instanceobject.md)
 
 ## Table of contents
 

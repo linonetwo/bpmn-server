@@ -4,82 +4,82 @@
 
 ## Hierarchy
 
-- [`Node`](Node.md)
+- [`Node`](node.md)
 
   ↳ **`Gateway`**
 
-  ↳↳ [`XORGateway`](XORGateway.md)
+  ↳↳ [`XORGateway`](xorgateway.md)
 
-  ↳↳ [`EventBasedGateway`](EventBasedGateway.md)
+  ↳↳ [`EventBasedGateway`](eventbasedgateway.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Gateway.md#constructor)
+- [constructor](gateway.md#constructor)
 
 ### Properties
 
-- [assignee](Gateway.md#assignee)
-- [attachedTo](Gateway.md#attachedto)
-- [attachments](Gateway.md#attachments)
-- [behaviours](Gateway.md#behaviours)
-- [def](Gateway.md#def)
-- [id](Gateway.md#id)
-- [inbounds](Gateway.md#inbounds)
-- [initiator](Gateway.md#initiator)
-- [isFlow](Gateway.md#isflow)
-- [lane](Gateway.md#lane)
-- [messageId](Gateway.md#messageid)
-- [name](Gateway.md#name)
-- [outbounds](Gateway.md#outbounds)
-- [process](Gateway.md#process)
-- [scripts](Gateway.md#scripts)
-- [signalId](Gateway.md#signalid)
-- [subType](Gateway.md#subtype)
-- [type](Gateway.md#type)
+- [assignee](gateway.md#assignee)
+- [attachedTo](gateway.md#attachedto)
+- [attachments](gateway.md#attachments)
+- [behaviours](gateway.md#behaviours)
+- [def](gateway.md#def)
+- [id](gateway.md#id)
+- [inbounds](gateway.md#inbounds)
+- [initiator](gateway.md#initiator)
+- [isFlow](gateway.md#isflow)
+- [lane](gateway.md#lane)
+- [messageId](gateway.md#messageid)
+- [name](gateway.md#name)
+- [outbounds](gateway.md#outbounds)
+- [process](gateway.md#process)
+- [scripts](gateway.md#scripts)
+- [signalId](gateway.md#signalid)
+- [subType](gateway.md#subtype)
+- [type](gateway.md#type)
 
 ### Accessors
 
-- [canBeInvoked](Gateway.md#canbeinvoked)
-- [isCatching](Gateway.md#iscatching)
-- [processId](Gateway.md#processid)
-- [requiresWait](Gateway.md#requireswait)
+- [canBeInvoked](gateway.md#canbeinvoked)
+- [isCatching](gateway.md#iscatching)
+- [processId](gateway.md#processid)
+- [requiresWait](gateway.md#requireswait)
 
 ### Methods
 
-- [addBehaviour](Gateway.md#addbehaviour)
-- [analyzeConvergingTokens](Gateway.md#analyzeconvergingtokens)
-- [canReach](Gateway.md#canreach)
-- [cancelBoundaryEvents](Gateway.md#cancelboundaryevents)
-- [cancelEBG](Gateway.md#cancelebg)
-- [continue](Gateway.md#continue)
-- [describe](Gateway.md#describe)
-- [doEvent](Gateway.md#doevent)
-- [end](Gateway.md#end)
-- [enter](Gateway.md#enter)
-- [execute](Gateway.md#execute)
-- [getBehaviour](Gateway.md#getbehaviour)
-- [getInput](Gateway.md#getinput)
-- [getOutbounds](Gateway.md#getoutbounds)
-- [getOutput](Gateway.md#getoutput)
-- [getPotentialPath](Gateway.md#getpotentialpath)
-- [getRelatedTokens](Gateway.md#getrelatedtokens)
-- [hasBehaviour](Gateway.md#hasbehaviour)
-- [init](Gateway.md#init)
-- [restored](Gateway.md#restored)
-- [resume](Gateway.md#resume)
-- [run](Gateway.md#run)
-- [setInput](Gateway.md#setinput)
-- [start](Gateway.md#start)
-- [startBoundaryEvents](Gateway.md#startboundaryevents)
-- [validate](Gateway.md#validate)
+- [addBehaviour](gateway.md#addbehaviour)
+- [analyzeConvergingTokens](gateway.md#analyzeconvergingtokens)
+- [canReach](gateway.md#canreach)
+- [cancelBoundaryEvents](gateway.md#cancelboundaryevents)
+- [cancelEBG](gateway.md#cancelebg)
+- [continue](gateway.md#continue)
+- [describe](gateway.md#describe)
+- [doEvent](gateway.md#doevent)
+- [end](gateway.md#end)
+- [enter](gateway.md#enter)
+- [execute](gateway.md#execute)
+- [getBehaviour](gateway.md#getbehaviour)
+- [getInput](gateway.md#getinput)
+- [getOutbounds](gateway.md#getoutbounds)
+- [getOutput](gateway.md#getoutput)
+- [getPotentialPath](gateway.md#getpotentialpath)
+- [getRelatedTokens](gateway.md#getrelatedtokens)
+- [hasBehaviour](gateway.md#hasbehaviour)
+- [init](gateway.md#init)
+- [restored](gateway.md#restored)
+- [resume](gateway.md#resume)
+- [run](gateway.md#run)
+- [setInput](gateway.md#setinput)
+- [start](gateway.md#start)
+- [startBoundaryEvents](gateway.md#startboundaryevents)
+- [validate](gateway.md#validate)
 
 ## Constructors
 
 ### constructor
 
-• **new Gateway**(`id`, `process`, `type`, `def`): [`Gateway`](Gateway.md)
+• **new Gateway**(`id`, `process`, `type`, `def`): [`Gateway`](gateway.md)
 
 #### Parameters
 
@@ -92,11 +92,11 @@
 
 #### Returns
 
-[`Gateway`](Gateway.md)
+[`Gateway`](gateway.md)
 
 #### Inherited from
 
-[Node](Node.md).[constructor](Node.md#constructor)
+[Node](node.md).[constructor](node.md#constructor)
 
 #### Defined in
 
@@ -110,7 +110,7 @@
 
 #### Inherited from
 
-[Node](Node.md).[assignee](Node.md#assignee)
+[Node](node.md).[assignee](node.md#assignee)
 
 #### Defined in
 
@@ -120,11 +120,11 @@ ___
 
 ### attachedTo
 
-• **attachedTo**: [`Node`](Node.md)
+• **attachedTo**: [`Node`](node.md)
 
 #### Inherited from
 
-[Node](Node.md).[attachedTo](Node.md#attachedto)
+[Node](node.md).[attachedTo](node.md#attachedto)
 
 #### Defined in
 
@@ -134,11 +134,11 @@ ___
 
 ### attachments
 
-• **attachments**: [`Node`](Node.md)[]
+• **attachments**: [`Node`](node.md)[]
 
 #### Inherited from
 
-[Node](Node.md).[attachments](Node.md#attachments)
+[Node](node.md).[attachments](node.md#attachments)
 
 #### Defined in
 
@@ -152,7 +152,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[behaviours](Node.md#behaviours)
+[Node](node.md).[behaviours](node.md#behaviours)
 
 #### Defined in
 
@@ -166,7 +166,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[def](Node.md#def)
+[Node](node.md).[def](node.md#def)
 
 #### Defined in
 
@@ -180,7 +180,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[id](Node.md#id)
+[Node](node.md).[id](node.md#id)
 
 #### Defined in
 
@@ -190,11 +190,11 @@ ___
 
 ### inbounds
 
-• **inbounds**: [`Flow`](Flow.md)[]
+• **inbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Node](Node.md).[inbounds](Node.md#inbounds)
+[Node](node.md).[inbounds](node.md#inbounds)
 
 #### Defined in
 
@@ -208,7 +208,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[initiator](Node.md#initiator)
+[Node](node.md).[initiator](node.md#initiator)
 
 #### Defined in
 
@@ -222,7 +222,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[isFlow](Node.md#isflow)
+[Node](node.md).[isFlow](node.md#isflow)
 
 #### Defined in
 
@@ -236,7 +236,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[lane](Node.md#lane)
+[Node](node.md).[lane](node.md#lane)
 
 #### Defined in
 
@@ -250,7 +250,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[messageId](Node.md#messageid)
+[Node](node.md).[messageId](node.md#messageid)
 
 #### Defined in
 
@@ -264,7 +264,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[name](Node.md#name)
+[Node](node.md).[name](node.md#name)
 
 #### Defined in
 
@@ -274,11 +274,11 @@ ___
 
 ### outbounds
 
-• **outbounds**: [`Flow`](Flow.md)[]
+• **outbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Node](Node.md).[outbounds](Node.md#outbounds)
+[Node](node.md).[outbounds](node.md#outbounds)
 
 #### Defined in
 
@@ -292,7 +292,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[process](Node.md#process)
+[Node](node.md).[process](node.md#process)
 
 #### Defined in
 
@@ -306,7 +306,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[scripts](Node.md#scripts)
+[Node](node.md).[scripts](node.md#scripts)
 
 #### Defined in
 
@@ -320,7 +320,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[signalId](Node.md#signalid)
+[Node](node.md).[signalId](node.md#signalid)
 
 #### Defined in
 
@@ -334,7 +334,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[subType](Node.md#subtype)
+[Node](node.md).[subType](node.md#subtype)
 
 #### Defined in
 
@@ -348,7 +348,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[type](Node.md#type)
+[Node](node.md).[type](node.md#type)
 
 #### Defined in
 
@@ -445,7 +445,7 @@ Node.requiresWait
 
 #### Inherited from
 
-[Node](Node.md).[addBehaviour](Node.md#addbehaviour)
+[Node](node.md).[addBehaviour](node.md#addbehaviour)
 
 #### Defined in
 
@@ -461,7 +461,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -469,8 +469,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `pendingTokens` | [`Token`](Token.md)[] |
-| `waitingTokens` | [`Token`](Token.md)[] |
+| `pendingTokens` | [`Token`](token.md)[] |
+| `waitingTokens` | [`Token`](token.md)[] |
 
 #### Defined in
 
@@ -515,7 +515,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[cancelBoundaryEvents](Node.md#cancelboundaryevents)
+[Node](node.md).[cancelBoundaryEvents](node.md#cancelboundaryevents)
 
 #### Defined in
 
@@ -539,7 +539,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[cancelEBG](Node.md#cancelebg)
+[Node](node.md).[cancelEBG](node.md#cancelebg)
 
 #### Defined in
 
@@ -555,7 +555,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -563,7 +563,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[continue](Node.md#continue)
+[Node](node.md).[continue](node.md#continue)
 
 #### Defined in
 
@@ -581,7 +581,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[describe](Node.md#describe)
+[Node](node.md).[describe](node.md#describe)
 
 #### Defined in
 
@@ -597,7 +597,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
 | `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
@@ -607,7 +607,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[doEvent](Node.md#doevent)
+[Node](node.md).[doEvent](node.md#doevent)
 
 #### Defined in
 
@@ -623,7 +623,7 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `item` | [`Item`](Item.md) | `undefined` |
+| `item` | [`Item`](item.md) | `undefined` |
 | `cancel` | `Boolean` | `false` |
 
 #### Returns
@@ -632,7 +632,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[end](Node.md#end)
+[Node](node.md).[end](node.md#end)
 
 #### Defined in
 
@@ -648,7 +648,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -656,7 +656,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[enter](Node.md#enter)
+[Node](node.md).[enter](node.md#enter)
 
 #### Defined in
 
@@ -680,7 +680,7 @@ considerations: the following are handled by Token
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -688,7 +688,7 @@ considerations: the following are handled by Token
 
 #### Inherited from
 
-[Node](Node.md).[execute](Node.md#execute)
+[Node](node.md).[execute](node.md#execute)
 
 #### Defined in
 
@@ -712,7 +712,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[getBehaviour](Node.md#getbehaviour)
+[Node](node.md).[getBehaviour](node.md#getbehaviour)
 
 #### Defined in
 
@@ -728,7 +728,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -737,7 +737,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[getInput](Node.md#getinput)
+[Node](node.md).[getInput](node.md#getinput)
 
 #### Defined in
 
@@ -747,21 +747,21 @@ ___
 
 ### getOutbounds
 
-▸ **getOutbounds**(`item`): [`Item`](Item.md)[]
+▸ **getOutbounds**(`item`): [`Item`](item.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
-[`Item`](Item.md)[]
+[`Item`](item.md)[]
 
 #### Overrides
 
-[Node](Node.md).[getOutbounds](Node.md#getoutbounds)
+[Node](node.md).[getOutbounds](node.md#getoutbounds)
 
 #### Defined in
 
@@ -780,7 +780,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -788,7 +788,7 @@ todo
 
 #### Inherited from
 
-[Node](Node.md).[getOutput](Node.md#getoutput)
+[Node](node.md).[getOutput](node.md#getoutput)
 
 #### Defined in
 
@@ -825,7 +825,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -856,7 +856,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[Node](Node.md).[hasBehaviour](Node.md#hasbehaviour)
+[Node](node.md).[hasBehaviour](node.md#hasbehaviour)
 
 #### Defined in
 
@@ -872,7 +872,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -880,7 +880,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[init](Node.md#init)
+[Node](node.md).[init](node.md#init)
 
 #### Defined in
 
@@ -896,7 +896,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -904,7 +904,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[restored](Node.md#restored)
+[Node](node.md).[restored](node.md#restored)
 
 #### Defined in
 
@@ -923,7 +923,7 @@ different than init, which is called for all items
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -931,7 +931,7 @@ different than init, which is called for all items
 
 #### Inherited from
 
-[Node](Node.md).[resume](Node.md#resume)
+[Node](node.md).[resume](node.md#resume)
 
 #### Defined in
 
@@ -947,7 +947,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -955,7 +955,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[run](Node.md#run)
+[Node](node.md).[run](node.md#run)
 
 #### Defined in
 
@@ -975,7 +975,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -984,7 +984,7 @@ todo
 
 #### Inherited from
 
-[Node](Node.md).[setInput](Node.md#setinput)
+[Node](node.md).[setInput](node.md#setinput)
 
 #### Defined in
 
@@ -1000,7 +1000,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1008,7 +1008,7 @@ ___
 
 #### Overrides
 
-[Node](Node.md).[start](Node.md#start)
+[Node](node.md).[start](node.md#start)
 
 #### Defined in
 
@@ -1033,7 +1033,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[startBoundaryEvents](Node.md#startboundaryevents)
+[Node](node.md).[startBoundaryEvents](node.md#startboundaryevents)
 
 #### Defined in
 
@@ -1049,7 +1049,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1057,7 +1057,7 @@ ___
 
 #### Inherited from
 
-[Node](Node.md).[validate](Node.md#validate)
+[Node](node.md).[validate](node.md#validate)
 
 #### Defined in
 

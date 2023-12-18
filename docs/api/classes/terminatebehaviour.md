@@ -21,43 +21,43 @@ Behaviour
 
 ### Constructors
 
-- [constructor](Terminatebehaviour.md#constructor)
+- [constructor](terminatebehaviour.md#constructor)
 
 ### Properties
 
-- [definition](Terminatebehaviour.md#definition)
-- [node](Terminatebehaviour.md#node)
+- [definition](terminatebehaviour.md#definition)
+- [node](terminatebehaviour.md#node)
 
 ### Methods
 
-- [describe](Terminatebehaviour.md#describe)
-- [end](Terminatebehaviour.md#end)
-- [enter](Terminatebehaviour.md#enter)
-- [exit](Terminatebehaviour.md#exit)
-- [getItemAttributes](Terminatebehaviour.md#getitemattributes)
-- [getNodeAttributes](Terminatebehaviour.md#getnodeattributes)
-- [init](Terminatebehaviour.md#init)
-- [restored](Terminatebehaviour.md#restored)
-- [resume](Terminatebehaviour.md#resume)
-- [run](Terminatebehaviour.md#run)
-- [start](Terminatebehaviour.md#start)
+- [describe](terminatebehaviour.md#describe)
+- [end](terminatebehaviour.md#end)
+- [enter](terminatebehaviour.md#enter)
+- [exit](terminatebehaviour.md#exit)
+- [getItemAttributes](terminatebehaviour.md#getitemattributes)
+- [getNodeAttributes](terminatebehaviour.md#getnodeattributes)
+- [init](terminatebehaviour.md#init)
+- [restored](terminatebehaviour.md#restored)
+- [resume](terminatebehaviour.md#resume)
+- [run](terminatebehaviour.md#run)
+- [start](terminatebehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new TerminateBehaviour**(`node`, `definition`): [`TerminateBehaviour`](Terminatebehaviour.md)
+• **new TerminateBehaviour**(`node`, `definition`): [`TerminateBehaviour`](terminatebehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`TerminateBehaviour`](Terminatebehaviour.md)
+[`TerminateBehaviour`](terminatebehaviour.md)
 
 #### Inherited from
 
@@ -85,7 +85,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -123,7 +123,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -147,7 +147,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -171,7 +171,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -195,7 +195,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -286,7 +286,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -310,7 +310,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -334,7 +334,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

@@ -10,37 +10,37 @@
 
 ### Constructors
 
-- [constructor](Definition.md#constructor)
+- [constructor](definition.md#constructor)
 
 ### Properties
 
-- [accessRules](Definition.md#accessrules)
-- [flows](Definition.md#flows)
-- [logger](Definition.md#logger)
-- [moddle](Definition.md#moddle)
-- [name](Definition.md#name)
-- [nodes](Definition.md#nodes)
-- [processes](Definition.md#processes)
-- [rootElements](Definition.md#rootelements)
-- [server](Definition.md#server)
-- [source](Definition.md#source)
+- [accessRules](definition.md#accessrules)
+- [flows](definition.md#flows)
+- [logger](definition.md#logger)
+- [moddle](definition.md#moddle)
+- [name](definition.md#name)
+- [nodes](definition.md#nodes)
+- [processes](definition.md#processes)
+- [rootElements](definition.md#rootelements)
+- [server](definition.md#server)
+- [source](definition.md#source)
 
 ### Methods
 
-- [getDefinition](Definition.md#getdefinition)
-- [getFields](Definition.md#getfields)
-- [getJson](Definition.md#getjson)
-- [getNodeById](Definition.md#getnodebyid)
-- [getStartNode](Definition.md#getstartnode)
-- [getStartNodes](Definition.md#getstartnodes)
-- [load](Definition.md#load)
-- [loadProcess](Definition.md#loadprocess)
+- [getDefinition](definition.md#getdefinition)
+- [getFields](definition.md#getfields)
+- [getJson](definition.md#getjson)
+- [getNodeById](definition.md#getnodebyid)
+- [getStartNode](definition.md#getstartnode)
+- [getStartNodes](definition.md#getstartnodes)
+- [load](definition.md#load)
+- [loadProcess](definition.md#loadprocess)
 
 ## Constructors
 
 ### constructor
 
-• **new Definition**(`name`, `source`, `server`): [`Definition`](Definition.md)
+• **new Definition**(`name`, `source`, `server`): [`Definition`](definition.md)
 
 #### Parameters
 
@@ -52,7 +52,7 @@
 
 #### Returns
 
-[`Definition`](Definition.md)
+[`Definition`](definition.md)
 
 #### Defined in
 
@@ -337,7 +337,7 @@ ___
 
 ### loadProcess
 
-▸ **loadProcess**(`definition`, `processElement`, `parentProcess`): [`Process`](Process.md)
+▸ **loadProcess**(`definition`, `processElement`, `parentProcess`): [`Process`](process.md)
 
 #### Parameters
 
@@ -349,7 +349,7 @@ ___
 
 #### Returns
 
-[`Process`](Process.md)
+[`Process`](process.md)
 
 #### Defined in
 

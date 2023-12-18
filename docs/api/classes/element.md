@@ -6,49 +6,49 @@
 
 - **`Element`**
 
-  ↳ [`Node`](Node.md)
+  ↳ [`Node`](node.md)
 
-  ↳ [`Flow`](Flow.md)
+  ↳ [`Flow`](flow.md)
 
 ## Implements
 
-- [`IElement`](../interfaces/IElement.md)
+- [`IElement`](../interfaces/ielement.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Element.md#constructor)
+- [constructor](element.md#constructor)
 
 ### Properties
 
-- [behaviours](Element.md#behaviours)
-- [id](Element.md#id)
-- [isFlow](Element.md#isflow)
-- [lane](Element.md#lane)
-- [name](Element.md#name)
-- [subType](Element.md#subtype)
-- [type](Element.md#type)
+- [behaviours](element.md#behaviours)
+- [id](element.md#id)
+- [isFlow](element.md#isflow)
+- [lane](element.md#lane)
+- [name](element.md#name)
+- [subType](element.md#subtype)
+- [type](element.md#type)
 
 ### Methods
 
-- [addBehaviour](Element.md#addbehaviour)
-- [continue](Element.md#continue)
-- [describe](Element.md#describe)
-- [getBehaviour](Element.md#getbehaviour)
-- [hasBehaviour](Element.md#hasbehaviour)
-- [restored](Element.md#restored)
-- [resume](Element.md#resume)
+- [addBehaviour](element.md#addbehaviour)
+- [continue](element.md#continue)
+- [describe](element.md#describe)
+- [getBehaviour](element.md#getbehaviour)
+- [hasBehaviour](element.md#hasbehaviour)
+- [restored](element.md#restored)
+- [resume](element.md#resume)
 
 ## Constructors
 
 ### constructor
 
-• **new Element**(): [`Element`](Element.md)
+• **new Element**(): [`Element`](element.md)
 
 #### Returns
 
-[`Element`](Element.md)
+[`Element`](element.md)
 
 ## Properties
 
@@ -58,7 +58,7 @@
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[behaviours](../interfaces/IElement.md#behaviours)
+[IElement](../interfaces/ielement.md).[behaviours](../interfaces/ielement.md#behaviours)
 
 #### Defined in
 
@@ -72,7 +72,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[id](../interfaces/IElement.md#id)
+[IElement](../interfaces/ielement.md).[id](../interfaces/ielement.md#id)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[lane](../interfaces/IElement.md#lane)
+[IElement](../interfaces/ielement.md).[lane](../interfaces/ielement.md#lane)
 
 #### Defined in
 
@@ -110,7 +110,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[name](../interfaces/IElement.md#name)
+[IElement](../interfaces/ielement.md).[name](../interfaces/ielement.md#name)
 
 #### Defined in
 
@@ -134,7 +134,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[type](../interfaces/IElement.md#type)
+[IElement](../interfaces/ielement.md).[type](../interfaces/ielement.md#type)
 
 #### Defined in
 
@@ -159,7 +159,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[addBehaviour](../interfaces/IElement.md#addbehaviour)
+[IElement](../interfaces/ielement.md).[addBehaviour](../interfaces/ielement.md#addbehaviour)
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -183,7 +183,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[continue](../interfaces/IElement.md#continue)
+[IElement](../interfaces/ielement.md).[continue](../interfaces/ielement.md#continue)
 
 #### Defined in
 
@@ -201,7 +201,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[describe](../interfaces/IElement.md#describe)
+[IElement](../interfaces/ielement.md).[describe](../interfaces/ielement.md#describe)
 
 #### Defined in
 
@@ -225,7 +225,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[getBehaviour](../interfaces/IElement.md#getbehaviour)
+[IElement](../interfaces/ielement.md).[getBehaviour](../interfaces/ielement.md#getbehaviour)
 
 #### Defined in
 
@@ -252,7 +252,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[hasBehaviour](../interfaces/IElement.md#hasbehaviour)
+[IElement](../interfaces/ielement.md).[hasBehaviour](../interfaces/ielement.md#hasbehaviour)
 
 #### Defined in
 
@@ -268,7 +268,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -276,7 +276,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[restored](../interfaces/IElement.md#restored)
+[IElement](../interfaces/ielement.md).[restored](../interfaces/ielement.md#restored)
 
 #### Defined in
 
@@ -292,7 +292,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -300,7 +300,7 @@ ___
 
 #### Implementation of
 
-[IElement](../interfaces/IElement.md).[resume](../interfaces/IElement.md#resume)
+[IElement](../interfaces/ielement.md).[resume](../interfaces/ielement.md#resume)
 
 #### Defined in
 

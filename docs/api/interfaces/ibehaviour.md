@@ -19,20 +19,20 @@ Behaviour
 
 ### Properties
 
-- [definition](Ibehaviour.md#definition)
-- [node](Ibehaviour.md#node)
+- [definition](ibehaviour.md#definition)
+- [node](ibehaviour.md#node)
 
 ### Methods
 
-- [describe](Ibehaviour.md#describe)
-- [end](Ibehaviour.md#end)
-- [getItemAttributes](Ibehaviour.md#getitemattributes)
-- [getNodeAttributes](Ibehaviour.md#getnodeattributes)
-- [init](Ibehaviour.md#init)
-- [restored](Ibehaviour.md#restored)
-- [resume](Ibehaviour.md#resume)
-- [run](Ibehaviour.md#run)
-- [start](Ibehaviour.md#start)
+- [describe](ibehaviour.md#describe)
+- [end](ibehaviour.md#end)
+- [getItemAttributes](ibehaviour.md#getitemattributes)
+- [getNodeAttributes](ibehaviour.md#getnodeattributes)
+- [init](ibehaviour.md#init)
+- [restored](ibehaviour.md#restored)
+- [resume](ibehaviour.md#resume)
+- [run](ibehaviour.md#run)
+- [start](ibehaviour.md#start)
 
 ## Properties
 
@@ -48,7 +48,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](../classes/Node.md)
+• **node**: [`Node`](../classes/node.md)
 
 #### Defined in
 
@@ -78,7 +78,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -98,7 +98,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -153,7 +153,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -173,7 +173,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -193,7 +193,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -213,7 +213,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 

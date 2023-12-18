@@ -6,31 +6,31 @@
 
 ### Constructors
 
-- [constructor](MongoDB.md#constructor)
+- [constructor](mongodb.md#constructor)
 
 ### Properties
 
-- [client](MongoDB.md#client)
-- [dbConfig](MongoDB.md#dbconfig)
-- [logger](MongoDB.md#logger)
+- [client](mongodb.md#client)
+- [dbConfig](mongodb.md#dbconfig)
+- [logger](mongodb.md#logger)
 
 ### Methods
 
-- [connect](MongoDB.md#connect)
-- [createIndex](MongoDB.md#createindex)
-- [find](MongoDB.md#find)
-- [getClient](MongoDB.md#getclient)
-- [insert](MongoDB.md#insert)
-- [remove](MongoDB.md#remove)
-- [removeById](MongoDB.md#removebyid)
-- [update](MongoDB.md#update)
-- [update2](MongoDB.md#update2)
+- [connect](mongodb.md#connect)
+- [createIndex](mongodb.md#createindex)
+- [find](mongodb.md#find)
+- [getClient](mongodb.md#getclient)
+- [insert](mongodb.md#insert)
+- [remove](mongodb.md#remove)
+- [removeById](mongodb.md#removebyid)
+- [update](mongodb.md#update)
+- [update2](mongodb.md#update2)
 
 ## Constructors
 
 ### constructor
 
-• **new MongoDB**(`dbConfig`, `logger`): [`MongoDB`](MongoDB.md)
+• **new MongoDB**(`dbConfig`, `logger`): [`MongoDB`](mongodb.md)
 
 #### Parameters
 
@@ -41,7 +41,7 @@
 
 #### Returns
 
-[`MongoDB`](MongoDB.md)
+[`MongoDB`](mongodb.md)
 
 #### Defined in
 

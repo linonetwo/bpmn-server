@@ -6,16 +6,16 @@
 
 - **`IUserInfo`**
 
-  ↳ [`ISecureUser`](ISecureUser.md)
+  ↳ [`ISecureUser`](isecureuser.md)
 
 ## Table of contents
 
 ### Properties
 
-- [modelsOwner](IUserInfo.md#modelsowner)
-- [tenantId](IUserInfo.md#tenantid)
-- [userGroups](IUserInfo.md#usergroups)
-- [userName](IUserInfo.md#username)
+- [modelsOwner](iuserinfo.md#modelsowner)
+- [tenantId](iuserinfo.md#tenantid)
+- [userGroups](iuserinfo.md#usergroups)
+- [userName](iuserinfo.md#username)
 
 ## Properties
 

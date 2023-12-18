@@ -4,20 +4,20 @@
 
 ## Implemented by
 
-- [`Engine`](../classes/Engine.md)
+- [`Engine`](../classes/engine.md)
 
 ## Table of contents
 
 ### Methods
 
-- [assign](IEngine.md#assign)
-- [get](IEngine.md#get)
-- [invoke](IEngine.md#invoke)
-- [start](IEngine.md#start)
-- [startEvent](IEngine.md#startevent)
-- [startRepeatTimerEvent](IEngine.md#startrepeattimerevent)
-- [throwMessage](IEngine.md#throwmessage)
-- [throwSignal](IEngine.md#throwsignal)
+- [assign](iengine.md#assign)
+- [get](iengine.md#get)
+- [invoke](iengine.md#invoke)
+- [start](iengine.md#start)
+- [startEvent](iengine.md#startevent)
+- [startRepeatTimerEvent](iengine.md#startrepeattimerevent)
+- [throwMessage](iengine.md#throwmessage)
+- [throwSignal](iengine.md#throwsignal)
 
 ## Methods
 
@@ -166,7 +166,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `instanceId` | `any` |
-| `prevItem` | [`IItem`](IItem.md) |
+| `prevItem` | [`IItem`](iitem.md) |
 | `data` | `Object` |
 | `options?` | `Object` |
 

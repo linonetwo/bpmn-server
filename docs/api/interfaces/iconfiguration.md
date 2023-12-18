@@ -4,26 +4,26 @@
 
 ## Implemented by
 
-- [`Configuration`](../classes/Configuration.md)
+- [`Configuration`](../classes/configuration.md)
 
 ## Table of contents
 
 ### Properties
 
-- [apiKey](IConfiguration.md#apikey)
-- [database](IConfiguration.md#database)
-- [definitionsPath](IConfiguration.md#definitionspath)
-- [logger](IConfiguration.md#logger)
-- [templatesPath](IConfiguration.md#templatespath)
-- [timers](IConfiguration.md#timers)
+- [apiKey](iconfiguration.md#apikey)
+- [database](iconfiguration.md#database)
+- [definitionsPath](iconfiguration.md#definitionspath)
+- [logger](iconfiguration.md#logger)
+- [templatesPath](iconfiguration.md#templatespath)
+- [timers](iconfiguration.md#timers)
 
 ### Methods
 
-- [appDelegate](IConfiguration.md#appdelegate)
-- [cacheManager](IConfiguration.md#cachemanager)
-- [dataStore](IConfiguration.md#datastore)
-- [definitions](IConfiguration.md#definitions)
-- [userService](IConfiguration.md#userservice)
+- [appDelegate](iconfiguration.md#appdelegate)
+- [cacheManager](iconfiguration.md#cachemanager)
+- [dataStore](iconfiguration.md#datastore)
+- [definitions](iconfiguration.md#definitions)
+- [userService](iconfiguration.md#userservice)
 
 ## Properties
 
@@ -68,7 +68,7 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](ILogger.md)
+• **logger**: [`ILogger`](ilogger.md)
 
 #### Defined in
 
@@ -105,7 +105,7 @@ ___
 
 ### appDelegate
 
-▸ **appDelegate**(`server`): [`IAppDelegate`](IAppDelegate.md)
+▸ **appDelegate**(`server`): [`IAppDelegate`](iappdelegate.md)
 
 #### Parameters
 
@@ -115,7 +115,7 @@ ___
 
 #### Returns
 
-[`IAppDelegate`](IAppDelegate.md)
+[`IAppDelegate`](iappdelegate.md)
 
 #### Defined in
 
@@ -125,7 +125,7 @@ ___
 
 ### cacheManager
 
-▸ **cacheManager**(`server`): [`ICacheManager`](ICacheManager.md)
+▸ **cacheManager**(`server`): [`ICacheManager`](icachemanager.md)
 
 #### Parameters
 
@@ -135,7 +135,7 @@ ___
 
 #### Returns
 
-[`ICacheManager`](ICacheManager.md)
+[`ICacheManager`](icachemanager.md)
 
 #### Defined in
 
@@ -145,7 +145,7 @@ ___
 
 ### dataStore
 
-▸ **dataStore**(`server`): [`IDataStore`](IDataStore.md)
+▸ **dataStore**(`server`): [`IDataStore`](idatastore.md)
 
 #### Parameters
 
@@ -155,7 +155,7 @@ ___
 
 #### Returns
 
-[`IDataStore`](IDataStore.md)
+[`IDataStore`](idatastore.md)
 
 #### Defined in
 
@@ -165,7 +165,7 @@ ___
 
 ### definitions
 
-▸ **definitions**(`server`): [`IModelsDatastore`](IModelsDatastore.md)
+▸ **definitions**(`server`): [`IModelsDatastore`](imodelsdatastore.md)
 
 #### Parameters
 
@@ -175,7 +175,7 @@ ___
 
 #### Returns
 
-[`IModelsDatastore`](IModelsDatastore.md)
+[`IModelsDatastore`](imodelsdatastore.md)
 
 #### Defined in
 
@@ -185,7 +185,7 @@ ___
 
 ### userService
 
-▸ **userService**(`server`): [`IUserService`](IUserService.md)
+▸ **userService**(`server`): [`IUserService`](iuserservice.md)
 
 #### Parameters
 
@@ -195,7 +195,7 @@ ___
 
 #### Returns
 
-[`IUserService`](IUserService.md)
+[`IUserService`](iuserservice.md)
 
 #### Defined in
 

@@ -8,7 +8,7 @@ ExclusiveGatway:
 
 ## Hierarchy
 
-- [`Gateway`](Gateway.md)
+- [`Gateway`](gateway.md)
 
   ↳ **`XORGateway`**
 
@@ -16,70 +16,70 @@ ExclusiveGatway:
 
 ### Constructors
 
-- [constructor](XORGateway.md#constructor)
+- [constructor](xorgateway.md#constructor)
 
 ### Properties
 
-- [assignee](XORGateway.md#assignee)
-- [attachedTo](XORGateway.md#attachedto)
-- [attachments](XORGateway.md#attachments)
-- [behaviours](XORGateway.md#behaviours)
-- [def](XORGateway.md#def)
-- [id](XORGateway.md#id)
-- [inbounds](XORGateway.md#inbounds)
-- [initiator](XORGateway.md#initiator)
-- [isFlow](XORGateway.md#isflow)
-- [lane](XORGateway.md#lane)
-- [messageId](XORGateway.md#messageid)
-- [name](XORGateway.md#name)
-- [outbounds](XORGateway.md#outbounds)
-- [process](XORGateway.md#process)
-- [scripts](XORGateway.md#scripts)
-- [signalId](XORGateway.md#signalid)
-- [subType](XORGateway.md#subtype)
-- [type](XORGateway.md#type)
+- [assignee](xorgateway.md#assignee)
+- [attachedTo](xorgateway.md#attachedto)
+- [attachments](xorgateway.md#attachments)
+- [behaviours](xorgateway.md#behaviours)
+- [def](xorgateway.md#def)
+- [id](xorgateway.md#id)
+- [inbounds](xorgateway.md#inbounds)
+- [initiator](xorgateway.md#initiator)
+- [isFlow](xorgateway.md#isflow)
+- [lane](xorgateway.md#lane)
+- [messageId](xorgateway.md#messageid)
+- [name](xorgateway.md#name)
+- [outbounds](xorgateway.md#outbounds)
+- [process](xorgateway.md#process)
+- [scripts](xorgateway.md#scripts)
+- [signalId](xorgateway.md#signalid)
+- [subType](xorgateway.md#subtype)
+- [type](xorgateway.md#type)
 
 ### Accessors
 
-- [canBeInvoked](XORGateway.md#canbeinvoked)
-- [isCatching](XORGateway.md#iscatching)
-- [processId](XORGateway.md#processid)
-- [requiresWait](XORGateway.md#requireswait)
+- [canBeInvoked](xorgateway.md#canbeinvoked)
+- [isCatching](xorgateway.md#iscatching)
+- [processId](xorgateway.md#processid)
+- [requiresWait](xorgateway.md#requireswait)
 
 ### Methods
 
-- [addBehaviour](XORGateway.md#addbehaviour)
-- [analyzeConvergingTokens](XORGateway.md#analyzeconvergingtokens)
-- [canReach](XORGateway.md#canreach)
-- [cancelBoundaryEvents](XORGateway.md#cancelboundaryevents)
-- [cancelEBG](XORGateway.md#cancelebg)
-- [continue](XORGateway.md#continue)
-- [describe](XORGateway.md#describe)
-- [doEvent](XORGateway.md#doevent)
-- [end](XORGateway.md#end)
-- [enter](XORGateway.md#enter)
-- [execute](XORGateway.md#execute)
-- [getBehaviour](XORGateway.md#getbehaviour)
-- [getInput](XORGateway.md#getinput)
-- [getOutbounds](XORGateway.md#getoutbounds)
-- [getOutput](XORGateway.md#getoutput)
-- [getPotentialPath](XORGateway.md#getpotentialpath)
-- [getRelatedTokens](XORGateway.md#getrelatedtokens)
-- [hasBehaviour](XORGateway.md#hasbehaviour)
-- [init](XORGateway.md#init)
-- [restored](XORGateway.md#restored)
-- [resume](XORGateway.md#resume)
-- [run](XORGateway.md#run)
-- [setInput](XORGateway.md#setinput)
-- [start](XORGateway.md#start)
-- [startBoundaryEvents](XORGateway.md#startboundaryevents)
-- [validate](XORGateway.md#validate)
+- [addBehaviour](xorgateway.md#addbehaviour)
+- [analyzeConvergingTokens](xorgateway.md#analyzeconvergingtokens)
+- [canReach](xorgateway.md#canreach)
+- [cancelBoundaryEvents](xorgateway.md#cancelboundaryevents)
+- [cancelEBG](xorgateway.md#cancelebg)
+- [continue](xorgateway.md#continue)
+- [describe](xorgateway.md#describe)
+- [doEvent](xorgateway.md#doevent)
+- [end](xorgateway.md#end)
+- [enter](xorgateway.md#enter)
+- [execute](xorgateway.md#execute)
+- [getBehaviour](xorgateway.md#getbehaviour)
+- [getInput](xorgateway.md#getinput)
+- [getOutbounds](xorgateway.md#getoutbounds)
+- [getOutput](xorgateway.md#getoutput)
+- [getPotentialPath](xorgateway.md#getpotentialpath)
+- [getRelatedTokens](xorgateway.md#getrelatedtokens)
+- [hasBehaviour](xorgateway.md#hasbehaviour)
+- [init](xorgateway.md#init)
+- [restored](xorgateway.md#restored)
+- [resume](xorgateway.md#resume)
+- [run](xorgateway.md#run)
+- [setInput](xorgateway.md#setinput)
+- [start](xorgateway.md#start)
+- [startBoundaryEvents](xorgateway.md#startboundaryevents)
+- [validate](xorgateway.md#validate)
 
 ## Constructors
 
 ### constructor
 
-• **new XORGateway**(`id`, `process`, `type`, `def`): [`XORGateway`](XORGateway.md)
+• **new XORGateway**(`id`, `process`, `type`, `def`): [`XORGateway`](xorgateway.md)
 
 #### Parameters
 
@@ -92,11 +92,11 @@ ExclusiveGatway:
 
 #### Returns
 
-[`XORGateway`](XORGateway.md)
+[`XORGateway`](xorgateway.md)
 
 #### Inherited from
 
-[Gateway](Gateway.md).[constructor](Gateway.md#constructor)
+[Gateway](gateway.md).[constructor](gateway.md#constructor)
 
 #### Defined in
 
@@ -110,7 +110,7 @@ ExclusiveGatway:
 
 #### Inherited from
 
-[Gateway](Gateway.md).[assignee](Gateway.md#assignee)
+[Gateway](gateway.md).[assignee](gateway.md#assignee)
 
 #### Defined in
 
@@ -120,11 +120,11 @@ ___
 
 ### attachedTo
 
-• **attachedTo**: [`Node`](Node.md)
+• **attachedTo**: [`Node`](node.md)
 
 #### Inherited from
 
-[Gateway](Gateway.md).[attachedTo](Gateway.md#attachedto)
+[Gateway](gateway.md).[attachedTo](gateway.md#attachedto)
 
 #### Defined in
 
@@ -134,11 +134,11 @@ ___
 
 ### attachments
 
-• **attachments**: [`Node`](Node.md)[]
+• **attachments**: [`Node`](node.md)[]
 
 #### Inherited from
 
-[Gateway](Gateway.md).[attachments](Gateway.md#attachments)
+[Gateway](gateway.md).[attachments](gateway.md#attachments)
 
 #### Defined in
 
@@ -152,7 +152,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[behaviours](Gateway.md#behaviours)
+[Gateway](gateway.md).[behaviours](gateway.md#behaviours)
 
 #### Defined in
 
@@ -166,7 +166,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[def](Gateway.md#def)
+[Gateway](gateway.md).[def](gateway.md#def)
 
 #### Defined in
 
@@ -180,7 +180,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[id](Gateway.md#id)
+[Gateway](gateway.md).[id](gateway.md#id)
 
 #### Defined in
 
@@ -190,11 +190,11 @@ ___
 
 ### inbounds
 
-• **inbounds**: [`Flow`](Flow.md)[]
+• **inbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Gateway](Gateway.md).[inbounds](Gateway.md#inbounds)
+[Gateway](gateway.md).[inbounds](gateway.md#inbounds)
 
 #### Defined in
 
@@ -208,7 +208,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[initiator](Gateway.md#initiator)
+[Gateway](gateway.md).[initiator](gateway.md#initiator)
 
 #### Defined in
 
@@ -222,7 +222,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[isFlow](Gateway.md#isflow)
+[Gateway](gateway.md).[isFlow](gateway.md#isflow)
 
 #### Defined in
 
@@ -236,7 +236,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[lane](Gateway.md#lane)
+[Gateway](gateway.md).[lane](gateway.md#lane)
 
 #### Defined in
 
@@ -250,7 +250,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[messageId](Gateway.md#messageid)
+[Gateway](gateway.md).[messageId](gateway.md#messageid)
 
 #### Defined in
 
@@ -264,7 +264,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[name](Gateway.md#name)
+[Gateway](gateway.md).[name](gateway.md#name)
 
 #### Defined in
 
@@ -274,11 +274,11 @@ ___
 
 ### outbounds
 
-• **outbounds**: [`Flow`](Flow.md)[]
+• **outbounds**: [`Flow`](flow.md)[]
 
 #### Inherited from
 
-[Gateway](Gateway.md).[outbounds](Gateway.md#outbounds)
+[Gateway](gateway.md).[outbounds](gateway.md#outbounds)
 
 #### Defined in
 
@@ -292,7 +292,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[process](Gateway.md#process)
+[Gateway](gateway.md).[process](gateway.md#process)
 
 #### Defined in
 
@@ -306,7 +306,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[scripts](Gateway.md#scripts)
+[Gateway](gateway.md).[scripts](gateway.md#scripts)
 
 #### Defined in
 
@@ -320,7 +320,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[signalId](Gateway.md#signalid)
+[Gateway](gateway.md).[signalId](gateway.md#signalid)
 
 #### Defined in
 
@@ -334,7 +334,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[subType](Gateway.md#subtype)
+[Gateway](gateway.md).[subType](gateway.md#subtype)
 
 #### Defined in
 
@@ -348,7 +348,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[type](Gateway.md#type)
+[Gateway](gateway.md).[type](gateway.md#type)
 
 #### Defined in
 
@@ -445,7 +445,7 @@ Gateway.requiresWait
 
 #### Inherited from
 
-[Gateway](Gateway.md).[addBehaviour](Gateway.md#addbehaviour)
+[Gateway](gateway.md).[addBehaviour](gateway.md#addbehaviour)
 
 #### Defined in
 
@@ -461,7 +461,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -469,12 +469,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `pendingTokens` | [`Token`](Token.md)[] |
-| `waitingTokens` | [`Token`](Token.md)[] |
+| `pendingTokens` | [`Token`](token.md)[] |
+| `waitingTokens` | [`Token`](token.md)[] |
 
 #### Inherited from
 
-[Gateway](Gateway.md).[analyzeConvergingTokens](Gateway.md#analyzeconvergingtokens)
+[Gateway](gateway.md).[analyzeConvergingTokens](gateway.md#analyzeconvergingtokens)
 
 #### Defined in
 
@@ -499,7 +499,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[canReach](Gateway.md#canreach)
+[Gateway](gateway.md).[canReach](gateway.md#canreach)
 
 #### Defined in
 
@@ -523,7 +523,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[cancelBoundaryEvents](Gateway.md#cancelboundaryevents)
+[Gateway](gateway.md).[cancelBoundaryEvents](gateway.md#cancelboundaryevents)
 
 #### Defined in
 
@@ -547,7 +547,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[cancelEBG](Gateway.md#cancelebg)
+[Gateway](gateway.md).[cancelEBG](gateway.md#cancelebg)
 
 #### Defined in
 
@@ -563,7 +563,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -571,7 +571,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[continue](Gateway.md#continue)
+[Gateway](gateway.md).[continue](gateway.md#continue)
 
 #### Defined in
 
@@ -589,7 +589,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[describe](Gateway.md#describe)
+[Gateway](gateway.md).[describe](gateway.md#describe)
 
 #### Defined in
 
@@ -605,7 +605,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `event` | [`EXECUTION_EVENT`](../enums/execution_event.md) |
 | `newStatus` | [`ITEM_STATUS`](../enums/item_status.md) |
 
@@ -615,7 +615,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[doEvent](Gateway.md#doevent)
+[Gateway](gateway.md).[doEvent](gateway.md#doevent)
 
 #### Defined in
 
@@ -631,7 +631,7 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `item` | [`Item`](Item.md) | `undefined` |
+| `item` | [`Item`](item.md) | `undefined` |
 | `cancel` | `Boolean` | `false` |
 
 #### Returns
@@ -640,7 +640,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[end](Gateway.md#end)
+[Gateway](gateway.md).[end](gateway.md#end)
 
 #### Defined in
 
@@ -656,7 +656,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -664,7 +664,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[enter](Gateway.md#enter)
+[Gateway](gateway.md).[enter](gateway.md#enter)
 
 #### Defined in
 
@@ -688,7 +688,7 @@ considerations: the following are handled by Token
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -696,7 +696,7 @@ considerations: the following are handled by Token
 
 #### Inherited from
 
-[Gateway](Gateway.md).[execute](Gateway.md#execute)
+[Gateway](gateway.md).[execute](gateway.md#execute)
 
 #### Defined in
 
@@ -720,7 +720,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[getBehaviour](Gateway.md#getbehaviour)
+[Gateway](gateway.md).[getBehaviour](gateway.md#getbehaviour)
 
 #### Defined in
 
@@ -736,7 +736,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -745,7 +745,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[getInput](Gateway.md#getinput)
+[Gateway](gateway.md).[getInput](gateway.md#getinput)
 
 #### Defined in
 
@@ -755,7 +755,7 @@ ___
 
 ### getOutbounds
 
-▸ **getOutbounds**(`item`): [`Item`](Item.md)[]
+▸ **getOutbounds**(`item`): [`Item`](item.md)[]
 
 #### Parameters
 
@@ -765,11 +765,11 @@ ___
 
 #### Returns
 
-[`Item`](Item.md)[]
+[`Item`](item.md)[]
 
 #### Overrides
 
-[Gateway](Gateway.md).[getOutbounds](Gateway.md#getoutbounds)
+[Gateway](gateway.md).[getOutbounds](gateway.md#getoutbounds)
 
 #### Defined in
 
@@ -788,7 +788,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -796,7 +796,7 @@ todo
 
 #### Inherited from
 
-[Gateway](Gateway.md).[getOutput](Gateway.md#getoutput)
+[Gateway](gateway.md).[getOutput](gateway.md#getoutput)
 
 #### Defined in
 
@@ -821,7 +821,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[getPotentialPath](Gateway.md#getpotentialpath)
+[Gateway](gateway.md).[getPotentialPath](gateway.md#getpotentialpath)
 
 #### Defined in
 
@@ -837,7 +837,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -845,7 +845,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[getRelatedTokens](Gateway.md#getrelatedtokens)
+[Gateway](gateway.md).[getRelatedTokens](gateway.md#getrelatedtokens)
 
 #### Defined in
 
@@ -872,7 +872,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[Gateway](Gateway.md).[hasBehaviour](Gateway.md#hasbehaviour)
+[Gateway](gateway.md).[hasBehaviour](gateway.md#hasbehaviour)
 
 #### Defined in
 
@@ -888,7 +888,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -896,7 +896,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[init](Gateway.md#init)
+[Gateway](gateway.md).[init](gateway.md#init)
 
 #### Defined in
 
@@ -912,7 +912,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -920,7 +920,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[restored](Gateway.md#restored)
+[Gateway](gateway.md).[restored](gateway.md#restored)
 
 #### Defined in
 
@@ -939,7 +939,7 @@ different than init, which is called for all items
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -947,7 +947,7 @@ different than init, which is called for all items
 
 #### Inherited from
 
-[Gateway](Gateway.md).[resume](Gateway.md#resume)
+[Gateway](gateway.md).[resume](gateway.md#resume)
 
 #### Defined in
 
@@ -963,7 +963,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -971,7 +971,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[run](Gateway.md#run)
+[Gateway](gateway.md).[run](gateway.md#run)
 
 #### Defined in
 
@@ -991,7 +991,7 @@ todo
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `input` | `any` |
 
 #### Returns
@@ -1000,7 +1000,7 @@ todo
 
 #### Inherited from
 
-[Gateway](Gateway.md).[setInput](Gateway.md#setinput)
+[Gateway](gateway.md).[setInput](gateway.md#setinput)
 
 #### Defined in
 
@@ -1016,7 +1016,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1024,7 +1024,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[start](Gateway.md#start)
+[Gateway](gateway.md).[start](gateway.md#start)
 
 #### Defined in
 
@@ -1049,7 +1049,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[startBoundaryEvents](Gateway.md#startboundaryevents)
+[Gateway](gateway.md).[startBoundaryEvents](gateway.md#startboundaryevents)
 
 #### Defined in
 
@@ -1065,7 +1065,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -1073,7 +1073,7 @@ ___
 
 #### Inherited from
 
-[Gateway](Gateway.md).[validate](Gateway.md#validate)
+[Gateway](gateway.md).[validate](gateway.md#validate)
 
 #### Defined in
 

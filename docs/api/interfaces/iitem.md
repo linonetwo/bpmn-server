@@ -10,39 +10,39 @@
 
 ## Implemented by
 
-- [`Item`](../classes/Item.md)
+- [`Item`](../classes/item.md)
 
 ## Table of contents
 
 ### Properties
 
-- [assignee](IItem.md#assignee)
-- [candidateGroups](IItem.md#candidategroups)
-- [candidateUsers](IItem.md#candidateusers)
-- [context](IItem.md#context)
-- [dueDate](IItem.md#duedate)
-- [element](IItem.md#element)
-- [elementId](IItem.md#elementid)
-- [endedAt](IItem.md#endedat)
-- [followUpDate](IItem.md#followupdate)
-- [id](IItem.md#id)
-- [instanceId](IItem.md#instanceid)
-- [itemKey](IItem.md#itemkey)
-- [messageId](IItem.md#messageid)
-- [name](IItem.md#name)
-- [node](IItem.md#node)
-- [priority](IItem.md#priority)
-- [processName](IItem.md#processname)
-- [seq](IItem.md#seq)
-- [signalId](IItem.md#signalid)
-- [startedAt](IItem.md#startedat)
-- [status](IItem.md#status)
-- [timeDue](IItem.md#timedue)
-- [token](IItem.md#token)
-- [tokenId](IItem.md#tokenid)
-- [type](IItem.md#type)
-- [userName](IItem.md#username)
-- [vars](IItem.md#vars)
+- [assignee](iitem.md#assignee)
+- [candidateGroups](iitem.md#candidategroups)
+- [candidateUsers](iitem.md#candidateusers)
+- [context](iitem.md#context)
+- [dueDate](iitem.md#duedate)
+- [element](iitem.md#element)
+- [elementId](iitem.md#elementid)
+- [endedAt](iitem.md#endedat)
+- [followUpDate](iitem.md#followupdate)
+- [id](iitem.md#id)
+- [instanceId](iitem.md#instanceid)
+- [itemKey](iitem.md#itemkey)
+- [messageId](iitem.md#messageid)
+- [name](iitem.md#name)
+- [node](iitem.md#node)
+- [priority](iitem.md#priority)
+- [processName](iitem.md#processname)
+- [seq](iitem.md#seq)
+- [signalId](iitem.md#signalid)
+- [startedAt](iitem.md#startedat)
+- [status](iitem.md#status)
+- [timeDue](iitem.md#timedue)
+- [token](iitem.md#token)
+- [tokenId](iitem.md#tokenid)
+- [type](iitem.md#type)
+- [userName](iitem.md#username)
+- [vars](iitem.md#vars)
 
 ## Properties
 
@@ -114,7 +114,7 @@ ___
 
 ### element
 
-• **element**: [`Element`](../classes/Element.md)
+• **element**: [`Element`](../classes/element.md)
 
 #### Defined in
 
@@ -236,7 +236,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](../classes/Node.md)
+• **node**: [`Node`](../classes/node.md)
 
 #### Defined in
 
@@ -344,7 +344,7 @@ ___
 
 ### token
 
-• **token**: [`Token`](../classes/Token.md)
+• **token**: [`Token`](../classes/token.md)
 
 #### Defined in
 

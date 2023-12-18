@@ -6,33 +6,33 @@
 
 - **`IElement`**
 
-  ↳ [`INode`](INode.md)
+  ↳ [`INode`](inode.md)
 
-  ↳ [`IFlow`](IFlow.md)
+  ↳ [`IFlow`](iflow.md)
 
 ## Implemented by
 
-- [`Element`](../classes/Element.md)
+- [`Element`](../classes/element.md)
 
 ## Table of contents
 
 ### Properties
 
-- [behaviours](IElement.md#behaviours)
-- [id](IElement.md#id)
-- [lane](IElement.md#lane)
-- [name](IElement.md#name)
-- [type](IElement.md#type)
+- [behaviours](ielement.md#behaviours)
+- [id](ielement.md#id)
+- [lane](ielement.md#lane)
+- [name](ielement.md#name)
+- [type](ielement.md#type)
 
 ### Methods
 
-- [addBehaviour](IElement.md#addbehaviour)
-- [continue](IElement.md#continue)
-- [describe](IElement.md#describe)
-- [getBehaviour](IElement.md#getbehaviour)
-- [hasBehaviour](IElement.md#hasbehaviour)
-- [restored](IElement.md#restored)
-- [resume](IElement.md#resume)
+- [addBehaviour](ielement.md#addbehaviour)
+- [continue](ielement.md#continue)
+- [describe](ielement.md#describe)
+- [getBehaviour](ielement.md#getbehaviour)
+- [hasBehaviour](ielement.md#hasbehaviour)
+- [restored](ielement.md#restored)
+- [resume](ielement.md#resume)
 
 ## Properties
 
@@ -115,7 +115,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -192,7 +192,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -212,7 +212,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 

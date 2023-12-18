@@ -4,15 +4,15 @@
 
 ## Implemented by
 
-- [`ProcessData`](../classes/ProcessData.md)
+- [`ProcessData`](../classes/processdata.md)
 
 ## Table of contents
 
 ### Properties
 
-- [id](IProcessData.md#id)
-- [isExecutable](IProcessData.md#isexecutable)
-- [name](IProcessData.md#name)
+- [id](iprocessdata.md#id)
+- [isExecutable](iprocessdata.md#isexecutable)
+- [name](iprocessdata.md#name)
 
 ## Properties
 

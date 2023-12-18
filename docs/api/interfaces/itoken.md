@@ -4,56 +4,56 @@
 
 ## Implemented by
 
-- [`Token`](../classes/Token.md)
+- [`Token`](../classes/token.md)
 
 ## Table of contents
 
 ### Properties
 
-- [childrenTokens](IToken.md#childrentokens)
-- [currentItem](IToken.md#currentitem)
-- [currentNode](IToken.md#currentnode)
-- [data](IToken.md#data)
-- [dataPath](IToken.md#datapath)
-- [execution](IToken.md#execution)
-- [firstItem](IToken.md#firstitem)
-- [id](IToken.md#id)
-- [lastItem](IToken.md#lastitem)
-- [loop](IToken.md#loop)
-- [originItem](IToken.md#originitem)
-- [parentToken](IToken.md#parenttoken)
-- [path](IToken.md#path)
-- [processId](IToken.md#processid)
-- [startNodeId](IToken.md#startnodeid)
-- [status](IToken.md#status)
-- [type](IToken.md#type)
+- [childrenTokens](itoken.md#childrentokens)
+- [currentItem](itoken.md#currentitem)
+- [currentNode](itoken.md#currentnode)
+- [data](itoken.md#data)
+- [dataPath](itoken.md#datapath)
+- [execution](itoken.md#execution)
+- [firstItem](itoken.md#firstitem)
+- [id](itoken.md#id)
+- [lastItem](itoken.md#lastitem)
+- [loop](itoken.md#loop)
+- [originItem](itoken.md#originitem)
+- [parentToken](itoken.md#parenttoken)
+- [path](itoken.md#path)
+- [processId](itoken.md#processid)
+- [startNodeId](itoken.md#startnodeid)
+- [status](itoken.md#status)
+- [type](itoken.md#type)
 
 ### Methods
 
-- [appendData](IToken.md#appenddata)
-- [end](IToken.md#end)
-- [error](IToken.md#error)
-- [execute](IToken.md#execute)
-- [getChildrenTokens](IToken.md#getchildrentokens)
-- [getFullPath](IToken.md#getfullpath)
-- [getSubProcessToken](IToken.md#getsubprocesstoken)
-- [goNext](IToken.md#gonext)
-- [log](IToken.md#log)
-- [preExecute](IToken.md#preexecute)
-- [preNext](IToken.md#prenext)
-- [processError](IToken.md#processerror)
-- [restored](IToken.md#restored)
-- [resume](IToken.md#resume)
-- [save](IToken.md#save)
-- [signal](IToken.md#signal)
-- [stop](IToken.md#stop)
-- [terminate](IToken.md#terminate)
+- [appendData](itoken.md#appenddata)
+- [end](itoken.md#end)
+- [error](itoken.md#error)
+- [execute](itoken.md#execute)
+- [getChildrenTokens](itoken.md#getchildrentokens)
+- [getFullPath](itoken.md#getfullpath)
+- [getSubProcessToken](itoken.md#getsubprocesstoken)
+- [goNext](itoken.md#gonext)
+- [log](itoken.md#log)
+- [preExecute](itoken.md#preexecute)
+- [preNext](itoken.md#prenext)
+- [processError](itoken.md#processerror)
+- [restored](itoken.md#restored)
+- [resume](itoken.md#resume)
+- [save](itoken.md#save)
+- [signal](itoken.md#signal)
+- [stop](itoken.md#stop)
+- [terminate](itoken.md#terminate)
 
 ## Properties
 
 ### childrenTokens
 
-• **childrenTokens**: [`Token`](../classes/Token.md)[]
+• **childrenTokens**: [`Token`](../classes/token.md)[]
 
 #### Defined in
 
@@ -63,7 +63,7 @@ ___
 
 ### currentItem
 
-• **currentItem**: [`IItem`](IItem.md)
+• **currentItem**: [`IItem`](iitem.md)
 
 #### Defined in
 
@@ -113,7 +113,7 @@ ___
 
 ### firstItem
 
-• **firstItem**: [`Item`](../classes/Item.md)
+• **firstItem**: [`Item`](../classes/item.md)
 
 #### Defined in
 
@@ -133,7 +133,7 @@ ___
 
 ### lastItem
 
-• **lastItem**: [`IItem`](IItem.md)
+• **lastItem**: [`IItem`](iitem.md)
 
 #### Defined in
 
@@ -153,7 +153,7 @@ ___
 
 ### originItem
 
-• **originItem**: [`IItem`](IItem.md)
+• **originItem**: [`IItem`](iitem.md)
 
 #### Defined in
 
@@ -163,7 +163,7 @@ ___
 
 ### parentToken
 
-• `Optional` **parentToken**: [`IToken`](IToken.md)
+• `Optional` **parentToken**: [`IToken`](itoken.md)
 
 #### Defined in
 
@@ -173,7 +173,7 @@ ___
 
 ### path
 
-• **path**: [`IItem`](IItem.md)[]
+• **path**: [`IItem`](iitem.md)[]
 
 #### Defined in
 
@@ -230,7 +230,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `inputData` | `any` |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -314,7 +314,7 @@ ___
 
 ### getFullPath
 
-▸ **getFullPath**(`fullPath?`): [`Item`](../classes/Item.md)[]
+▸ **getFullPath**(`fullPath?`): [`Item`](../classes/item.md)[]
 
 #### Parameters
 
@@ -324,7 +324,7 @@ ___
 
 #### Returns
 
-[`Item`](../classes/Item.md)[]
+[`Item`](../classes/item.md)[]
 
 #### Defined in
 
@@ -334,11 +334,11 @@ ___
 
 ### getSubProcessToken
 
-▸ **getSubProcessToken**(): [`IToken`](IToken.md)
+▸ **getSubProcessToken**(): [`IToken`](itoken.md)
 
 #### Returns
 
-[`IToken`](IToken.md)
+[`IToken`](itoken.md)
 
 #### Defined in
 

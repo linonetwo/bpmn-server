@@ -12,33 +12,33 @@
 
 ### Constructors
 
-- [constructor](APIModel.md#constructor)
+- [constructor](apimodel.md#constructor)
 
 ### Properties
 
-- [api](APIModel.md#api)
+- [api](apimodel.md#api)
 
 ### Accessors
 
-- [server](APIModel.md#server)
+- [server](apimodel.md#server)
 
 ### Methods
 
-- [delete](APIModel.md#delete)
-- [export](APIModel.md#export)
-- [findEvents](APIModel.md#findevents)
-- [findStartEvents](APIModel.md#findstartevents)
-- [getSource](APIModel.md#getsource)
-- [list](APIModel.md#list)
-- [load](APIModel.md#load)
-- [rename](APIModel.md#rename)
-- [save](APIModel.md#save)
+- [delete](apimodel.md#delete)
+- [export](apimodel.md#export)
+- [findEvents](apimodel.md#findevents)
+- [findStartEvents](apimodel.md#findstartevents)
+- [getSource](apimodel.md#getsource)
+- [list](apimodel.md#list)
+- [load](apimodel.md#load)
+- [rename](apimodel.md#rename)
+- [save](apimodel.md#save)
 
 ## Constructors
 
 ### constructor
 
-• **new APIModel**(`api`): [`APIModel`](APIModel.md)
+• **new APIModel**(`api`): [`APIModel`](apimodel.md)
 
 #### Parameters
 
@@ -48,7 +48,7 @@
 
 #### Returns
 
-[`APIModel`](APIModel.md)
+[`APIModel`](apimodel.md)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](BPMNAPI.md)
+• **api**: [`BPMNAPI`](bpmnapi.md)
 
 #### Inherited from
 
@@ -101,7 +101,7 @@ APIComponent.server
 | Name | Type |
 | :------ | :------ |
 | `name` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -123,7 +123,7 @@ ___
 | :------ | :------ |
 | `query` | `any` |
 | `folder` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -144,7 +144,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -165,7 +165,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -186,7 +186,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `name` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -206,7 +206,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -227,7 +227,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `name` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -249,7 +249,7 @@ ___
 | :------ | :------ |
 | `name` | `any` |
 | `newName` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -272,7 +272,7 @@ ___
 | `name` | `any` |
 | `source` | `any` |
 | `svg` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 

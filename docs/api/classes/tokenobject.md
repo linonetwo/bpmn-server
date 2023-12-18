@@ -6,28 +6,28 @@
 
 ### Constructors
 
-- [constructor](TokenObject.md#constructor)
+- [constructor](tokenobject.md#constructor)
 
 ### Properties
 
-- [branchNodeId](TokenObject.md#branchnodeid)
-- [currentNodeId](TokenObject.md#currentnodeid)
-- [dataPath](TokenObject.md#datapath)
-- [id](TokenObject.md#id)
-- [loopId](TokenObject.md#loopid)
-- [parentTokenId](TokenObject.md#parenttokenid)
-- [startNodeId](TokenObject.md#startnodeid)
-- [status](TokenObject.md#status)
+- [branchNodeId](tokenobject.md#branchnodeid)
+- [currentNodeId](tokenobject.md#currentnodeid)
+- [dataPath](tokenobject.md#datapath)
+- [id](tokenobject.md#id)
+- [loopId](tokenobject.md#loopid)
+- [parentTokenId](tokenobject.md#parenttokenid)
+- [startNodeId](tokenobject.md#startnodeid)
+- [status](tokenobject.md#status)
 
 ## Constructors
 
 ### constructor
 
-• **new TokenObject**(): [`TokenObject`](TokenObject.md)
+• **new TokenObject**(): [`TokenObject`](tokenobject.md)
 
 #### Returns
 
-[`TokenObject`](TokenObject.md)
+[`TokenObject`](tokenobject.md)
 
 ## Properties
 

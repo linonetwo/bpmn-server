@@ -4,87 +4,87 @@
 
 ## Implements
 
-- [`IToken`](../interfaces/IToken.md)
+- [`IToken`](../interfaces/itoken.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Token.md#constructor)
+- [constructor](token.md#constructor)
 
 ### Properties
 
-- [currentNode](Token.md#currentnode)
-- [dataPath](Token.md#datapath)
-- [execution](Token.md#execution)
-- [id](Token.md#id)
-- [input](Token.md#input)
-- [loop](Token.md#loop)
-- [messageMatchingKey](Token.md#messagematchingkey)
-- [originItem](Token.md#originitem)
-- [output](Token.md#output)
-- [parentToken](Token.md#parenttoken)
-- [path](Token.md#path)
-- [processId](Token.md#processid)
-- [startNodeId](Token.md#startnodeid)
-- [status](Token.md#status)
-- [type](Token.md#type)
+- [currentNode](token.md#currentnode)
+- [dataPath](token.md#datapath)
+- [execution](token.md#execution)
+- [id](token.md#id)
+- [input](token.md#input)
+- [loop](token.md#loop)
+- [messageMatchingKey](token.md#messagematchingkey)
+- [originItem](token.md#originitem)
+- [output](token.md#output)
+- [parentToken](token.md#parenttoken)
+- [path](token.md#path)
+- [processId](token.md#processid)
+- [startNodeId](token.md#startnodeid)
+- [status](token.md#status)
+- [type](token.md#type)
 
 ### Accessors
 
-- [childrenTokens](Token.md#childrentokens)
-- [currentItem](Token.md#currentitem)
-- [data](Token.md#data)
-- [firstItem](Token.md#firstitem)
-- [lastItem](Token.md#lastitem)
+- [childrenTokens](token.md#childrentokens)
+- [currentItem](token.md#currentitem)
+- [data](token.md#data)
+- [firstItem](token.md#firstitem)
+- [lastItem](token.md#lastitem)
 
 ### Methods
 
-- [appendData](Token.md#appenddata)
-- [continue](Token.md#continue)
-- [end](Token.md#end)
-- [error](Token.md#error)
-- [execute](Token.md#execute)
-- [getChildrenTokens](Token.md#getchildrentokens)
-- [getFullPath](Token.md#getfullpath)
-- [getSubProcessToken](Token.md#getsubprocesstoken)
-- [goNext](Token.md#gonext)
-- [hasNode](Token.md#hasnode)
-- [log](Token.md#log)
-- [preExecute](Token.md#preexecute)
-- [preNext](Token.md#prenext)
-- [processError](Token.md#processerror)
-- [processEscalation](Token.md#processescalation)
-- [restored](Token.md#restored)
-- [resume](Token.md#resume)
-- [save](Token.md#save)
-- [setCurrentNode](Token.md#setcurrentnode)
-- [signal](Token.md#signal)
-- [stop](Token.md#stop)
-- [terminate](Token.md#terminate)
-- [load](Token.md#load)
-- [startNewToken](Token.md#startnewtoken)
+- [appendData](token.md#appenddata)
+- [continue](token.md#continue)
+- [end](token.md#end)
+- [error](token.md#error)
+- [execute](token.md#execute)
+- [getChildrenTokens](token.md#getchildrentokens)
+- [getFullPath](token.md#getfullpath)
+- [getSubProcessToken](token.md#getsubprocesstoken)
+- [goNext](token.md#gonext)
+- [hasNode](token.md#hasnode)
+- [log](token.md#log)
+- [preExecute](token.md#preexecute)
+- [preNext](token.md#prenext)
+- [processError](token.md#processerror)
+- [processEscalation](token.md#processescalation)
+- [restored](token.md#restored)
+- [resume](token.md#resume)
+- [save](token.md#save)
+- [setCurrentNode](token.md#setcurrentnode)
+- [signal](token.md#signal)
+- [stop](token.md#stop)
+- [terminate](token.md#terminate)
+- [load](token.md#load)
+- [startNewToken](token.md#startnewtoken)
 
 ## Constructors
 
 ### constructor
 
-• **new Token**(`type`, `execution`, `startNode`, `dataPath?`, `parentToken?`, `originItem?`): [`Token`](Token.md)
+• **new Token**(`type`, `execution`, `startNode`, `dataPath?`, `parentToken?`, `originItem?`): [`Token`](token.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | [`TOKEN_TYPE`](../enums/token_type.md) |
-| `execution` | [`Execution`](Execution.md) |
-| `startNode` | [`Node`](Node.md) |
+| `execution` | [`Execution`](execution.md) |
+| `startNode` | [`Node`](node.md) |
 | `dataPath?` | `any` |
-| `parentToken?` | [`Token`](Token.md) |
-| `originItem?` | [`Item`](Item.md) |
+| `parentToken?` | [`Token`](token.md) |
+| `originItem?` | [`Item`](item.md) |
 
 #### Returns
 
-[`Token`](Token.md)
+[`Token`](token.md)
 
 #### Defined in
 
@@ -94,11 +94,11 @@
 
 ### currentNode
 
-• **currentNode**: [`Node`](Node.md)
+• **currentNode**: [`Node`](node.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[currentNode](../interfaces/IToken.md#currentnode)
+[IToken](../interfaces/itoken.md).[currentNode](../interfaces/itoken.md#currentnode)
 
 #### Defined in
 
@@ -112,7 +112,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[dataPath](../interfaces/IToken.md#datapath)
+[IToken](../interfaces/itoken.md).[dataPath](../interfaces/itoken.md#datapath)
 
 #### Defined in
 
@@ -126,7 +126,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[execution](../interfaces/IToken.md#execution)
+[IToken](../interfaces/itoken.md).[execution](../interfaces/itoken.md#execution)
 
 #### Defined in
 
@@ -140,7 +140,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[id](../interfaces/IToken.md#id)
+[IToken](../interfaces/itoken.md).[id](../interfaces/itoken.md#id)
 
 #### Defined in
 
@@ -160,11 +160,11 @@ ___
 
 ### loop
 
-• **loop**: [`Loop`](Loop.md)
+• **loop**: [`Loop`](loop.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[loop](../interfaces/IToken.md#loop)
+[IToken](../interfaces/itoken.md).[loop](../interfaces/itoken.md#loop)
 
 #### Defined in
 
@@ -184,11 +184,11 @@ ___
 
 ### originItem
 
-• **originItem**: [`Item`](Item.md)
+• **originItem**: [`Item`](item.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[originItem](../interfaces/IToken.md#originitem)
+[IToken](../interfaces/itoken.md).[originItem](../interfaces/itoken.md#originitem)
 
 #### Defined in
 
@@ -208,11 +208,11 @@ ___
 
 ### parentToken
 
-• `Optional` **parentToken**: [`Token`](Token.md)
+• `Optional` **parentToken**: [`Token`](token.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[parentToken](../interfaces/IToken.md#parenttoken)
+[IToken](../interfaces/itoken.md).[parentToken](../interfaces/itoken.md#parenttoken)
 
 #### Defined in
 
@@ -222,11 +222,11 @@ ___
 
 ### path
 
-• **path**: [`Item`](Item.md)[]
+• **path**: [`Item`](item.md)[]
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[path](../interfaces/IToken.md#path)
+[IToken](../interfaces/itoken.md).[path](../interfaces/itoken.md#path)
 
 #### Defined in
 
@@ -240,7 +240,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[processId](../interfaces/IToken.md#processid)
+[IToken](../interfaces/itoken.md).[processId](../interfaces/itoken.md#processid)
 
 #### Defined in
 
@@ -254,7 +254,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[startNodeId](../interfaces/IToken.md#startnodeid)
+[IToken](../interfaces/itoken.md).[startNodeId](../interfaces/itoken.md#startnodeid)
 
 #### Defined in
 
@@ -268,7 +268,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[status](../interfaces/IToken.md#status)
+[IToken](../interfaces/itoken.md).[status](../interfaces/itoken.md#status)
 
 #### Defined in
 
@@ -282,7 +282,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[type](../interfaces/IToken.md#type)
+[IToken](../interfaces/itoken.md).[type](../interfaces/itoken.md#type)
 
 #### Defined in
 
@@ -292,15 +292,15 @@ ___
 
 ### childrenTokens
 
-• `get` **childrenTokens**(): [`Token`](Token.md)[]
+• `get` **childrenTokens**(): [`Token`](token.md)[]
 
 #### Returns
 
-[`Token`](Token.md)[]
+[`Token`](token.md)[]
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[childrenTokens](../interfaces/IToken.md#childrentokens)
+[IToken](../interfaces/itoken.md).[childrenTokens](../interfaces/itoken.md#childrentokens)
 
 #### Defined in
 
@@ -310,15 +310,15 @@ ___
 
 ### currentItem
 
-• `get` **currentItem**(): [`Item`](Item.md)
+• `get` **currentItem**(): [`Item`](item.md)
 
 #### Returns
 
-[`Item`](Item.md)
+[`Item`](item.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[currentItem](../interfaces/IToken.md#currentitem)
+[IToken](../interfaces/itoken.md).[currentItem](../interfaces/itoken.md#currentitem)
 
 #### Defined in
 
@@ -336,7 +336,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[data](../interfaces/IToken.md#data)
+[IToken](../interfaces/itoken.md).[data](../interfaces/itoken.md#data)
 
 #### Defined in
 
@@ -346,15 +346,15 @@ ___
 
 ### firstItem
 
-• `get` **firstItem**(): [`Item`](Item.md)
+• `get` **firstItem**(): [`Item`](item.md)
 
 #### Returns
 
-[`Item`](Item.md)
+[`Item`](item.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[firstItem](../interfaces/IToken.md#firstitem)
+[IToken](../interfaces/itoken.md).[firstItem](../interfaces/itoken.md#firstitem)
 
 #### Defined in
 
@@ -364,15 +364,15 @@ ___
 
 ### lastItem
 
-• `get` **lastItem**(): [`Item`](Item.md)
+• `get` **lastItem**(): [`Item`](item.md)
 
 #### Returns
 
-[`Item`](Item.md)
+[`Item`](item.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[lastItem](../interfaces/IToken.md#lastitem)
+[IToken](../interfaces/itoken.md).[lastItem](../interfaces/itoken.md#lastitem)
 
 #### Defined in
 
@@ -399,7 +399,7 @@ renamed from applyInput to appendData
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[appendData](../interfaces/IToken.md#appenddata)
+[IToken](../interfaces/itoken.md).[appendData](../interfaces/itoken.md#appenddata)
 
 #### Defined in
 
@@ -439,7 +439,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[end](../interfaces/IToken.md#end)
+[IToken](../interfaces/itoken.md).[end](../interfaces/itoken.md#end)
 
 #### Defined in
 
@@ -463,7 +463,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[error](../interfaces/IToken.md#error)
+[IToken](../interfaces/itoken.md).[error](../interfaces/itoken.md#error)
 
 #### Defined in
 
@@ -492,7 +492,7 @@ Pre-Conditions:
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[execute](../interfaces/IToken.md#execute)
+[IToken](../interfaces/itoken.md).[execute](../interfaces/itoken.md#execute)
 
 #### Defined in
 
@@ -510,7 +510,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[getChildrenTokens](../interfaces/IToken.md#getchildrentokens)
+[IToken](../interfaces/itoken.md).[getChildrenTokens](../interfaces/itoken.md#getchildrentokens)
 
 #### Defined in
 
@@ -520,7 +520,7 @@ ___
 
 ### getFullPath
 
-▸ **getFullPath**(`path?`): [`Item`](Item.md)[]
+▸ **getFullPath**(`path?`): [`Item`](item.md)[]
 
 #### Parameters
 
@@ -530,11 +530,11 @@ ___
 
 #### Returns
 
-[`Item`](Item.md)[]
+[`Item`](item.md)[]
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[getFullPath](../interfaces/IToken.md#getfullpath)
+[IToken](../interfaces/itoken.md).[getFullPath](../interfaces/itoken.md#getfullpath)
 
 #### Defined in
 
@@ -544,15 +544,15 @@ ___
 
 ### getSubProcessToken
 
-▸ **getSubProcessToken**(): [`Token`](Token.md)
+▸ **getSubProcessToken**(): [`Token`](token.md)
 
 #### Returns
 
-[`Token`](Token.md)
+[`Token`](token.md)
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[getSubProcessToken](../interfaces/IToken.md#getsubprocesstoken)
+[IToken](../interfaces/itoken.md).[getSubProcessToken](../interfaces/itoken.md#getsubprocesstoken)
 
 #### Defined in
 
@@ -570,7 +570,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[goNext](../interfaces/IToken.md#gonext)
+[IToken](../interfaces/itoken.md).[goNext](../interfaces/itoken.md#gonext)
 
 #### Defined in
 
@@ -614,7 +614,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[log](../interfaces/IToken.md#log)
+[IToken](../interfaces/itoken.md).[log](../interfaces/itoken.md#log)
 
 #### Defined in
 
@@ -632,7 +632,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[preExecute](../interfaces/IToken.md#preexecute)
+[IToken](../interfaces/itoken.md).[preExecute](../interfaces/itoken.md#preexecute)
 
 #### Defined in
 
@@ -650,7 +650,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[preNext](../interfaces/IToken.md#prenext)
+[IToken](../interfaces/itoken.md).[preNext](../interfaces/itoken.md#prenext)
 
 #### Defined in
 
@@ -668,7 +668,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[processError](../interfaces/IToken.md#processerror)
+[IToken](../interfaces/itoken.md).[processError](../interfaces/itoken.md#processerror)
 
 #### Defined in
 
@@ -700,7 +700,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[restored](../interfaces/IToken.md#restored)
+[IToken](../interfaces/itoken.md).[restored](../interfaces/itoken.md#restored)
 
 #### Defined in
 
@@ -718,7 +718,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[resume](../interfaces/IToken.md#resume)
+[IToken](../interfaces/itoken.md).[resume](../interfaces/itoken.md#resume)
 
 #### Defined in
 
@@ -748,7 +748,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[save](../interfaces/IToken.md#save)
+[IToken](../interfaces/itoken.md).[save](../interfaces/itoken.md#save)
 
 #### Defined in
 
@@ -764,7 +764,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `newCurrentNode` | [`Node`](Node.md) |
+| `newCurrentNode` | [`Node`](node.md) |
 
 #### Returns
 
@@ -793,7 +793,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[signal](../interfaces/IToken.md#signal)
+[IToken](../interfaces/itoken.md).[signal](../interfaces/itoken.md#signal)
 
 #### Defined in
 
@@ -811,7 +811,7 @@ ___
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[stop](../interfaces/IToken.md#stop)
+[IToken](../interfaces/itoken.md).[stop](../interfaces/itoken.md#stop)
 
 #### Defined in
 
@@ -831,7 +831,7 @@ is called by Gateways to cancel current token
 
 #### Implementation of
 
-[IToken](../interfaces/IToken.md).[terminate](../interfaces/IToken.md#terminate)
+[IToken](../interfaces/itoken.md).[terminate](../interfaces/itoken.md#terminate)
 
 #### Defined in
 
@@ -841,18 +841,18 @@ ___
 
 ### load
 
-▸ **load**(`execution`, `da`): [`Token`](Token.md)
+▸ **load**(`execution`, `da`): [`Token`](token.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `execution` | [`Execution`](Execution.md) |
+| `execution` | [`Execution`](execution.md) |
 | `da` | `any` |
 
 #### Returns
 
-[`Token`](Token.md)
+[`Token`](token.md)
 
 #### Defined in
 
@@ -862,7 +862,7 @@ ___
 
 ### startNewToken
 
-▸ **startNewToken**(`type`, `execution`, `startNode`, `dataPath`, `parentToken`, `originItem`, `loop`, `data?`, `noExecute?`): `Promise`\<[`Token`](Token.md)\>
+▸ **startNewToken**(`type`, `execution`, `startNode`, `dataPath`, `parentToken`, `originItem`, `loop`, `data?`, `noExecute?`): `Promise`\<[`Token`](token.md)\>
 
 #### Parameters
 
@@ -872,15 +872,15 @@ ___
 | `execution` | `any` | `undefined` |
 | `startNode` | `any` | `undefined` |
 | `dataPath` | `any` | `undefined` |
-| `parentToken` | [`Token`](Token.md) | `undefined` |
-| `originItem` | [`Item`](Item.md) | `undefined` |
-| `loop` | [`Loop`](Loop.md) | `undefined` |
+| `parentToken` | [`Token`](token.md) | `undefined` |
+| `originItem` | [`Item`](item.md) | `undefined` |
+| `loop` | [`Loop`](loop.md) | `undefined` |
 | `data` | `any` | `null` |
 | `noExecute` | `boolean` | `false` |
 
 #### Returns
 
-`Promise`\<[`Token`](Token.md)\>
+`Promise`\<[`Token`](token.md)\>
 
 #### Defined in
 

@@ -60,8 +60,8 @@ Server Constructor
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `configuration` | [`IConfiguration`](../interfaces/IConfiguration.md) | see |
-| `logger?` | [`ILogger`](../interfaces/ILogger.md) |  |
+| `configuration` | [`IConfiguration`](../interfaces/iconfiguration.md) | see |
+| `logger?` | [`ILogger`](../interfaces/ilogger.md) |  |
 | `options` | `Object` | - |
 
 #### Returns
@@ -76,7 +76,7 @@ Server Constructor
 
 ### appDelegate
 
-• **appDelegate**: [`IAppDelegate`](../interfaces/IAppDelegate.md)
+• **appDelegate**: [`IAppDelegate`](../interfaces/iappdelegate.md)
 
 #### Implementation of
 
@@ -90,7 +90,7 @@ ___
 
 ### cache
 
-• **cache**: [`ICacheManager`](../interfaces/ICacheManager.md)
+• **cache**: [`ICacheManager`](../interfaces/icachemanager.md)
 
 #### Implementation of
 
@@ -104,7 +104,7 @@ ___
 
 ### configuration
 
-• **configuration**: [`IConfiguration`](../interfaces/IConfiguration.md)
+• **configuration**: [`IConfiguration`](../interfaces/iconfiguration.md)
 
 #### Implementation of
 
@@ -118,7 +118,7 @@ ___
 
 ### cron
 
-• **cron**: [`Cron`](Cron.md)
+• **cron**: [`Cron`](cron.md)
 
 #### Implementation of
 
@@ -132,7 +132,7 @@ ___
 
 ### dataStore
 
-• **dataStore**: [`IDataStore`](../interfaces/IDataStore.md)
+• **dataStore**: [`IDataStore`](../interfaces/idatastore.md)
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ ___
 
 ### engine
 
-• **engine**: [`Engine`](Engine.md)
+• **engine**: [`Engine`](engine.md)
 
 #### Implementation of
 
@@ -198,7 +198,7 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](../interfaces/ILogger.md)
+• **logger**: [`ILogger`](../interfaces/ilogger.md)
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ ___
 
 ### userService
 
-• **userService**: [`IUserService`](../interfaces/IUserService.md)
+• **userService**: [`IUserService`](../interfaces/iuserservice.md)
 
 #### Implementation of
 
@@ -226,11 +226,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`Engine`](Engine.md)
+• `get` **engine**(): [`Engine`](engine.md)
 
 #### Returns
 
-[`Engine`](Engine.md)
+[`Engine`](engine.md)
 
 #### Defined in
 

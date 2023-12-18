@@ -4,27 +4,27 @@
 
 ## Implemented by
 
-- [`DataStore`](../classes/DataStore.md)
+- [`DataStore`](../classes/datastore.md)
 
 ## Table of contents
 
 ### Properties
 
-- [db](IDataStore.md#db)
-- [dbConfiguration](IDataStore.md#dbconfiguration)
-- [locker](IDataStore.md#locker)
-- [logger](IDataStore.md#logger)
+- [db](idatastore.md#db)
+- [dbConfiguration](idatastore.md#dbconfiguration)
+- [locker](idatastore.md#locker)
+- [logger](idatastore.md#logger)
 
 ### Methods
 
-- [deleteInstances](IDataStore.md#deleteinstances)
-- [findInstance](IDataStore.md#findinstance)
-- [findInstances](IDataStore.md#findinstances)
-- [findItem](IDataStore.md#finditem)
-- [findItems](IDataStore.md#finditems)
-- [install](IDataStore.md#install)
-- [loadInstance](IDataStore.md#loadinstance)
-- [save](IDataStore.md#save)
+- [deleteInstances](idatastore.md#deleteinstances)
+- [findInstance](idatastore.md#findinstance)
+- [findInstances](idatastore.md#findinstances)
+- [findItem](idatastore.md#finditem)
+- [findItems](idatastore.md#finditems)
+- [install](idatastore.md#install)
+- [loadInstance](idatastore.md#loadinstance)
+- [save](idatastore.md#save)
 
 ## Properties
 

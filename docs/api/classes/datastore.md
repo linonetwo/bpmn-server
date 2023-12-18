@@ -12,57 +12,57 @@ super class for various objects that are part of the server
 
 ## Implements
 
-- [`IDataStore`](../interfaces/IDataStore.md)
+- [`IDataStore`](../interfaces/idatastore.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](DataStore.md#constructor)
+- [constructor](datastore.md#constructor)
 
 ### Properties
 
-- [db](DataStore.md#db)
-- [dbConfiguration](DataStore.md#dbconfiguration)
-- [execution](DataStore.md#execution)
-- [inSaving](DataStore.md#insaving)
-- [isModified](DataStore.md#ismodified)
-- [isRunning](DataStore.md#isrunning)
-- [locker](DataStore.md#locker)
-- [promises](DataStore.md#promises)
-- [server](DataStore.md#server)
-- [seq](DataStore.md#seq)
+- [db](datastore.md#db)
+- [dbConfiguration](datastore.md#dbconfiguration)
+- [execution](datastore.md#execution)
+- [inSaving](datastore.md#insaving)
+- [isModified](datastore.md#ismodified)
+- [isRunning](datastore.md#isrunning)
+- [locker](datastore.md#locker)
+- [promises](datastore.md#promises)
+- [server](datastore.md#server)
+- [seq](datastore.md#seq)
 
 ### Accessors
 
-- [appDelegate](DataStore.md#appdelegate)
-- [cache](DataStore.md#cache)
-- [configuration](DataStore.md#configuration)
-- [cron](DataStore.md#cron)
-- [dataStore](DataStore.md#datastore)
-- [definitions](DataStore.md#definitions)
-- [engine](DataStore.md#engine)
-- [listener](DataStore.md#listener)
-- [logger](DataStore.md#logger)
+- [appDelegate](datastore.md#appdelegate)
+- [cache](datastore.md#cache)
+- [configuration](datastore.md#configuration)
+- [cron](datastore.md#cron)
+- [dataStore](datastore.md#datastore)
+- [definitions](datastore.md#definitions)
+- [engine](datastore.md#engine)
+- [listener](datastore.md#listener)
+- [logger](datastore.md#logger)
 
 ### Methods
 
-- [convertColl](DataStore.md#convertcoll)
-- [convertObj](DataStore.md#convertobj)
-- [deleteInstances](DataStore.md#deleteinstances)
-- [findInstance](DataStore.md#findinstance)
-- [findInstances](DataStore.md#findinstances)
-- [findItem](DataStore.md#finditem)
-- [findItems](DataStore.md#finditems)
-- [install](DataStore.md#install)
-- [loadInstance](DataStore.md#loadinstance)
-- [save](DataStore.md#save)
+- [convertColl](datastore.md#convertcoll)
+- [convertObj](datastore.md#convertobj)
+- [deleteInstances](datastore.md#deleteinstances)
+- [findInstance](datastore.md#findinstance)
+- [findInstances](datastore.md#findinstances)
+- [findItem](datastore.md#finditem)
+- [findItems](datastore.md#finditems)
+- [install](datastore.md#install)
+- [loadInstance](datastore.md#loadinstance)
+- [save](datastore.md#save)
 
 ## Constructors
 
 ### constructor
 
-• **new DataStore**(`server`): [`DataStore`](DataStore.md)
+• **new DataStore**(`server`): [`DataStore`](datastore.md)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ super class for various objects that are part of the server
 
 #### Returns
 
-[`DataStore`](DataStore.md)
+[`DataStore`](datastore.md)
 
 #### Overrides
 
@@ -90,7 +90,7 @@ super class for various objects that are part of the server
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[db](../interfaces/IDataStore.md#db)
+[IDataStore](../interfaces/idatastore.md).[db](../interfaces/idatastore.md#db)
 
 #### Defined in
 
@@ -104,7 +104,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[dbConfiguration](../interfaces/IDataStore.md#dbconfiguration)
+[IDataStore](../interfaces/idatastore.md).[dbConfiguration](../interfaces/idatastore.md#dbconfiguration)
 
 #### Defined in
 
@@ -114,7 +114,7 @@ ___
 
 ### execution
 
-• **execution**: [`Execution`](Execution.md)
+• **execution**: [`Execution`](execution.md)
 
 #### Defined in
 
@@ -158,7 +158,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[locker](../interfaces/IDataStore.md#locker)
+[IDataStore](../interfaces/idatastore.md).[locker](../interfaces/idatastore.md#locker)
 
 #### Defined in
 
@@ -220,11 +220,11 @@ ___
 
 ### cache
 
-• `get` **cache**(): [`CacheManager`](CacheManager.md)
+• `get` **cache**(): [`CacheManager`](cachemanager.md)
 
 #### Returns
 
-[`CacheManager`](CacheManager.md)
+[`CacheManager`](cachemanager.md)
 
 #### Inherited from
 
@@ -256,11 +256,11 @@ ___
 
 ### cron
 
-• `get` **cron**(): [`Cron`](Cron.md)
+• `get` **cron**(): [`Cron`](cron.md)
 
 #### Returns
 
-[`Cron`](Cron.md)
+[`Cron`](cron.md)
 
 #### Inherited from
 
@@ -310,11 +310,11 @@ ___
 
 ### engine
 
-• `get` **engine**(): [`IEngine`](../interfaces/IEngine.md)
+• `get` **engine**(): [`IEngine`](../interfaces/iengine.md)
 
 #### Returns
 
-[`IEngine`](../interfaces/IEngine.md)
+[`IEngine`](../interfaces/iengine.md)
 
 #### Inherited from
 
@@ -354,7 +354,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[logger](../interfaces/IDataStore.md#logger)
+[IDataStore](../interfaces/idatastore.md).[logger](../interfaces/idatastore.md#logger)
 
 #### Inherited from
 
@@ -424,7 +424,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[deleteInstances](../interfaces/IDataStore.md#deleteinstances)
+[IDataStore](../interfaces/idatastore.md).[deleteInstances](../interfaces/idatastore.md#deleteinstances)
 
 #### Defined in
 
@@ -449,7 +449,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[findInstance](../interfaces/IDataStore.md#findinstance)
+[IDataStore](../interfaces/idatastore.md).[findInstance](../interfaces/idatastore.md#findinstance)
 
 #### Defined in
 
@@ -474,7 +474,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[findInstances](../interfaces/IDataStore.md#findinstances)
+[IDataStore](../interfaces/idatastore.md).[findInstances](../interfaces/idatastore.md#findinstances)
 
 #### Defined in
 
@@ -498,7 +498,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[findItem](../interfaces/IDataStore.md#finditem)
+[IDataStore](../interfaces/idatastore.md).[findItem](../interfaces/idatastore.md#finditem)
 
 #### Defined in
 
@@ -541,7 +541,7 @@ Problem with Mongodb:	projection $elematch returns only the first record
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[findItems](../interfaces/IDataStore.md#finditems)
+[IDataStore](../interfaces/idatastore.md).[findItems](../interfaces/idatastore.md#finditems)
 
 #### Defined in
 
@@ -563,7 +563,7 @@ creates a new collection and add an index
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[install](../interfaces/IDataStore.md#install)
+[IDataStore](../interfaces/idatastore.md).[install](../interfaces/idatastore.md#install)
 
 #### Defined in
 
@@ -588,7 +588,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[loadInstance](../interfaces/IDataStore.md#loadinstance)
+[IDataStore](../interfaces/idatastore.md).[loadInstance](../interfaces/idatastore.md#loadinstance)
 
 #### Defined in
 
@@ -613,7 +613,7 @@ ___
 
 #### Implementation of
 
-[IDataStore](../interfaces/IDataStore.md).[save](../interfaces/IDataStore.md#save)
+[IDataStore](../interfaces/idatastore.md).[save](../interfaces/idatastore.md#save)
 
 #### Defined in
 

@@ -6,20 +6,20 @@
 
 ### Constructors
 
-- [constructor](BPMNAPI.md#constructor)
+- [constructor](bpmnapi.md#constructor)
 
 ### Properties
 
-- [data](BPMNAPI.md#data)
-- [engine](BPMNAPI.md#engine)
-- [model](BPMNAPI.md#model)
-- [server](BPMNAPI.md#server)
+- [data](bpmnapi.md#data)
+- [engine](bpmnapi.md#engine)
+- [model](bpmnapi.md#model)
+- [server](bpmnapi.md#server)
 
 ## Constructors
 
 ### constructor
 
-• **new BPMNAPI**(`server`): [`BPMNAPI`](BPMNAPI.md)
+• **new BPMNAPI**(`server`): [`BPMNAPI`](bpmnapi.md)
 
 #### Parameters
 
@@ -29,7 +29,7 @@
 
 #### Returns
 
-[`BPMNAPI`](BPMNAPI.md)
+[`BPMNAPI`](bpmnapi.md)
 
 #### Defined in
 
@@ -39,7 +39,7 @@
 
 ### data
 
-• **data**: [`APIData`](APIData.md)
+• **data**: [`APIData`](apidata.md)
 
 #### Defined in
 
@@ -49,7 +49,7 @@ ___
 
 ### engine
 
-• **engine**: [`APIEngine`](APIEngine.md)
+• **engine**: [`APIEngine`](apiengine.md)
 
 #### Defined in
 
@@ -59,7 +59,7 @@ ___
 
 ### model
 
-• **model**: [`APIModel`](APIModel.md)
+• **model**: [`APIModel`](apimodel.md)
 
 #### Defined in
 

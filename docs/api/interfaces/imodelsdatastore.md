@@ -4,25 +4,25 @@
 
 ## Implemented by
 
-- [`ModelsDatastore`](../classes/ModelsDatastore.md)
-- [`ModelsDatastoreDB`](../classes/ModelsDatastoreDB.md)
+- [`ModelsDatastore`](../classes/modelsdatastore.md)
+- [`ModelsDatastoreDB`](../classes/modelsdatastoredb.md)
 
 ## Table of contents
 
 ### Methods
 
-- [deleteModel](IModelsDatastore.md#deletemodel)
-- [findEvents](IModelsDatastore.md#findevents)
-- [getList](IModelsDatastore.md#getlist)
-- [getSVG](IModelsDatastore.md#getsvg)
-- [getSource](IModelsDatastore.md#getsource)
-- [import](IModelsDatastore.md#import)
-- [install](IModelsDatastore.md#install)
-- [load](IModelsDatastore.md#load)
-- [loadModel](IModelsDatastore.md#loadmodel)
-- [renameModel](IModelsDatastore.md#renamemodel)
-- [save](IModelsDatastore.md#save)
-- [saveModel](IModelsDatastore.md#savemodel)
+- [deleteModel](imodelsdatastore.md#deletemodel)
+- [findEvents](imodelsdatastore.md#findevents)
+- [getList](imodelsdatastore.md#getlist)
+- [getSVG](imodelsdatastore.md#getsvg)
+- [getSource](imodelsdatastore.md#getsource)
+- [import](imodelsdatastore.md#import)
+- [install](imodelsdatastore.md#install)
+- [load](imodelsdatastore.md#load)
+- [loadModel](imodelsdatastore.md#loadmodel)
+- [renameModel](imodelsdatastore.md#renamemodel)
+- [save](imodelsdatastore.md#save)
+- [saveModel](imodelsdatastore.md#savemodel)
 
 ## Methods
 
@@ -187,7 +187,7 @@ ___
 
 ### loadModel
 
-▸ **loadModel**(`name`, `owner`): `Promise`\<[`IBpmnModelData`](IBpmnModelData.md)\>
+▸ **loadModel**(`name`, `owner`): `Promise`\<[`IBpmnModelData`](ibpmnmodeldata.md)\>
 
 #### Parameters
 
@@ -198,7 +198,7 @@ ___
 
 #### Returns
 
-`Promise`\<[`IBpmnModelData`](IBpmnModelData.md)\>
+`Promise`\<[`IBpmnModelData`](ibpmnmodeldata.md)\>
 
 #### Defined in
 
@@ -259,7 +259,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `model` | [`IBpmnModelData`](IBpmnModelData.md) |
+| `model` | [`IBpmnModelData`](ibpmnmodeldata.md) |
 
 #### Returns
 

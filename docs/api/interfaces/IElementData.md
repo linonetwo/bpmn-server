@@ -6,10 +6,10 @@
 
 ### Properties
 
-- [behaviours](IElementData.md#behaviours)
-- [id](IElementData.md#id)
-- [name](IElementData.md#name)
-- [type](IElementData.md#type)
+- [behaviours](ielementdata.md#behaviours)
+- [id](ielementdata.md#id)
+- [name](ielementdata.md#name)
+- [type](ielementdata.md#type)
 
 ## Properties
 

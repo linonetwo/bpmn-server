@@ -4,33 +4,33 @@
 
 ## Hierarchy
 
-- [`IElement`](IElement.md)
+- [`IElement`](ielement.md)
 
   ↳ **`IFlow`**
 
 ## Implemented by
 
-- [`Flow`](../classes/Flow.md)
+- [`Flow`](../classes/flow.md)
 
 ## Table of contents
 
 ### Properties
 
-- [behaviours](IFlow.md#behaviours)
-- [id](IFlow.md#id)
-- [lane](IFlow.md#lane)
-- [name](IFlow.md#name)
-- [type](IFlow.md#type)
+- [behaviours](iflow.md#behaviours)
+- [id](iflow.md#id)
+- [lane](iflow.md#lane)
+- [name](iflow.md#name)
+- [type](iflow.md#type)
 
 ### Methods
 
-- [addBehaviour](IFlow.md#addbehaviour)
-- [continue](IFlow.md#continue)
-- [describe](IFlow.md#describe)
-- [getBehaviour](IFlow.md#getbehaviour)
-- [hasBehaviour](IFlow.md#hasbehaviour)
-- [restored](IFlow.md#restored)
-- [resume](IFlow.md#resume)
+- [addBehaviour](iflow.md#addbehaviour)
+- [continue](iflow.md#continue)
+- [describe](iflow.md#describe)
+- [getBehaviour](iflow.md#getbehaviour)
+- [hasBehaviour](iflow.md#hasbehaviour)
+- [restored](iflow.md#restored)
+- [resume](iflow.md#resume)
 
 ## Properties
 
@@ -40,7 +40,7 @@
 
 #### Inherited from
 
-[IElement](IElement.md).[behaviours](IElement.md#behaviours)
+[IElement](ielement.md).[behaviours](ielement.md#behaviours)
 
 #### Defined in
 
@@ -54,7 +54,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[id](IElement.md#id)
+[IElement](ielement.md).[id](ielement.md#id)
 
 #### Defined in
 
@@ -68,7 +68,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[lane](IElement.md#lane)
+[IElement](ielement.md).[lane](ielement.md#lane)
 
 #### Defined in
 
@@ -82,7 +82,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[name](IElement.md#name)
+[IElement](ielement.md).[name](ielement.md#name)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[type](IElement.md#type)
+[IElement](ielement.md).[type](ielement.md#type)
 
 #### Defined in
 
@@ -121,7 +121,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[addBehaviour](IElement.md#addbehaviour)
+[IElement](ielement.md).[addBehaviour](ielement.md#addbehaviour)
 
 #### Defined in
 
@@ -137,7 +137,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -145,7 +145,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[continue](IElement.md#continue)
+[IElement](ielement.md).[continue](ielement.md#continue)
 
 #### Defined in
 
@@ -163,7 +163,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[describe](IElement.md#describe)
+[IElement](ielement.md).[describe](ielement.md#describe)
 
 #### Defined in
 
@@ -187,7 +187,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[getBehaviour](IElement.md#getbehaviour)
+[IElement](ielement.md).[getBehaviour](ielement.md#getbehaviour)
 
 #### Defined in
 
@@ -214,7 +214,7 @@ respond by providing behaviour attributes beyond item and node information
 
 #### Inherited from
 
-[IElement](IElement.md).[hasBehaviour](IElement.md#hasbehaviour)
+[IElement](ielement.md).[hasBehaviour](ielement.md#hasbehaviour)
 
 #### Defined in
 
@@ -230,7 +230,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -238,7 +238,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[restored](IElement.md#restored)
+[IElement](ielement.md).[restored](ielement.md#restored)
 
 #### Defined in
 
@@ -254,7 +254,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`IItem`](IItem.md) |
+| `item` | [`IItem`](iitem.md) |
 
 #### Returns
 
@@ -262,7 +262,7 @@ ___
 
 #### Inherited from
 
-[IElement](IElement.md).[resume](IElement.md#resume)
+[IElement](ielement.md).[resume](ielement.md#resume)
 
 #### Defined in
 

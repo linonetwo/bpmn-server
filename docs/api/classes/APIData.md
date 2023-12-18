@@ -12,29 +12,29 @@
 
 ### Constructors
 
-- [constructor](APIData.md#constructor)
+- [constructor](apidata.md#constructor)
 
 ### Properties
 
-- [api](APIData.md#api)
+- [api](apidata.md#api)
 
 ### Accessors
 
-- [server](APIData.md#server)
+- [server](apidata.md#server)
 
 ### Methods
 
-- [deleteInstances](APIData.md#deleteinstances)
-- [findInstances](APIData.md#findinstances)
-- [findItem](APIData.md#finditem)
-- [findItems](APIData.md#finditems)
-- [getPendingUserTasks](APIData.md#getpendingusertasks)
+- [deleteInstances](apidata.md#deleteinstances)
+- [findInstances](apidata.md#findinstances)
+- [findItem](apidata.md#finditem)
+- [findItems](apidata.md#finditems)
+- [getPendingUserTasks](apidata.md#getpendingusertasks)
 
 ## Constructors
 
 ### constructor
 
-• **new APIData**(`api`): [`APIData`](APIData.md)
+• **new APIData**(`api`): [`APIData`](apidata.md)
 
 #### Parameters
 
@@ -44,7 +44,7 @@
 
 #### Returns
 
-[`APIData`](APIData.md)
+[`APIData`](apidata.md)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](BPMNAPI.md)
+• **api**: [`BPMNAPI`](bpmnapi.md)
 
 #### Inherited from
 
@@ -97,7 +97,7 @@ APIComponent.server
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -118,7 +118,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 | `options` | `any` |
 
 #### Returns
@@ -140,7 +140,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -161,7 +161,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 
@@ -182,7 +182,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `query` | `any` |
-| `user` | [`ISecureUser`](../interfaces/ISecureUser.md) |
+| `user` | [`ISecureUser`](../interfaces/isecureuser.md) |
 
 #### Returns
 

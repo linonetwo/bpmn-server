@@ -4,15 +4,15 @@
 
 ## Implemented by
 
-- [`Cron`](../classes/Cron.md)
+- [`Cron`](../classes/cron.md)
 
 ## Table of contents
 
 ### Methods
 
-- [checkTimers](ICron.md#checktimers)
-- [start](ICron.md#start)
-- [startTimers](ICron.md#starttimers)
+- [checkTimers](icron.md#checktimers)
+- [start](icron.md#start)
+- [startTimers](icron.md#starttimers)
 
 ## Methods
 

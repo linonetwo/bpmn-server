@@ -18,47 +18,47 @@ it is part of the following:
 
 ### Constructors
 
-- [constructor](MessageEventbehaviour.md#constructor)
+- [constructor](messageeventbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](MessageEventbehaviour.md#definition)
-- [node](MessageEventbehaviour.md#node)
+- [definition](messageeventbehaviour.md#definition)
+- [node](messageeventbehaviour.md#node)
 
 ### Accessors
 
-- [messageId](MessageEventbehaviour.md#messageid)
+- [messageId](messageeventbehaviour.md#messageid)
 
 ### Methods
 
-- [describe](MessageEventbehaviour.md#describe)
-- [end](MessageEventbehaviour.md#end)
-- [enter](MessageEventbehaviour.md#enter)
-- [exit](MessageEventbehaviour.md#exit)
-- [getItemAttributes](MessageEventbehaviour.md#getitemattributes)
-- [getNodeAttributes](MessageEventbehaviour.md#getnodeattributes)
-- [init](MessageEventbehaviour.md#init)
-- [restored](MessageEventbehaviour.md#restored)
-- [resume](MessageEventbehaviour.md#resume)
-- [run](MessageEventbehaviour.md#run)
-- [start](MessageEventbehaviour.md#start)
+- [describe](messageeventbehaviour.md#describe)
+- [end](messageeventbehaviour.md#end)
+- [enter](messageeventbehaviour.md#enter)
+- [exit](messageeventbehaviour.md#exit)
+- [getItemAttributes](messageeventbehaviour.md#getitemattributes)
+- [getNodeAttributes](messageeventbehaviour.md#getnodeattributes)
+- [init](messageeventbehaviour.md#init)
+- [restored](messageeventbehaviour.md#restored)
+- [resume](messageeventbehaviour.md#resume)
+- [run](messageeventbehaviour.md#run)
+- [start](messageeventbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new MessageEventBehaviour**(`node`, `definition`): [`MessageEventBehaviour`](MessageEventbehaviour.md)
+• **new MessageEventBehaviour**(`node`, `definition`): [`MessageEventBehaviour`](messageeventbehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`MessageEventBehaviour`](MessageEventbehaviour.md)
+[`MessageEventBehaviour`](messageeventbehaviour.md)
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -138,7 +138,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -162,7 +162,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -186,7 +186,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -210,7 +210,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -301,7 +301,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -325,7 +325,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -349,7 +349,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 

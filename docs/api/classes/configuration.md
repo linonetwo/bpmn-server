@@ -4,37 +4,37 @@
 
 ## Implements
 
-- [`IConfiguration`](../interfaces/IConfiguration.md)
+- [`IConfiguration`](../interfaces/iconfiguration.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Configuration.md#constructor)
+- [constructor](configuration.md#constructor)
 
 ### Properties
 
-- [apiKey](Configuration.md#apikey)
-- [database](Configuration.md#database)
-- [definitionsPath](Configuration.md#definitionspath)
-- [logger](Configuration.md#logger)
-- [sendGridAPIKey](Configuration.md#sendgridapikey)
-- [templatesPath](Configuration.md#templatespath)
-- [timers](Configuration.md#timers)
+- [apiKey](configuration.md#apikey)
+- [database](configuration.md#database)
+- [definitionsPath](configuration.md#definitionspath)
+- [logger](configuration.md#logger)
+- [sendGridAPIKey](configuration.md#sendgridapikey)
+- [templatesPath](configuration.md#templatespath)
+- [timers](configuration.md#timers)
 
 ### Methods
 
-- [appDelegate](Configuration.md#appdelegate)
-- [cacheManager](Configuration.md#cachemanager)
-- [dataStore](Configuration.md#datastore)
-- [definitions](Configuration.md#definitions)
-- [userService](Configuration.md#userservice)
+- [appDelegate](configuration.md#appdelegate)
+- [cacheManager](configuration.md#cachemanager)
+- [dataStore](configuration.md#datastore)
+- [definitions](configuration.md#definitions)
+- [userService](configuration.md#userservice)
 
 ## Constructors
 
 ### constructor
 
-• **new Configuration**(`«destructured»`): [`Configuration`](Configuration.md)
+• **new Configuration**(`«destructured»`): [`Configuration`](configuration.md)
 
 #### Parameters
 
@@ -55,7 +55,7 @@
 
 #### Returns
 
-[`Configuration`](Configuration.md)
+[`Configuration`](configuration.md)
 
 #### Defined in
 
@@ -69,7 +69,7 @@
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[apiKey](../interfaces/IConfiguration.md#apikey)
+[IConfiguration](../interfaces/iconfiguration.md).[apiKey](../interfaces/iconfiguration.md#apikey)
 
 #### Defined in
 
@@ -92,7 +92,7 @@ ___
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[database](../interfaces/IConfiguration.md#database)
+[IConfiguration](../interfaces/iconfiguration.md).[database](../interfaces/iconfiguration.md#database)
 
 #### Defined in
 
@@ -106,7 +106,7 @@ ___
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[definitionsPath](../interfaces/IConfiguration.md#definitionspath)
+[IConfiguration](../interfaces/iconfiguration.md).[definitionsPath](../interfaces/iconfiguration.md#definitionspath)
 
 #### Defined in
 
@@ -116,11 +116,11 @@ ___
 
 ### logger
 
-• **logger**: [`ILogger`](../interfaces/ILogger.md)
+• **logger**: [`ILogger`](../interfaces/ilogger.md)
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[logger](../interfaces/IConfiguration.md#logger)
+[IConfiguration](../interfaces/iconfiguration.md).[logger](../interfaces/iconfiguration.md#logger)
 
 #### Defined in
 
@@ -144,7 +144,7 @@ ___
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[templatesPath](../interfaces/IConfiguration.md#templatespath)
+[IConfiguration](../interfaces/iconfiguration.md).[templatesPath](../interfaces/iconfiguration.md#templatespath)
 
 #### Defined in
 
@@ -165,7 +165,7 @@ ___
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[timers](../interfaces/IConfiguration.md#timers)
+[IConfiguration](../interfaces/iconfiguration.md).[timers](../interfaces/iconfiguration.md#timers)
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 ### appDelegate
 
-▸ **appDelegate**(`server`): [`IAppDelegate`](../interfaces/IAppDelegate.md)
+▸ **appDelegate**(`server`): [`IAppDelegate`](../interfaces/iappdelegate.md)
 
 #### Parameters
 
@@ -185,11 +185,11 @@ ___
 
 #### Returns
 
-[`IAppDelegate`](../interfaces/IAppDelegate.md)
+[`IAppDelegate`](../interfaces/iappdelegate.md)
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[appDelegate](../interfaces/IConfiguration.md#appdelegate)
+[IConfiguration](../interfaces/iconfiguration.md).[appDelegate](../interfaces/iconfiguration.md#appdelegate)
 
 #### Defined in
 
@@ -199,7 +199,7 @@ ___
 
 ### cacheManager
 
-▸ **cacheManager**(`server`): [`NoCacheManager`](NoCacheManager.md)
+▸ **cacheManager**(`server`): [`NoCacheManager`](nocachemanager.md)
 
 #### Parameters
 
@@ -209,11 +209,11 @@ ___
 
 #### Returns
 
-[`NoCacheManager`](NoCacheManager.md)
+[`NoCacheManager`](nocachemanager.md)
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[cacheManager](../interfaces/IConfiguration.md#cachemanager)
+[IConfiguration](../interfaces/iconfiguration.md).[cacheManager](../interfaces/iconfiguration.md#cachemanager)
 
 #### Defined in
 
@@ -223,7 +223,7 @@ ___
 
 ### dataStore
 
-▸ **dataStore**(`server`): [`DataStore`](DataStore.md)
+▸ **dataStore**(`server`): [`DataStore`](datastore.md)
 
 #### Parameters
 
@@ -233,11 +233,11 @@ ___
 
 #### Returns
 
-[`DataStore`](DataStore.md)
+[`DataStore`](datastore.md)
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[dataStore](../interfaces/IConfiguration.md#datastore)
+[IConfiguration](../interfaces/iconfiguration.md).[dataStore](../interfaces/iconfiguration.md#datastore)
 
 #### Defined in
 
@@ -247,7 +247,7 @@ ___
 
 ### definitions
 
-▸ **definitions**(`server`): [`ModelsDatastore`](ModelsDatastore.md)
+▸ **definitions**(`server`): [`ModelsDatastore`](modelsdatastore.md)
 
 #### Parameters
 
@@ -257,11 +257,11 @@ ___
 
 #### Returns
 
-[`ModelsDatastore`](ModelsDatastore.md)
+[`ModelsDatastore`](modelsdatastore.md)
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[definitions](../interfaces/IConfiguration.md#definitions)
+[IConfiguration](../interfaces/iconfiguration.md).[definitions](../interfaces/iconfiguration.md#definitions)
 
 #### Defined in
 
@@ -285,7 +285,7 @@ ___
 
 #### Implementation of
 
-[IConfiguration](../interfaces/IConfiguration.md).[userService](../interfaces/IConfiguration.md#userservice)
+[IConfiguration](../interfaces/iconfiguration.md).[userService](../interfaces/iconfiguration.md#userservice)
 
 #### Defined in
 

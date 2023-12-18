@@ -21,47 +21,47 @@ Behaviour
 
 ### Constructors
 
-- [constructor](SignalEventbehaviour.md#constructor)
+- [constructor](signaleventbehaviour.md#constructor)
 
 ### Properties
 
-- [definition](SignalEventbehaviour.md#definition)
-- [node](SignalEventbehaviour.md#node)
+- [definition](signaleventbehaviour.md#definition)
+- [node](signaleventbehaviour.md#node)
 
 ### Accessors
 
-- [signalId](SignalEventbehaviour.md#signalid)
+- [signalId](signaleventbehaviour.md#signalid)
 
 ### Methods
 
-- [describe](SignalEventbehaviour.md#describe)
-- [end](SignalEventbehaviour.md#end)
-- [enter](SignalEventbehaviour.md#enter)
-- [exit](SignalEventbehaviour.md#exit)
-- [getItemAttributes](SignalEventbehaviour.md#getitemattributes)
-- [getNodeAttributes](SignalEventbehaviour.md#getnodeattributes)
-- [init](SignalEventbehaviour.md#init)
-- [restored](SignalEventbehaviour.md#restored)
-- [resume](SignalEventbehaviour.md#resume)
-- [run](SignalEventbehaviour.md#run)
-- [start](SignalEventbehaviour.md#start)
+- [describe](signaleventbehaviour.md#describe)
+- [end](signaleventbehaviour.md#end)
+- [enter](signaleventbehaviour.md#enter)
+- [exit](signaleventbehaviour.md#exit)
+- [getItemAttributes](signaleventbehaviour.md#getitemattributes)
+- [getNodeAttributes](signaleventbehaviour.md#getnodeattributes)
+- [init](signaleventbehaviour.md#init)
+- [restored](signaleventbehaviour.md#restored)
+- [resume](signaleventbehaviour.md#resume)
+- [run](signaleventbehaviour.md#run)
+- [start](signaleventbehaviour.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new SignalEventBehaviour**(`node`, `definition`): [`SignalEventBehaviour`](SignalEventbehaviour.md)
+• **new SignalEventBehaviour**(`node`, `definition`): [`SignalEventBehaviour`](signaleventbehaviour.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `node` | [`Node`](Node.md) |
+| `node` | [`Node`](node.md) |
 | `definition` | `any` |
 
 #### Returns
 
-[`SignalEventBehaviour`](SignalEventbehaviour.md)
+[`SignalEventBehaviour`](signaleventbehaviour.md)
 
 #### Inherited from
 
@@ -89,7 +89,7 @@ ___
 
 ### node
 
-• **node**: [`Node`](Node.md)
+• **node**: [`Node`](node.md)
 
 #### Inherited from
 
@@ -141,7 +141,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -165,7 +165,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -189,7 +189,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -213,7 +213,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 | `attributes` | `any`[] |
 
 #### Returns
@@ -304,7 +304,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -328,7 +328,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
@@ -352,7 +352,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `item` | [`Item`](Item.md) |
+| `item` | [`Item`](item.md) |
 
 #### Returns
 
