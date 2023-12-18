@@ -25,15 +25,15 @@ The execution Engine , processes an BPMN definition - [Engine](api/classes/engin
 
 | Method     |                   parameters                   | return                                              | description                              |
 | ---------- | :--------------------------------------------: | --------------------------------------------------- | ---------------------------------------- |
-| **start**  |                  name, input                   | [ExecutionContext](api/classes/executioncontext.md) | - Start a new Process execution          |
-| **invoke** | [itemQuery](./dataQuery.md#item-query) ,input  | [ExecutionContext](api/classes/executioncontext.md) | Invoke an already started Item (waiting) |
-| **signal** |                 signalId,input                 | [ExecutionContext](api/classes/executioncontext.md) | Issue a signal or message                |
+| **start**  |                  name, input                   | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | - Start a new Process execution          |
+| **invoke** | [itemQuery](./dataQuery.md#item-query) ,input  | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | Invoke an already started Item (waiting) |
+| **signal** |                 signalId,input                 | [[ExecutionContext](api3/README.md#executionContext)](api/classes/[ExecutionContext](api3/README.md#executionContext).md) | Issue a signal or message                |
 | **get**    | [instanceQuery](./dataQuery.md#instance-query) | [Instance](api/interfaces/iinstancedata.md)         | Get an already running or idle Instance  |
 
 examples:
 
 ```javascript
-let response: executioncontext;
+let response: [ExecutionContext](api3/README.md#executionContext);
 let data = {};
 
 //  engine
