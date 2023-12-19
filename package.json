@@ -9,6 +9,7 @@
     "wintest": "node_modules/.bin/mocha",
     "toc": "node scripts/generate-api-toc ./docs/API.md,./docs/Examples.md",
     "docs:check": "node scripts/test-markdown.js ./docs/API.md && node scripts/test-markdown.js ./docs/Examples.md",
+    "docs:generate:api": "typedoc --plugin typedoc-plugin-markdown --out docs src",
     "docs:build": "docusaurus build",
     "docs:dev": "docusaurus start"
   },
