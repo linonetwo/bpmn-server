@@ -16,30 +16,30 @@
 
 ### Constructors
 
-- [constructor](apiengine.md#constructor)
+- [constructor](APIEngine.md#constructor)
 
 ### Properties
 
-- [api](apiengine.md#api)
+- [api](APIEngine.md#api)
 
 ### Accessors
 
-- [server](apiengine.md#server)
+- [server](APIEngine.md#server)
 
 ### Methods
 
-- [assign](apiengine.md#assign)
-- [invoke](apiengine.md#invoke)
-- [start](apiengine.md#start)
-- [startEvent](apiengine.md#startevent)
-- [throwMessage](apiengine.md#throwmessage)
-- [throwSignal](apiengine.md#throwsignal)
+- [assign](APIEngine.md#assign)
+- [invoke](APIEngine.md#invoke)
+- [start](APIEngine.md#start)
+- [startEvent](APIEngine.md#startevent)
+- [throwMessage](APIEngine.md#throwmessage)
+- [throwSignal](APIEngine.md#throwsignal)
 
 ## Constructors
 
 ### constructor
 
-• **new APIEngine**(`api`): [`APIEngine`](apiengine.md)
+• **new APIEngine**(`api`): [`APIEngine`](APIEngine.md)
 
 #### Parameters
 
@@ -49,7 +49,7 @@
 
 #### Returns
 
-[`APIEngine`](apiengine.md)
+[`APIEngine`](APIEngine.md)
 
 #### Inherited from
 
@@ -63,7 +63,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](bpmnapi.md)
+• **api**: [`BPMNAPI`](BPMNAPI.md)
 
 #### Inherited from
 

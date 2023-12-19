@@ -6,26 +6,26 @@
 
 ### Constructors
 
-- [constructor](instancelocker.md#constructor)
+- [constructor](InstanceLocker.md#constructor)
 
 ### Properties
 
-- [dataStore](instancelocker.md#datastore)
+- [dataStore](InstanceLocker.md#datastore)
 
 ### Methods
 
-- [delay](instancelocker.md#delay)
-- [delete](instancelocker.md#delete)
-- [list](instancelocker.md#list)
-- [lock](instancelocker.md#lock)
-- [release](instancelocker.md#release)
-- [try](instancelocker.md#try)
+- [delay](InstanceLocker.md#delay)
+- [delete](InstanceLocker.md#delete)
+- [list](InstanceLocker.md#list)
+- [lock](InstanceLocker.md#lock)
+- [release](InstanceLocker.md#release)
+- [try](InstanceLocker.md#try)
 
 ## Constructors
 
 ### constructor
 
-• **new InstanceLocker**(`dataStore`): [`InstanceLocker`](instancelocker.md)
+• **new InstanceLocker**(`dataStore`): [`InstanceLocker`](InstanceLocker.md)
 
 #### Parameters
 
@@ -35,7 +35,7 @@
 
 #### Returns
 
-[`InstanceLocker`](instancelocker.md)
+[`InstanceLocker`](InstanceLocker.md)
 
 #### Defined in
 

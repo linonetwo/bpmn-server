@@ -12,29 +12,29 @@
 
 ### Constructors
 
-- [constructor](apidata.md#constructor)
+- [constructor](APIData.md#constructor)
 
 ### Properties
 
-- [api](apidata.md#api)
+- [api](APIData.md#api)
 
 ### Accessors
 
-- [server](apidata.md#server)
+- [server](APIData.md#server)
 
 ### Methods
 
-- [deleteInstances](apidata.md#deleteinstances)
-- [findInstances](apidata.md#findinstances)
-- [findItem](apidata.md#finditem)
-- [findItems](apidata.md#finditems)
-- [getPendingUserTasks](apidata.md#getpendingusertasks)
+- [deleteInstances](APIData.md#deleteinstances)
+- [findInstances](APIData.md#findinstances)
+- [findItem](APIData.md#finditem)
+- [findItems](APIData.md#finditems)
+- [getPendingUserTasks](APIData.md#getpendingusertasks)
 
 ## Constructors
 
 ### constructor
 
-• **new APIData**(`api`): [`APIData`](apidata.md)
+• **new APIData**(`api`): [`APIData`](APIData.md)
 
 #### Parameters
 
@@ -44,7 +44,7 @@
 
 #### Returns
 
-[`APIData`](apidata.md)
+[`APIData`](APIData.md)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](bpmnapi.md)
+• **api**: [`BPMNAPI`](BPMNAPI.md)
 
 #### Inherited from
 

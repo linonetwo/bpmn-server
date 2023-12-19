@@ -12,33 +12,33 @@
 
 ### Constructors
 
-- [constructor](apimodel.md#constructor)
+- [constructor](APIModel.md#constructor)
 
 ### Properties
 
-- [api](apimodel.md#api)
+- [api](APIModel.md#api)
 
 ### Accessors
 
-- [server](apimodel.md#server)
+- [server](APIModel.md#server)
 
 ### Methods
 
-- [delete](apimodel.md#delete)
-- [export](apimodel.md#export)
-- [findEvents](apimodel.md#findevents)
-- [findStartEvents](apimodel.md#findstartevents)
-- [getSource](apimodel.md#getsource)
-- [list](apimodel.md#list)
-- [load](apimodel.md#load)
-- [rename](apimodel.md#rename)
-- [save](apimodel.md#save)
+- [delete](APIModel.md#delete)
+- [export](APIModel.md#export)
+- [findEvents](APIModel.md#findevents)
+- [findStartEvents](APIModel.md#findstartevents)
+- [getSource](APIModel.md#getsource)
+- [list](APIModel.md#list)
+- [load](APIModel.md#load)
+- [rename](APIModel.md#rename)
+- [save](APIModel.md#save)
 
 ## Constructors
 
 ### constructor
 
-• **new APIModel**(`api`): [`APIModel`](apimodel.md)
+• **new APIModel**(`api`): [`APIModel`](APIModel.md)
 
 #### Parameters
 
@@ -48,7 +48,7 @@
 
 #### Returns
 
-[`APIModel`](apimodel.md)
+[`APIModel`](APIModel.md)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ APIComponent.constructor
 
 ### api
 
-• **api**: [`BPMNAPI`](bpmnapi.md)
+• **api**: [`BPMNAPI`](BPMNAPI.md)
 
 #### Inherited from
 

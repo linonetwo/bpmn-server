@@ -19,10 +19,10 @@ bpmn-server
 
 ### Classes
 
-- [APIData](classes/apidata.md)
-- [APIEngine](classes/apiengine.md)
-- [APIModel](classes/apimodel.md)
-- [BPMNAPI](classes/bpmnapi.md)
+- [APIData](classes/APIData.md)
+- [APIEngine](classes/APIEngine.md)
+- [APIModel](classes/APIModel.md)
+- [BPMNAPI](classes/BPMNAPI.md)
 - [BPMNServer](classes/bpmnserver.md)
 - [Behaviour](classes/behaviour.md)
 - [BehaviourLoader](classes/behaviourloader.md)
@@ -48,7 +48,7 @@ bpmn-server
 - [Flow](classes/flow.md)
 - [Gateway](classes/gateway.md)
 - [IOBehaviour](classes/iobehaviour.md)
-- [InstanceLocker](classes/instancelocker.md)
+- [InstanceLocker](classes/InstanceLocker.md)
 - [InstanceObject](classes/instanceobject.md)
 - [Item](classes/item.md)
 - [ItemObject](classes/itemobject.md)
